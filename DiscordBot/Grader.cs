@@ -87,9 +87,14 @@ namespace DiscordBot
 
                         string finalResult = runsStringBuilder.ToString();
                         File.WriteAllText(Path.Combine(ExtractFolderName, "GraderResult.txt"), finalResult);
-                        foreach (DiscordEmbed embed in SliceAndDice(finalResult))
+
+                        using MemoryStream ms = new MemoryStream();
+                        using (StreamWriter sw = new StreamWriter(ms))
                         {
-                            await commandContext.RespondAsync(embed: embed);
+                            await sw.WriteAsync(finalResult);
+                            await sw.FlushAsync();
+                            ms.Position = 0;
+                            await commandContext.RespondWithFileAsync($"{programToGrade}-{DateTime.Now:MMddyyyy-hh-mm-ss tt}.txt", ms);
                         }
                     }
                     else
@@ -152,21 +157,6 @@ namespace DiscordBot
         }
 
         private const int MessageLengthLimit = 2048;
-
-        private static List<DiscordEmbed> SliceAndDice(string runString)
-        {
-            List<DiscordEmbed> responses = new List<DiscordEmbed>();
-            List<string> responseStrings = runString.SplitByLength(MessageLengthLimit).ToList();
-            int count = responseStrings.Count;
-            for (int i = 0; i < count; i++)
-            {
-                responses.Add(new DiscordEmbedBuilder()
-                    .WithTitle($"Run Results ({i + 1}/{count})")
-                    .WithDescription(responseStrings[i])
-                    .Build());
-            }
-            return responses;
-        }
 
         private static string RunProgram(string sourcePath, string exeFile, string input)
         {
