@@ -1,0 +1,4 @@
+Enter the name of city
+Enter the total rainfall for month 1, Enter -1 when you are finished
+No data has been entered
+Enter the name of city

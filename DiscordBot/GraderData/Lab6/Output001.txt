@@ -1,0 +1,32 @@
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+        11        12       529
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+        21        20       841
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+        21        18      1526
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+        21        21       441
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+         0         1         1
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+        18        20      3249
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+         1         0         1
+Enter two numbers: 
+   INPUT_1   INPUT_2    RESULT
+------------------------------
+        -1         1        99

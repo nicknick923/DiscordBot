@@ -1,0 +1,22 @@
+P
+D Game Development Club
+A   Martial Arts Club
+A    Dance Team
+A     Cycling Club
+A    Game Development Club
+A     Amateur Radio Club
+A Low Brass Ensemble
+A Outdoor Adventure Club
+S
+P
+D    Dance Team
+D  Oh SNAP!
+S
+P
+A  Martial Arts Club
+A    Amateur Radio Club
+X
+
+
+S
+P

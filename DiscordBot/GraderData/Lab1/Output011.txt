@@ -1,0 +1,3 @@
+Enter an integer temperature in Celsius: 
+A temperature in Celsius of 212 is 413 in Fahrenheit.
+90

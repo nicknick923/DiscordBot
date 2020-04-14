@@ -1,0 +1,73 @@
+************************************************
+* Welcome to the credit card number validator! *
+************************************************
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Tristan's card number 52849034491645370 is invalid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Clay's card number 5258510544028471 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Carter's card number 5443661998131935 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Riley's card number 53350019092445014 is invalid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Isabelle's card number 5129526873075203 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Mia's card number 54529620776803827 is invalid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Amya's card number 5577647308209568 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Diamond's card number 5256365850050110 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Bryan's card number 5358422490582148 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Gideon's card number 5397806848209151 is valid.

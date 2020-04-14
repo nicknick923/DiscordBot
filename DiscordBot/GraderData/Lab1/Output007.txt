@@ -1,0 +1,3 @@
+Enter an integer temperature in Celsius: 
+A temperature in Celsius of 32 is 89 in Fahrenheit.
+90

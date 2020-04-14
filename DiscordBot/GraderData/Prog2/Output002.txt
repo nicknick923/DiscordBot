@@ -1,0 +1,27 @@
+Enter your balance: Enter your PIN: Your balance is $300.
+Enter the amount to be withdrawn, -1 to quit: 
+Invalid amount: 202.
+
+Your balance is $300.
+Enter the amount to be withdrawn, -1 to quit: 
+You requested $200.
+You are receiving the following bills:
+Number of $20 bills: 10
+Number of $10 bills: 0
+Number of  $5 bills: 0
+
+Your balance is $100.
+Enter the amount to be withdrawn, -1 to quit: 
+Invalid amount: 2000.
+
+Your balance is $100.
+Enter the amount to be withdrawn, -1 to quit: 
+You requested $100.
+You are receiving the following bills:
+Number of $20 bills: 5
+Number of $10 bills: 0
+Number of  $5 bills: 0
+
+Your balance is $0.
+Enter the amount to be withdrawn, -1 to quit: 
+Thank you for banking with us, have a nice day!

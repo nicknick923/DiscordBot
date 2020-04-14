@@ -1,0 +1,57 @@
+Item 6 was added to the list.
+Item 5 wasn't added. List is full.
+Item 4 wasn't added. List is full.
+Item 3 wasn't added. List is full.
+Item 2 wasn't added. List is full.
+Item 1 wasn't added. List is full.
+Item 1 wasn't added. List is full.
+Item 0 wasn't added. List is full.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Low Brass Ensemble
+   Martial Arts Club
+   Item 6
+List sorted by club.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Item 6
+   Low Brass Ensemble
+   Martial Arts Club
+Item 1 was not removed because it is not in the list.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Item 6
+   Low Brass Ensemble
+   Martial Arts Club
+List sorted by club.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Item 6
+   Low Brass Ensemble
+   Martial Arts Club
+Item 1 was not removed because it is not in the list.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Item 6
+   Low Brass Ensemble
+   Martial Arts Club
+List sorted by club.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Item 6
+   Low Brass Ensemble
+   Martial Arts Club
+Bad Command!
+Normal Termination of Lab 9.

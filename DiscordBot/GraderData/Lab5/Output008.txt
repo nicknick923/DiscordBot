@@ -1,0 +1,18 @@
+Enter the name of city
+Enter the total rainfall for month 1, Enter -1 when you are finished
+Enter the total rainfall for month 2, Enter -1 when you are finished
+Enter the total rainfall for month 3, Enter -1 when you are finished
+The total rainfall for the 2 months is 0 inches.
+The Average rainfall for the city of FondDuLac in month 2 is 
+The maximum rainfall for the city of FondDuLac is 0 inches occurred in month 1
+The minimum rainfall for the city of FondDuLac is 0 inches occurred in month 1
+Flood is not possible
+Enter the name of city
+Enter the total rainfall for month 1, Enter -1 when you are finished
+Enter the total rainfall for month 2, Enter -1 when you are finished
+The total rainfall for the 1 months is 1 inches.
+The Average rainfall for the city of Neenah in month 1 is 1
+The maximum rainfall for the city of Neenah is 1 inches occurred in month 1
+The minimum rainfall for the city of Neenah is 1 inches occurred in month 1
+Flood is not possible
+Enter the name of city

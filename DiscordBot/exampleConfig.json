@@ -1,0 +1,43 @@
+{
+  "Token": "botTokenHere",
+  "Prefix": "!",
+  "Color": "#E52B52",
+  "Greetings": [
+    "Hey",
+    "Hi",
+    "Hello",
+    "Sup",
+    "Heeellloooooo"
+  ],
+  "CannotStopInsults": [
+    "You are too weak to stop me.",
+    "You cannot stop me - nice try tho :)",
+    "lol",
+    "Who do you think you are, THOR?"
+  ],
+  "MCVersions": {
+    "Vanilla": {
+      "FolderName": "Vanilla",
+      "Description": "Explore your own unique world, survive the night, and create anything you can imagine!",
+      "Port": 25565,
+      "DownloadURL": "https://www.minecraft.net/",
+      "Default": true
+    },
+    "Engineers Life": {
+      "FolderName": "EngineersLife",
+      "Description": "A modpack based around progression-through-ages system, but without strict restriction, only with changed recipes. You start in the stone age, gathering flint and grass to make your first equipment. You slowly evolve and can built more complex structures like Coke Oven. Then the Mechanical age begins - you can now try to build you first machines based on mechanical power... and that's just a beginning... There are over 500 quests to guide you from Stone age to Digital age.",
+      "Port": 25564,
+      "DownloadURL": "https://www.curseforge.com/minecraft/modpacks/engineers-life/"
+    }
+  },
+  "SoundGroups": {
+    "Trump": {
+      "FolderName": "TrumpBites",
+      "NSFW": false
+    },
+    "Jackson": {
+      "FolderName": "SLJ",
+      "NSFW": true
+    }
+  }
+}

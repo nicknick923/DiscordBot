@@ -1,0 +1,1 @@
+Enter the coordinates of first point (x1, y1): Enter the coordinates of second point (x2, y2): The terrain is safe to go, and the slope is -0.58.

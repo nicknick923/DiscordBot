@@ -1,0 +1,37 @@
+The list of clubs is:
+Game Development Club was not removed because it is not in the list.
+Martial Arts Club was added to the list.
+Dance Team was added to the list.
+Cycling Club was added to the list.
+Game Development Club was added to the list.
+Amateur Radio Club was added to the list.
+Low Brass Ensemble was added to the list.
+Outdoor Adventure Club wasn't added. List is full.
+List sorted by club.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Dance Team
+   Game Development Club
+   Low Brass Ensemble
+   Martial Arts Club
+Dance Team was removed from the list.
+Oh SNAP! was not removed because it is not in the list.
+List sorted by club.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Low Brass Ensemble
+   Martial Arts Club
+Martial Arts Club is already in the list.
+Amateur Radio Club is already in the list.
+Bad Command!
+List sorted by club.
+The list of clubs is:
+   Amateur Radio Club
+   Cycling Club
+   Game Development Club
+   Low Brass Ensemble
+   Martial Arts Club
+Normal Termination of Lab 9.

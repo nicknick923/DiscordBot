@@ -1,0 +1,13 @@
+Enter the name of city
+Enter the total rainfall for month 1, Enter -1 when you are finished
+Enter the total rainfall for month 2, Enter -1 when you are finished
+Enter the total rainfall for month 3, Enter -1 when you are finished
+Enter the total rainfall for month 4, Enter -1 when you are finished
+Enter the total rainfall for month 5, Enter -1 when you are finished
+Enter the total rainfall for month 6, Enter -1 when you are finished
+The total rainfall for the 5 months is 15054 inches.
+The Average rainfall for the city of Madison in month 5 is 3010.8
+The maximum rainfall for the city of Madison is 9080 inches occurred in month 5
+The minimum rainfall for the city of Madison is 234 inches occurred in month 4
+Too much rain, flood is possible
+Enter the name of city

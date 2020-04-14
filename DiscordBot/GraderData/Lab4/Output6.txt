@@ -1,0 +1,8 @@
+Invalid color!
+Invalid color!
+Invalid color!
+Red Gumballs = 0
+Green Gumballs = 0
+Yellow Gumballs = 0
+Blue Gumballs = 0
+Pink Gumballs = 0

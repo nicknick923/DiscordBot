@@ -1,0 +1,4 @@
+Enter the first operand [0-100]: 
+Enter an arithmetic operator (+, -, *, / or %): 
+Enter the second operand [0-100]: 
+The value of the expression is -23.00

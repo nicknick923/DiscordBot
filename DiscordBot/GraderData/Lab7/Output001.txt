@@ -1,0 +1,31 @@
+************************************************
+* Welcome to the credit card number validator! *
+************************************************
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Paula's card number 4388576018402626 is invalid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Alexis's card number 4388576018410707 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Atticus's card number 4537402070902939 is valid.
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Enter the name on the credit card: 
+Ctrl+Z+Enter to quit: 
+
+Reuben's card number 5361112038283821 is valid.

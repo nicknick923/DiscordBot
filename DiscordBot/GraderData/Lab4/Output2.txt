@@ -1,0 +1,5 @@
+Red Gumballs = 2
+Green Gumballs = 2
+Yellow Gumballs = 1
+Blue Gumballs = 0
+Pink Gumballs = 0

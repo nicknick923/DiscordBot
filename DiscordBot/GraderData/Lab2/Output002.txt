@@ -1,0 +1,8 @@
+Enter a length: 
+Enter a width: 
+Enter a height: 
+The ceilingSurfaceArea is 6 feet.
+The totalSurfaceArea is 10 feet.
+The volume of the room is 6 feet.
+15.2643
+233

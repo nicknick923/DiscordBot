@@ -1,0 +1,14 @@
+Enter the name of city
+Enter the total rainfall for month 1, Enter -1 when you are finished
+Enter the total rainfall for month 2, Enter -1 when you are finished
+Enter the total rainfall for month 3, Enter -1 when you are finished
+Enter the total rainfall for month 4, Enter -1 when you are finished
+Enter the total rainfall for month 5, Enter -1 when you are finished
+Enter the total rainfall for month 6, Enter -1 when you are finished
+Enter the total rainfall for month 7, Enter -1 when you are finished
+The total rainfall for the 6 months is 11127 inches.
+The Average rainfall for the city of StevensPoint in month 6 is 1854.5
+The maximum rainfall for the city of StevensPoint is 9092 inches occurred in month 2
+The minimum rainfall for the city of StevensPoint is 0 inches occurred in month 4
+Too much rain, flood is possible
+Enter the name of city
