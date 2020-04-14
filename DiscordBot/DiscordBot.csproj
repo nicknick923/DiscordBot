@@ -6,10 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="config.json" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="exampleConfig.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
