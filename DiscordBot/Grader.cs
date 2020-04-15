@@ -47,6 +47,13 @@ namespace DiscordBot
 
                         const string splitter = "---";
                         await commandContext.RespondAsync("Build succeeded: Starting to test!");
+                        List<string> filesToZip = new List<string>();
+                        string runsFolder = Path.Join(ExtractFolderName, "Runs");
+                        if (Directory.Exists(runsFolder))
+                        {
+                            Directory.Delete(runsFolder, true);
+                        }
+                        Directory.CreateDirectory($"{ExtractFolderName}/Runs");
                         foreach (string inputFilePath in Directory.EnumerateFiles(graderDataFolder, "Input*").OrderBy(a => a))
                         {
                             FileInfo fileInfo = new FileInfo(inputFilePath);
@@ -57,6 +64,11 @@ namespace DiscordBot
                             {
                                 string results = RunProgram(sourcePath, exeFile, input);
                                 GradeOutput(runsStringBuilder, runNumber, expectedOutput, results);
+                                string expFileName = Path.Join(runsFolder, $"{programToGrade}Expected{runNumber}.txt");
+                                string actFileName = Path.Join(runsFolder, $"{programToGrade}Actual{runNumber}.txt");
+                                File.WriteAllText(expFileName, expectedOutput);
+                                File.WriteAllText(actFileName, results);
+                                filesToZip.AddRange(new[] { expFileName, actFileName });
                                 runsStringBuilder.AppendLine(splitter);
                             }
                             catch (Exception exc)
@@ -66,10 +78,23 @@ namespace DiscordBot
                             }
                         }
 
+                        string filePrefix = $"{programToGrade}_{DateTime.Now:MMddyyyy-hh-mm-ss tt}";
+                        string shortZipFileName = $"{filePrefix}.zip";
+                        string zipFileName = Path.Combine(ExtractFolderName, shortZipFileName);
+                        ZipFile.CreateFromDirectory(runsFolder, zipFileName);
+                        Directory.Delete(runsFolder, true);
+
                         string finalResult = runsStringBuilder.ToString();
-                        string fileName = Path.Combine(ExtractFolderName, $"{programToGrade}_{DateTime.Now:MMddyyyy-hh-mm-ss tt}_GraderResult.txt");
+                        string shortFileName = $"{filePrefix}_GraderResult.txt";
+                        string fileName = Path.Combine(ExtractFolderName, shortFileName);
                         File.WriteAllText(fileName, finalResult);
-                        await commandContext.RespondWithFileAsync(fileName);
+
+                        using (FileStream fileStream = new FileStream(fileName, FileMode.Open))
+                        using (FileStream zipFileStream = new FileStream(zipFileName, FileMode.Open))
+                        {
+                            await commandContext.RespondWithFilesAsync(new Dictionary<string, Stream>() { { shortFileName, fileStream }, { shortZipFileName, zipFileStream } });
+                        }
+
                     }
                     else
                     {
