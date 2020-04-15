@@ -88,19 +88,19 @@ namespace DiscordBot
         public async Task Grade(CommandContext commandContext)
         {
             DiscordAttachment attachment = commandContext.Message.Attachments.FirstOrDefault();
-            if (attachment == null || !attachment.FileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase))
+            if (attachment == null || !(attachment.FileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase) || attachment.FileName.EndsWith(".cpp", StringComparison.OrdinalIgnoreCase)))
             {
-                await commandContext.RespondAsync(attachment == null ? "You forgot attach the program to grade" : "I can only grade zips");
+                await commandContext.RespondAsync(attachment == null ? "You forgot attach the program to grade" : "I can only grade zips or a single cpp");
                 await DefaultHelpAsync(commandContext, nameof(Grade));
                 return;
             }
             string currentDirectory = Directory.GetCurrentDirectory();
             await commandContext.RespondAsync("Getting files and building");
 
-            string programToGrade = attachment.FileName.Replace(".zip", "", StringComparison.OrdinalIgnoreCase);
+            string programToGrade = attachment.FileName.Substring(0, attachment.FileName.Length - 4);
             LogMessage(commandContext, $"Grading {programToGrade} for {commandContext.User.Username}({commandContext.User.Id})");
 
-            await Grader.Grade(commandContext, attachment, currentDirectory);
+            await Grader.Grade(commandContext, attachment, currentDirectory, programToGrade);
         }
     }
 }

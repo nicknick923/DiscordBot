@@ -15,84 +15,44 @@ Invalid amount: 9.
 
 Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1790.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1780.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1770.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1760.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1750.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1740.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1730.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1720.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1710.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
-You requested $10.
-You are receiving the following bills:
-Number of $20 bills: 0
-Number of $10 bills: 1
-Number of  $5 bills: 0
+Invalid amount: 10.
 
-Your balance is $1700.
+Your balance is $1800.
 Enter the amount to be withdrawn, -1 to quit: 
 Thank you for banking with us, have a nice day!

@@ -16,9 +16,8 @@ namespace DiscordBot
     {
         private const string ExtractFolderName = "extract";
 
-        public static async Task Grade(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory)
+        public static async Task Grade(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade)
         {
-            string programToGrade = attachment.FileName.Replace(".zip", "", StringComparison.OrdinalIgnoreCase);
             string graderDataFolder = Path.Join(currentDirectory, "GraderData", programToGrade);
             if (Directory.Exists(graderDataFolder))
             {
@@ -57,25 +56,7 @@ namespace DiscordBot
                             try
                             {
                                 string results = RunProgram(sourcePath, exeFile, input);
-
-                                if (results == expectedOutput)
-                                {
-                                    runsStringBuilder.AppendLine($"Yay, no differences for run {runNumber}");
-                                }
-                                else
-                                {
-                                    StringBuilder sb = new StringBuilder();
-                                    sb.AppendLine($"Run {runNumber}:");
-                                    sb.AppendLine($"Expected Output:");
-                                    sb.AppendLine("--------------");
-                                    sb.AppendLine(expectedOutput);
-                                    sb.AppendLine("--------------");
-                                    sb.AppendLine($"Program Output");
-                                    sb.AppendLine("--------------");
-                                    sb.AppendLine(results);
-                                    sb.AppendLine("--------------");
-                                    runsStringBuilder.AppendLine(sb.ToString());
-                                }
+                                GradeOutput(runsStringBuilder, runNumber, expectedOutput, results);
                                 runsStringBuilder.AppendLine(splitter);
                             }
                             catch (Exception exc)
@@ -86,20 +67,13 @@ namespace DiscordBot
                         }
 
                         string finalResult = runsStringBuilder.ToString();
-                        File.WriteAllText(Path.Combine(ExtractFolderName, "GraderResult.txt"), finalResult);
-
-                        using MemoryStream ms = new MemoryStream();
-                        using (StreamWriter sw = new StreamWriter(ms))
-                        {
-                            await sw.WriteAsync(finalResult);
-                            await sw.FlushAsync();
-                            ms.Position = 0;
-                            await commandContext.RespondWithFileAsync($"{programToGrade}-{DateTime.Now:MMddyyyy-hh-mm-ss tt}.txt", ms);
-                        }
+                        string fileName = Path.Combine(ExtractFolderName, $"{programToGrade}_{DateTime.Now:MMddyyyy-hh-mm-ss tt}_GraderResult.txt");
+                        File.WriteAllText(fileName, finalResult);
+                        await commandContext.RespondWithFileAsync(fileName);
                     }
                     else
                     {
-                        DiscordEmbedBuilder discordEmbedBuilder = new DiscordEmbedBuilder()
+                        DiscordEmbedBuilder discordEmbedBuilder = Config.Instance.GetDiscordEmbedBuilder()
                             .WithTitle("Failed to build")
                             .WithDescription(buildProcess.StandardError.ReadToEnd());
                         await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
@@ -115,6 +89,26 @@ namespace DiscordBot
             else
             {
                 await commandContext.RespondAsync($"I am not yet ready to grade {programToGrade}!");
+            }
+        }
+
+        private static void GradeOutput(StringBuilder runsStringBuilder, string runNumber, string expectedOutput, string results)
+        {
+            if (results == expectedOutput)
+            {
+                runsStringBuilder.AppendLine($"Yay, no differences for run {runNumber}");
+            }
+            else
+            {
+                runsStringBuilder.AppendLine($"Run {runNumber}:");
+                runsStringBuilder.AppendLine($"Expected Output:");
+                runsStringBuilder.AppendLine("--------------");
+                runsStringBuilder.AppendLine(expectedOutput);
+                runsStringBuilder.AppendLine("--------------");
+                runsStringBuilder.AppendLine($"Program Output");
+                runsStringBuilder.AppendLine("--------------");
+                runsStringBuilder.AppendLine(results);
+                runsStringBuilder.AppendLine("--------------");
             }
         }
 
@@ -223,7 +217,16 @@ namespace DiscordBot
             {
                 Directory.Delete(ExtractFolderName, true);
             }
-            ZipFile.ExtractToDirectory(fileName, ExtractFolderName);
+            if (attachment.FileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase))
+            {
+                ZipFile.ExtractToDirectory(fileName, ExtractFolderName);
+            }
+            else
+            {
+                Directory.CreateDirectory(ExtractFolderName);
+                File.Copy(fileName, $"{ExtractFolderName}\\{fileName}");
+            }
+
             File.Delete(fileName);
         }
     }

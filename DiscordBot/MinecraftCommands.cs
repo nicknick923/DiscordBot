@@ -90,7 +90,7 @@ namespace DiscordBot
                 stringBuilder.AppendLine();
             }
 
-            DiscordEmbedBuilder discordEmbedBuilder = new DiscordEmbedBuilder()
+            DiscordEmbedBuilder discordEmbedBuilder = Instance.GetDiscordEmbedBuilder()
                 .WithTitle("Current Minecraft Versions")
                 .WithDescription(stringBuilder.ToString().Trim());
             await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());

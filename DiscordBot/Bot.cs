@@ -36,7 +36,8 @@ namespace DiscordBot
                 Token = Instance.Token,
                 TokenType = TokenType.Bot,
                 UseInternalLogHandler = true,
-                LogLevel = LogLevel.Info
+                LogLevel = LogLevel.Info,
+                DateTimeFormat = "MM/dd/yyyy hh:mm:ss tt"
             };
 
             discord = new DiscordClient(discordConfiguration);

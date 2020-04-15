@@ -19,6 +19,8 @@ namespace DiscordBot
         public Dictionary<string, MCVersion> MCVersions = new Dictionary<string, MCVersion>(StringComparer.OrdinalIgnoreCase);
         public Dictionary<string, SoundGroup> SoundGroups = new Dictionary<string, SoundGroup>(StringComparer.OrdinalIgnoreCase);
 
+        public DiscordEmbedBuilder GetDiscordEmbedBuilder() => new DiscordEmbedBuilder().WithColor(DiscordColor);
+
         public static void LoadConfig()
         {
             if (!File.Exists("config.json"))

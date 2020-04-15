@@ -7,6 +7,7 @@ using static DiscordBot.Config;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using DSharpPlus.VoiceNext;
 
 namespace DiscordBot
 {
@@ -71,7 +72,7 @@ namespace DiscordBot
             }
             string soundBites = stringBuilder.ToString();
             LogMessage(commandContext, $"SoundBiteInfoLength:{soundBites.Length}");
-            DiscordEmbedBuilder discordEmbedBuilder = new DiscordEmbedBuilder()
+            DiscordEmbedBuilder discordEmbedBuilder = Instance.GetDiscordEmbedBuilder()
                 .WithTitle("Current Sound Groups")
                 .WithDescription(soundBites);
             await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
@@ -122,7 +123,7 @@ namespace DiscordBot
             }
             else
             {
-                DiscordEmbedBuilder discordEmbedBuilder = new DiscordEmbedBuilder()
+                DiscordEmbedBuilder discordEmbedBuilder = Instance.GetDiscordEmbedBuilder()
                     .WithTitle("Current Sound Groups")
                     .WithDescription(string.Join(Environment.NewLine, Instance.SoundGroups.Keys));
 
