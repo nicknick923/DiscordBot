@@ -62,7 +62,7 @@ namespace DiscordBot
 
         private void LogMessageReceived(object sender, DebugLogMessageEventArgs e)
         {
-            File.AppendAllText("Log.txt", $"{e}{Environment.NewLine}");
+            File.AppendAllText(Instance.LogFileLocation, $"{e}{Environment.NewLine}");
         }
 
         private static void DownloadAudioClips()

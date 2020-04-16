@@ -1,6 +1,8 @@
 {
   "Token": "botTokenHere",
   "Prefix": "!",
+  "LogFileLocation": "C:\\Log.txt",
+  "GraderDump": "C:\\GraderDump\\",
   "Color": "#E52B52",
   "Greetings": [
     "Hey",

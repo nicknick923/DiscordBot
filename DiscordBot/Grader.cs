@@ -45,7 +45,6 @@ namespace DiscordBot
                             runsStringBuilder.AppendLine(fileGradeResults);
                         }
 
-                        const string splitter = "---";
                         await commandContext.RespondAsync("Build succeeded: Starting to test!");
                         List<string> filesToZip = new List<string>();
                         string runsFolder = Path.Join(ExtractFolderName, "Runs");
@@ -53,6 +52,7 @@ namespace DiscordBot
                         {
                             Directory.Delete(runsFolder, true);
                         }
+                        bool anyFailed = false;
                         Directory.CreateDirectory($"{ExtractFolderName}/Runs");
                         foreach (string inputFilePath in Directory.EnumerateFiles(graderDataFolder, "Input*").OrderBy(a => a))
                         {
@@ -63,16 +63,16 @@ namespace DiscordBot
                             try
                             {
                                 string results = RunProgram(sourcePath, exeFile, input);
-                                GradeOutput(runsStringBuilder, runNumber, expectedOutput, results);
+                                anyFailed |= !GradeOutput(runsStringBuilder, runNumber, expectedOutput, results);
                                 string expFileName = Path.Join(runsFolder, $"{programToGrade}Expected{runNumber}.txt");
                                 string actFileName = Path.Join(runsFolder, $"{programToGrade}Actual{runNumber}.txt");
                                 File.WriteAllText(expFileName, expectedOutput);
                                 File.WriteAllText(actFileName, results);
                                 filesToZip.AddRange(new[] { expFileName, actFileName });
-                                runsStringBuilder.AppendLine(splitter);
                             }
                             catch (Exception exc)
                             {
+                                anyFailed = true;
                                 runsStringBuilder.AppendLine($"Exception thrown on Run {runNumber}:");
                                 runsStringBuilder.AppendLine(exc.Message);
                             }
@@ -92,9 +92,9 @@ namespace DiscordBot
                         using (FileStream fileStream = new FileStream(fileName, FileMode.Open))
                         using (FileStream zipFileStream = new FileStream(zipFileName, FileMode.Open))
                         {
-                            await commandContext.RespondWithFilesAsync(new Dictionary<string, Stream>() { { shortFileName, fileStream }, { shortZipFileName, zipFileStream } });
+                            await commandContext.RespondWithFilesAsync(new Dictionary<string, Stream>() { { shortFileName, fileStream }, { shortZipFileName, zipFileStream } },
+                                anyFailed ? "You're gonna wanna check the files" : "Nice work");
                         }
-
                     }
                     else
                     {
@@ -104,7 +104,7 @@ namespace DiscordBot
                         await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
                     }
 
-                    Directory.Move(ExtractFolderName, $"{commandContext.User.Id}-{programToGrade}-{DateTime.Now:MMddyyyy-hh-mm-ss tt}");
+                    Directory.Move(ExtractFolderName, Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-{DateTime.Now:MMddyyyy-hh-mm-ss tt}"));
                 }
                 catch (Exception e)
                 {
@@ -117,7 +117,7 @@ namespace DiscordBot
             }
         }
 
-        private static void GradeOutput(StringBuilder runsStringBuilder, string runNumber, string expectedOutput, string results)
+        private static bool GradeOutput(StringBuilder runsStringBuilder, string runNumber, string expectedOutput, string results)
         {
             if (results == expectedOutput)
             {
@@ -135,6 +135,7 @@ namespace DiscordBot
                 runsStringBuilder.AppendLine(results);
                 runsStringBuilder.AppendLine("--------------");
             }
+            return results == expectedOutput;
         }
 
         private static string GradeFiles(List<string> sourceFiles)
@@ -193,9 +194,9 @@ namespace DiscordBot
             };
 
             runProcess.Start();
-            runProcess.StandardInput.Write($"{input}\0");
-
-            if (!runProcess.WaitForExit(500))
+            runProcess.StandardInput.Write(input);
+            runProcess.StandardInput.Close();
+            if (!runProcess.WaitForExit(1000))
             {
                 runProcess.Kill();
                 throw new Exception("Execution timed out");

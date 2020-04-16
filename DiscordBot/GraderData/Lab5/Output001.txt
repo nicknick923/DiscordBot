@@ -4,7 +4,7 @@ Enter the total rainfall for month 2, Enter -1 when you are finished
 Enter the total rainfall for month 3, Enter -1 when you are finished
 Enter the total rainfall for month 4, Enter -1 when you are finished
 The total rainfall for the 3 months is 650 inches.
-The Average rainfall for the city of Platteville in month 3 is 216.667
+The Average rainfall for the city of Platteville in 3 months is 216.667
 The maximum rainfall for the city of Platteville is 300 inches occurred in month 3
 The minimum rainfall for the city of Platteville is 150 inches occurred in month 1
 Flood is not possible

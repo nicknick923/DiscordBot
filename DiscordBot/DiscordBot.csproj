@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="GraderDump\**" />
+    <EmbeddedResource Remove="GraderDump\**" />
+    <None Remove="GraderDump\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -123,9 +129,6 @@
     <None Update="GraderData\Lab2\Input007.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab2\Input008.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="GraderData\Lab2\Output000.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -148,9 +151,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab2\Output007.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="GraderData\Lab2\Output008.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab3\Input001.txt">

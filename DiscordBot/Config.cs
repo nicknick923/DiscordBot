@@ -12,6 +12,8 @@ namespace DiscordBot
         public static Config Instance;
         public string Token = "The token";
         public string Prefix = "The prefix";
+        public string LogFileLocation = "LogFilePath";
+        public string GraderDump = "GraderDump";
         public string Color = "#E52B52";
         public DiscordColor DiscordColor => new DiscordColor(Color);
         public List<string> Greetings;

@@ -5,7 +5,7 @@ Enter the total rainfall for month 3, Enter -1 when you are finished
 Enter the total rainfall for month 4, Enter -1 when you are finished
 Enter the total rainfall for month 5, Enter -1 when you are finished
 The total rainfall for the 4 months is 8200 inches.
-The Average rainfall for the city of Dubuque in month 4 is 2050
+The Average rainfall for the city of Dubuque in 4 months is 2050
 The maximum rainfall for the city of Dubuque is 4000 inches occurred in month 4
 The minimum rainfall for the city of Dubuque is 200 inches occurred in month 1
 Too much rain, flood is possible

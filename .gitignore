@@ -339,3 +339,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /DiscordBot/config.json
+/DiscordBot/Log.txt
+/DiscordBot/GraderDump

@@ -1,8 +1,0 @@
-Enter a length: 
-Enter a width: 
-Enter a height: 
-The ceilingSurfaceArea is 81 feet.
-The totalSurfaceArea is 324 feet.
-The volume of the room is 729 feet.
-15.2643
-233
