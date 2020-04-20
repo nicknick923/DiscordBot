@@ -18,9 +18,6 @@ namespace DiscordBot
 
         public static async Task Grade(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade, bool final)
         {
-
-
-
             bool finalExists = Directory.EnumerateDirectories(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-*-final").Any();
             if (finalExists)
             {
