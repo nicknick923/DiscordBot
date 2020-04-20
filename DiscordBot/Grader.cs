@@ -114,7 +114,7 @@ namespace DiscordBot
                             await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
                         }
 
-                        Directory.Move(ExtractFolderName, Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-{DateTime.Now:MMddyyyy-hh-mm-sstt}{(final ? "-final" : "")}"));
+                        Directory.Move(ExtractFolderName, Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-{DateTime.Now:MMddyyyy-HH-mm-ss}{(final ? "-final" : "")}"));
                     }
                     catch (Exception e)
                     {
