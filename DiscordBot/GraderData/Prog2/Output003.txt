@@ -1,39 +1,39 @@
 Enter your balance: Enter your PIN: Your balance is $200.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $-100,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $-100,
 which is below the minimum balance required.
 You will be charged $5
 Not enough in your account to cover the withdrawal and the fee!
 
 Your balance is $200.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $-200,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $-200,
 which is below the minimum balance required.
 You will be charged $5
 Not enough in your account to cover the withdrawal and the fee!
 
 Your balance is $200.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $0,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $0,
 which is below the minimum balance required.
 You will be charged $5
 Not enough in your account to cover the withdrawal and the fee!
 
 Your balance is $200.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $-200,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $-200,
 which is below the minimum balance required.
 You will be charged $5
 Not enough in your account to cover the withdrawal and the fee!
 
 Your balance is $200.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $100,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $100,
 which is below the minimum balance required.
 You will be charged $5
 You requested $100.
@@ -44,16 +44,16 @@ Number of  $5 bills: 0
 
 Your balance is $95.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $-105,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $-105,
 which is below the minimum balance required.
 You will be charged $5
 Not enough in your account to cover the withdrawal and the fee!
 
 Your balance is $95.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $45,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $45,
 which is below the minimum balance required.
 You will be charged $5
 You requested $50.

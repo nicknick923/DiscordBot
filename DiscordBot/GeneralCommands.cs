@@ -85,7 +85,7 @@ namespace DiscordBot
         }
 
         [Command(nameof(Grade)), Description("Grades a program that is zipped up and attached"), Hidden]
-        public async Task Grade(CommandContext commandContext)
+        public async Task Grade(CommandContext commandContext, bool final = false)
         {
             DiscordAttachment attachment = commandContext.Message.Attachments.FirstOrDefault();
             if (attachment == null || !(attachment.FileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase) || attachment.FileName.EndsWith(".cpp", StringComparison.OrdinalIgnoreCase)))
@@ -100,7 +100,7 @@ namespace DiscordBot
             string programToGrade = attachment.FileName.Substring(0, attachment.FileName.Length - 4);
             LogMessage(commandContext, $"Grading {programToGrade} for {commandContext.User.Username}({commandContext.User.Id})");
 
-            await Grader.Grade(commandContext, attachment, currentDirectory, programToGrade);
+            await Grader.Grade(commandContext, attachment, currentDirectory, programToGrade, final);
         }
     }
 }

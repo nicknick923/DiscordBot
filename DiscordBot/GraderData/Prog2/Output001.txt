@@ -21,8 +21,8 @@ Number of  $5 bills: 0
 
 Your balance is $500.
 Enter the amount to be withdrawn, -1 to quit: 
-You are a type 2 customer, but the withdrawl
-amount you requsted makes your balance $350,
+You are a type 2 customer, but the withdrawal
+amount you requested makes your balance $350,
 which is below the minimum balance required.
 You will be charged $5
 You requested $150.

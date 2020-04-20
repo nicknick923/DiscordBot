@@ -16,104 +16,115 @@ namespace DiscordBot
     {
         private const string ExtractFolderName = "extract";
 
-        public static async Task Grade(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade)
+        public static async Task Grade(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade, bool final)
         {
-            string graderDataFolder = Path.Join(currentDirectory, "GraderData", programToGrade);
-            if (Directory.Exists(graderDataFolder))
+
+
+
+            bool finalExists = Directory.EnumerateDirectories(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-*-final").Any();
+            if (finalExists)
             {
-                await DownloadAndExtractFiles(attachment);
-                string sourcePath = Path.Join(currentDirectory, ExtractFolderName);
-
-                List<string> sourceFiles = new List<string>();
-                sourceFiles.AddRange(Directory.EnumerateFiles(sourcePath, "*.cpp"));
-                sourceFiles.AddRange(Directory.EnumerateFiles(sourcePath, "*.h"));
-
-                string sources = string.Join(' ', sourceFiles.Select(a => $"\"{a}\""));
-                string exeFile = Path.Join(sourcePath, $"{programToGrade}.exe");
-                string argumentString = $"{sources} -o {exeFile} -static-libgcc -static-libstdc++";
-                try
-                {
-                    Process buildProcess = BuildProgram(argumentString);
-                    if (File.Exists(exeFile))
-                    {
-                        StringBuilder runsStringBuilder = new StringBuilder();
-                        string fileGradeResults = GradeFiles(sourceFiles);
-
-                        if (!string.IsNullOrWhiteSpace(fileGradeResults))
-                        {
-                            runsStringBuilder.AppendLine("File Grade Results:");
-                            runsStringBuilder.AppendLine(fileGradeResults);
-                        }
-
-                        await commandContext.RespondAsync("Build succeeded: Starting to test!");
-                        List<string> filesToZip = new List<string>();
-                        string runsFolder = Path.Join(ExtractFolderName, "Runs");
-                        if (Directory.Exists(runsFolder))
-                        {
-                            Directory.Delete(runsFolder, true);
-                        }
-                        bool anyFailed = false;
-                        Directory.CreateDirectory($"{ExtractFolderName}/Runs");
-                        foreach (string inputFilePath in Directory.EnumerateFiles(graderDataFolder, "Input*").OrderBy(a => a))
-                        {
-                            FileInfo fileInfo = new FileInfo(inputFilePath);
-                            string runNumber = fileInfo.Name.Replace("Input", "").Replace(".txt", "");
-                            string input = File.ReadAllText(inputFilePath);
-                            string expectedOutput = File.ReadAllText(Path.Join(graderDataFolder, $"Output{runNumber}.txt"));
-                            try
-                            {
-                                string results = RunProgram(sourcePath, exeFile, input);
-                                anyFailed |= !GradeOutput(runsStringBuilder, runNumber, expectedOutput, results);
-                                string expFileName = Path.Join(runsFolder, $"{programToGrade}Expected{runNumber}.txt");
-                                string actFileName = Path.Join(runsFolder, $"{programToGrade}Actual{runNumber}.txt");
-                                File.WriteAllText(expFileName, expectedOutput);
-                                File.WriteAllText(actFileName, results);
-                                filesToZip.AddRange(new[] { expFileName, actFileName });
-                            }
-                            catch (Exception exc)
-                            {
-                                anyFailed = true;
-                                runsStringBuilder.AppendLine($"Exception thrown on Run {runNumber}:");
-                                runsStringBuilder.AppendLine(exc.Message);
-                            }
-                        }
-
-                        string filePrefix = $"{programToGrade}_{DateTime.Now:MMddyyyy-hh-mm-ss tt}";
-                        string shortZipFileName = $"{filePrefix}.zip";
-                        string zipFileName = Path.Combine(ExtractFolderName, shortZipFileName);
-                        ZipFile.CreateFromDirectory(runsFolder, zipFileName);
-                        Directory.Delete(runsFolder, true);
-
-                        string finalResult = runsStringBuilder.ToString();
-                        string shortFileName = $"{filePrefix}_GraderResult.txt";
-                        string fileName = Path.Combine(ExtractFolderName, shortFileName);
-                        File.WriteAllText(fileName, finalResult);
-
-                        using (FileStream fileStream = new FileStream(fileName, FileMode.Open))
-                        using (FileStream zipFileStream = new FileStream(zipFileName, FileMode.Open))
-                        {
-                            await commandContext.RespondWithFilesAsync(new Dictionary<string, Stream>() { { shortFileName, fileStream }, { shortZipFileName, zipFileStream } },
-                                anyFailed ? "You're gonna wanna check the files" : "Nice work");
-                        }
-                    }
-                    else
-                    {
-                        DiscordEmbedBuilder discordEmbedBuilder = Config.Instance.GetDiscordEmbedBuilder()
-                            .WithTitle("Failed to build")
-                            .WithDescription(buildProcess.StandardError.ReadToEnd());
-                        await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
-                    }
-
-                    Directory.Move(ExtractFolderName, Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-{DateTime.Now:MMddyyyy-hh-mm-ss tt}"));
-                }
-                catch (Exception e)
-                {
-                    await commandContext.RespondAsync($"Failed to build: {e.Message}");
-                }
+                await commandContext.RespondAsync("Unable to grade, you've already submitted your final submission");
             }
             else
             {
-                await commandContext.RespondAsync($"I am not yet ready to grade {programToGrade}!");
+                string graderDataFolder = Path.Join(currentDirectory, "GraderData", programToGrade);
+                if (Directory.Exists(graderDataFolder))
+                {
+                    await DownloadAndExtractFiles(attachment);
+                    string sourcePath = Path.Join(currentDirectory, ExtractFolderName);
+
+                    List<string> sourceFiles = new List<string>();
+                    sourceFiles.AddRange(Directory.EnumerateFiles(sourcePath, "*.cpp"));
+                    sourceFiles.AddRange(Directory.EnumerateFiles(sourcePath, "*.h"));
+
+                    string sources = string.Join(' ', sourceFiles.Select(a => $"\"{a}\""));
+                    string exeFile = Path.Join(sourcePath, $"{programToGrade}.exe");
+                    string argumentString = $"{sources} -o {exeFile} -static-libgcc -static-libstdc++";
+                    try
+                    {
+                        Process buildProcess = BuildProgram(argumentString);
+                        if (File.Exists(exeFile))
+                        {
+                            StringBuilder runsStringBuilder = new StringBuilder();
+                            string fileGradeResults = GradeFiles(sourceFiles);
+
+                            if (!string.IsNullOrWhiteSpace(fileGradeResults))
+                            {
+                                runsStringBuilder.AppendLine("File Grade Results:");
+                                runsStringBuilder.AppendLine(fileGradeResults);
+                            }
+
+                            await commandContext.RespondAsync("Build succeeded: Starting to test!");
+                            List<string> filesToZip = new List<string>();
+                            string runsFolder = Path.Join(ExtractFolderName, "Runs");
+                            if (Directory.Exists(runsFolder))
+                            {
+                                Directory.Delete(runsFolder, true);
+                            }
+                            bool anyFailed = false;
+                            Directory.CreateDirectory($"{ExtractFolderName}/Runs");
+                            foreach (string inputFilePath in Directory.EnumerateFiles(graderDataFolder, "Input*").OrderBy(a => a))
+                            {
+                                FileInfo fileInfo = new FileInfo(inputFilePath);
+                                string runNumber = fileInfo.Name.Replace("Input", "").Replace(".txt", "");
+                                string input = File.ReadAllText(inputFilePath);
+                                string expectedOutput = File.ReadAllText(Path.Join(graderDataFolder, $"Output{runNumber}.txt"));
+                                try
+                                {
+                                    string results = RunProgram(sourcePath, exeFile, input);
+                                    anyFailed |= !GradeOutput(runsStringBuilder, runNumber, expectedOutput, results);
+                                    string expFileName = Path.Join(runsFolder, $"{programToGrade}Expected{runNumber}.txt");
+                                    string actFileName = Path.Join(runsFolder, $"{programToGrade}Actual{runNumber}.txt");
+                                    File.WriteAllText(expFileName, expectedOutput);
+                                    File.WriteAllText(actFileName, results);
+                                    filesToZip.AddRange(new[] { expFileName, actFileName });
+                                }
+                                catch (Exception exc)
+                                {
+                                    anyFailed = true;
+                                    runsStringBuilder.AppendLine($"Exception thrown on Run {runNumber}:");
+                                    runsStringBuilder.AppendLine(exc.Message);
+                                }
+                            }
+
+                            string filePrefix = $"{programToGrade}_{DateTime.Now:MMddyyyy-hh-mm-ss tt}";
+                            string shortZipFileName = $"{filePrefix}.zip";
+                            string zipFileName = Path.Combine(ExtractFolderName, shortZipFileName);
+                            ZipFile.CreateFromDirectory(runsFolder, zipFileName);
+                            Directory.Delete(runsFolder, true);
+
+                            string finalResult = runsStringBuilder.ToString();
+                            string shortFileName = $"{filePrefix}_GraderResult.txt";
+                            string fileName = Path.Combine(ExtractFolderName, shortFileName);
+                            File.WriteAllText(fileName, finalResult);
+
+                            using (FileStream fileStream = new FileStream(fileName, FileMode.Open))
+                            using (FileStream zipFileStream = new FileStream(zipFileName, FileMode.Open))
+                            {
+                                await commandContext.RespondWithFilesAsync(new Dictionary<string, Stream>() { { shortFileName, fileStream }, { shortZipFileName, zipFileStream } },
+                                    anyFailed ? "You're gonna wanna check the files" : "Nice work");
+                            }
+                        }
+                        else
+                        {
+                            DiscordEmbedBuilder discordEmbedBuilder = Config.Instance.GetDiscordEmbedBuilder()
+                                .WithTitle("Failed to build")
+                                .WithDescription(buildProcess.StandardError.ReadToEnd());
+                            await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
+                        }
+
+                        Directory.Move(ExtractFolderName, Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-{DateTime.Now:MMddyyyy-hh-mm-sstt}{(final ? "-final" : "")}"));
+                    }
+                    catch (Exception e)
+                    {
+                        await commandContext.RespondAsync($"Failed to build: {e.Message}");
+                    }
+                }
+                else
+                {
+                    await commandContext.RespondAsync($"I am not yet ready to grade {programToGrade}!");
+                }
             }
         }
 
