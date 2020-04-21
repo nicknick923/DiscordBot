@@ -85,7 +85,7 @@ namespace DiscordBot
                                 }
                             }
 
-                            string filePrefix = $"{programToGrade}_{DateTime.Now:MMddyyyy-hh-mm-ss tt}";
+                            string filePrefix = $"{programToGrade}_{DateTime.Now:MMddyyyy-HH-mm-ss}";
                             string shortZipFileName = $"{filePrefix}.zip";
                             string zipFileName = Path.Combine(ExtractFolderName, shortZipFileName);
                             ZipFile.CreateFromDirectory(runsFolder, zipFileName);
@@ -154,12 +154,13 @@ namespace DiscordBot
                 FileInfo fileInfo = new FileInfo(filePath);
                 List<int> linesThatAreTooLong = new List<int>();
                 List<int> linesThatAreIncorrectlyIndented = new List<int>();
+                List<int> linesThatHaveTabs = new List<int>();
                 string[] lines = File.ReadAllLines(filePath);
                 for (int i = 0; i < lines.Length; i++)
                 {
                     string line = lines[i];
                     int lineNumber = i + 1;
-                    if (line.Length > 74)
+                    if (line.Length > 73)
                     {
                         linesThatAreTooLong.Add(lineNumber);
                     }
@@ -167,8 +168,12 @@ namespace DiscordBot
                     {
                         linesThatAreIncorrectlyIndented.Add(lineNumber);
                     }
+                    if (line.Contains('\t'))
+                    {
+                        linesThatHaveTabs.Add(lineNumber);
+                    }
                 }
-                if (linesThatAreTooLong.Count > 0 || linesThatAreIncorrectlyIndented.Count > 0)
+                if (linesThatAreTooLong.Count > 0 || linesThatAreIncorrectlyIndented.Count > 0 || linesThatHaveTabs.Count > 0)
                 {
                     stringBuilder.AppendLine(fileInfo.Name);
                     if (linesThatAreTooLong.Count > 0)
@@ -177,7 +182,11 @@ namespace DiscordBot
                     }
                     if (linesThatAreIncorrectlyIndented.Count > 0)
                     {
-                        stringBuilder.AppendLine($"Incorrect Indentation: {string.Join(", ", linesThatAreIncorrectlyIndented)}");
+                        stringBuilder.AppendLine($"Incorrect indentation: {string.Join(", ", linesThatAreIncorrectlyIndented)}");
+                    }
+                    if (linesThatHaveTabs.Count > 0)
+                    {
+                        stringBuilder.AppendLine($"Has tabs: {string.Join(", ", linesThatHaveTabs)}");
                     }
                 }
             }

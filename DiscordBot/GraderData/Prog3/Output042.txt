@@ -1,0 +1,39 @@
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+Scores given are not legitimate.
+Enter first score: 
+Enter second score: 
+Enter first score: 
+Enter second score: 
+
+Round Robin Results
+Player    Matches     Games     Games
+          Won         Won       Lost
+------    -------     -----     -----
+  A        0           2         6
+  B        2           6         4
+  C        1           5         3
+
+Winner is player B.
