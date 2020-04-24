@@ -474,6 +474,9 @@
     <None Update="GraderData\Lab8\Input005.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="GraderData\Lab8\Input006.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="GraderData\Lab8\Output001.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -487,6 +490,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab8\Output005.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Lab8\Output006.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab9\Input001.txt">
