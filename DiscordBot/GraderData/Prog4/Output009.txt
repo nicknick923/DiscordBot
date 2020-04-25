@@ -1,0 +1,117 @@
+The magazine stand is empty!
+
+Total value of the magzines in the stand: $0.00
+
+Playboy added.
+Average unit price for all magazines is $14.65
+Cannot dispense People. It's out of stock.
+Invalid Command!
+Forbes added.
+Money added.
+People added.
+Invalid Command!
+Invalid Command!
+0 People added.
+Unit price updated to 5.54.
+Average unit price for all magazines is $11.97
+Cannot dispense Life. It's out of stock.
+Magazines sorted by quantity.
+Invalid Command!
+Magazines in the mini magazine stand:
+
+              People    0  5.54
+               Money    1  8.32
+             Playboy    5 14.65
+              Forbes    7 19.35
+
+Total value of the magzines in the stand: $217.02
+
+Vogue added.
+Cannot dispense Life. It's out of stock.
+Fortune added.
+Magazines sorted by quantity.
+Magazines sorted by quantity.
+Dispensed one Money
+3 People added.
+Unit price updated to 13.67.
+Invalid Command!
+9 Vogue added.
+Unit price updated to 13.53.
+Magazines sorted by quantity.
+4 Playboy added.
+Unit price updated to 12.56.
+2 Vogue added.
+Unit price updated to 6.42.
+Cannot dispense Life. It's out of stock.
+Average unit price for all magazines is $11.76
+10 People added.
+Unit price updated to 10.09.
+Dispensed one Playboy
+Average unit price for all magazines is $11.05
+11 Forbes added.
+Unit price updated to 8.72.
+Invalid Command!
+Dispensed one Fortune
+Magazines in the mini magazine stand:
+
+              Forbes   18  8.72
+             Fortune   10  6.82
+              People   13 10.09
+             Playboy    8 12.56
+               Vogue   12  6.42
+
+Total value of the magzines in the stand: $533.85
+
+Magazines in the mini magazine stand:
+
+              Forbes   18  8.72
+             Fortune   10  6.82
+              People   13 10.09
+             Playboy    8 12.56
+               Vogue   12  6.42
+
+Total value of the magzines in the stand: $533.85
+
+Magazines in the mini magazine stand:
+
+              Forbes   18  8.72
+             Fortune   10  6.82
+              People   13 10.09
+             Playboy    8 12.56
+               Vogue   12  6.42
+
+Total value of the magzines in the stand: $533.85
+
+Magazines sorted by quantity.
+Dispensed one Forbes
+Invalid Command!
+Magazines in the mini magazine stand:
+
+             Playboy    8 12.56
+             Fortune   10  6.82
+               Vogue   12  6.42
+              People   13 10.09
+              Forbes   17  8.72
+
+Total value of the magzines in the stand: $525.13
+
+3 Vogue added.
+Unit price updated to 6.01.
+Unit prices have been cut 78.00%
+Unit prices have been cut 76.00%
+Magazines in the mini magazine stand:
+
+              Forbes   17  0.46
+             Fortune   10  0.36
+              People   13  0.53
+             Playboy    8  0.66
+               Vogue   15  0.32
+
+Total value of the magzines in the stand: $28.42
+
+Invalid Command!
+Magazines sorted by price.
+Average unit price for all magazines is $0.47
+Total sales amount for the mini magazine stand is $36.42
+
+Normal Termination of Program 4.

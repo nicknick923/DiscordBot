@@ -1,0 +1,79 @@
+Life added.
+Forbes added.
+Fortune added.
+Playboy added.
+Average unit price for all magazines is $12.49
+Invalid Command!
+Average unit price for all magazines is $12.49
+Invalid Command!
+Dispensed one Playboy
+Cannot dispense Vogue. It's out of stock.
+Newsweek added.
+Invalid Command!
+Unit prices have been cut 96.00%
+5 Playboy added.
+Unit price updated to 15.86.
+Magazines in the mini magazine stand:
+
+              Forbes    8  0.45
+             Fortune    8  0.33
+                Life    5  0.56
+            Newsweek    0  0.42
+             Playboy    9 15.86
+
+Total value of the magzines in the stand: $151.76
+
+Dispensed one Newsweek
+Magazines sorted by price.
+Invalid Command!
+Average unit price for all magazines is $3.52
+Dispensed one Life
+Dispensed one Newsweek
+Average unit price for all magazines is $3.52
+Cannot dispense People. It's out of stock.
+Average unit price for all magazines is $3.52
+2 Fortune added.
+Unit price updated to 7.64.
+10 Playboy added.
+Unit price updated to 16.56.
+Money added.
+Vogue not added. The magazine stand is full.
+Dispensed one Life
+People not added. The magazine stand is full.
+Unit prices have been cut 60.00%
+Unit prices have been cut 22.00%
+Invalid Command!
+Dispensed one Life
+Dispensed one Playboy
+4 Newsweek added.
+Unit price updated to 7.92.
+Unit prices have been cut 85.00%
+Invalid Command!
+Dispensed one Newsweek
+Cannot dispense Vogue. It's out of stock.
+6 Forbes added.
+Unit price updated to 8.12.
+Average unit price for all magazines is $1.84
+Unit prices have been cut 65.00%
+Magazines in the mini magazine stand:
+
+              Forbes   14  2.84
+             Fortune   10  0.13
+                Life    2  0.01
+               Money    1  0.20
+            Newsweek    1  0.42
+             Playboy   18  0.27
+
+Total value of the magzines in the stand: $46.56
+
+Magazines sorted by quantity.
+Invalid Command!
+Invalid Command!
+9 Fortune added.
+Unit price updated to 5.43.
+10 Money added.
+Unit price updated to 7.73.
+Magazines sorted by price.
+Total sales amount for the mini magazine stand is $25.04
+
+Normal Termination of Program 4.

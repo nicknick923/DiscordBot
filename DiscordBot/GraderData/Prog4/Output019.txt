@@ -1,0 +1,78 @@
+Vogue added.
+Unit prices have been cut 19.00%
+Life added.
+Unit prices have been cut 62.00%
+Cannot dispense Money. It's out of stock.
+Cannot dispense Fortune. It's out of stock.
+Money added.
+9 Life added.
+Unit price updated to 12.51.
+Magazines in the mini magazine stand:
+
+                Life    9 12.51
+               Money   10 16.03
+               Vogue   11  2.46
+
+Total value of the magzines in the stand: $299.94
+
+0 Money added.
+Unit price updated to 14.70.
+Unit prices have been cut 11.00%
+Fortune added.
+Cannot dispense Playboy. It's out of stock.
+7 Fortune added.
+Unit price updated to 9.81.
+Unit prices have been cut 35.00%
+Cannot dispense Forbes. It's out of stock.
+Cannot dispense Playboy. It's out of stock.
+People added.
+Magazines sorted by name.
+Invalid Command!
+Dispensed one People
+Unit prices have been cut 70.00%
+People added.
+Magazines sorted by quantity.
+Average unit price for all magazines is $2.55
+Cannot dispense Forbes. It's out of stock.
+Cannot dispense Forbes. It's out of stock.
+4 Life added.
+Unit price updated to 10.73.
+Invalid Command!
+3 Fortune added.
+Unit price updated to 13.02.
+Dispensed one Money
+Average unit price for all magazines is $6.48
+0 Fortune added.
+Unit price updated to 9.12.
+Dispensed one Money
+Dispensed one Vogue
+Forbes added.
+Dispensed one Vogue
+Invalid Command!
+Dispensed one Life
+Invalid Command!
+Magazines sorted by name.
+Magazines in the mini magazine stand:
+
+              Forbes    0  9.07
+             Fortune   15  9.12
+                Life   12 10.73
+               Money    8  2.55
+              People    3  5.68
+               Vogue    9  0.43
+
+Total value of the magzines in the stand: $306.85
+
+Cannot dispense Newsweek. It's out of stock.
+Invalid Command!
+5 People added.
+Unit price updated to 16.62.
+Invalid Command!
+Dispensed one Life
+Invalid Command!
+7 Money added.
+Unit price updated to 16.43.
+Invalid Command!
+Total sales amount for the mini magazine stand is $38.40
+
+Normal Termination of Program 4.

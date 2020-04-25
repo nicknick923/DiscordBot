@@ -1,0 +1,81 @@
+The magazine stand is empty!
+
+Total value of the magzines in the stand: $0.00
+
+Unit prices have been cut 18.00%
+Cannot dispense Money. It's out of stock.
+Unit prices have been cut 61.00%
+Cannot dispense Newsweek. It's out of stock.
+Invalid Command!
+Unit prices have been cut 77.00%
+Unit prices have been cut 53.00%
+Average unit price for all magazines is $0.00
+Average unit price for all magazines is $0.00
+Fortune added.
+Life added.
+Unit prices have been cut 23.00%
+Invalid Command!
+Money added.
+People added.
+Vogue added.
+Invalid Command!
+Unit prices have been cut 64.00%
+Dispensed one Life
+Cannot dispense Forbes. It's out of stock.
+Average unit price for all magazines is $3.50
+Magazines in the mini magazine stand:
+
+             Fortune    8  2.16
+                Life   10  2.18
+               Money    0  5.68
+              People    3  2.94
+               Vogue    8  4.53
+
+Total value of the magzines in the stand: $84.15
+
+Forbes added.
+Average unit price for all magazines is $5.07
+Newsweek not added. The magazine stand is full.
+Unit prices have been cut 8.00%
+Dispensed one People
+1 Life added.
+Unit price updated to 12.67.
+Average unit price for all magazines is $6.44
+Playboy not added. The magazine stand is full.
+Dispensed one People
+Invalid Command!
+Newsweek not added. The magazine stand is full.
+Magazines sorted by quantity.
+Magazines in the mini magazine stand:
+
+               Money    0  5.23
+              People    1  2.71
+              Forbes    5 11.90
+             Fortune    8  1.99
+               Vogue    8  4.16
+                Life   11 12.67
+
+Total value of the magzines in the stand: $250.80
+
+9 Fortune added.
+Unit price updated to 10.76.
+Invalid Command!
+10 Fortune added.
+Unit price updated to 12.72.
+Magazines sorted by name.
+6 People added.
+Unit price updated to 19.23.
+Invalid Command!
+Unit prices have been cut 57.00%
+3 People added.
+Unit price updated to 10.80.
+Unit prices have been cut 83.00%
+Invalid Command!
+8 Forbes added.
+Unit price updated to 12.55.
+Newsweek not added. The magazine stand is full.
+Newsweek not added. The magazine stand is full.
+Average unit price for all magazines is $2.82
+Total sales amount for the mini magazine stand is $7.60
+
+Normal Termination of Program 4.
