@@ -11,12 +11,13 @@ using DSharpPlus.EventArgs;
 using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
 using Newtonsoft.Json;
-using static DiscordBot.Config;
 
 namespace DiscordBot
 {
     public class Bot : IDisposable
     {
+        public static Bot Instance;
+
         public const string ApplicationName = nameof(DiscordBot);
         private const int TimerTimeout = 5 * 60 * 1000;
         private const string DumpDir = nameof(DumpDir);
@@ -28,12 +29,13 @@ namespace DiscordBot
 
         public Bot()
         {
+            Instance = this;
             //DownloadAudioClips();
 
             DiscordConfiguration discordConfiguration = new DiscordConfiguration()
             {
                 AutoReconnect = true,
-                Token = Instance.Token,
+                Token = Config.Instance.Token,
                 TokenType = TokenType.Bot,
                 UseInternalLogHandler = true,
                 LogLevel = LogLevel.Info,
@@ -47,7 +49,7 @@ namespace DiscordBot
             voice = discord.UseVoiceNext();
             commands = discord.UseCommandsNext(new CommandsNextConfiguration()
             {
-                StringPrefixes = new[] { Instance.Prefix },
+                StringPrefixes = new[] { Config.Instance.Prefix },
                 CaseSensitive = false
             });
 
@@ -62,7 +64,7 @@ namespace DiscordBot
 
         private void LogMessageReceived(object sender, DebugLogMessageEventArgs e)
         {
-            File.AppendAllText(Instance.LogFileLocation, $"{e}{Environment.NewLine}");
+            File.AppendAllText(Config.Instance.LogFileLocation, $"{e}{Environment.NewLine}");
         }
 
         private static void DownloadAudioClips()
@@ -89,32 +91,34 @@ namespace DiscordBot
         }
 
         Timer timer;
-        readonly DiscordActivity discordActivity = new DiscordActivity("Really Cool Games", ActivityType.Playing);
+        public static string GameName = "Really Cool Games";
+        static DiscordActivity getDiscordActivity() => new DiscordActivity(GameName, ActivityType.Playing);
         private Task CommandExecuted(CommandExecutionEventArgs commandExecutionEventArgs)
         {
             return SetTimer();
         }
 
-        private async Task SetTimer()
+        public static async Task SetTimer()
         {
             try
             {
-                timer?.Dispose();
+
+                Instance.timer?.Dispose();
                 DateTime dateTime = DateTime.Now;
-                await discord.UpdateStatusAsync(discordActivity, UserStatus.Online);
-                timer = new Timer(TimerTimeout);
-                timer.Elapsed += async (sender, e) =>
+                await Instance.discord.UpdateStatusAsync(getDiscordActivity(), UserStatus.Online);
+                Instance.timer = new Timer(TimerTimeout);
+                Instance.timer.Elapsed += async (sender, e) =>
                 {
-                    timer.Stop();
-                    discord.DebugLogger.LogMessage(LogLevel.Info, ApplicationName, "Bot is Idle", DateTime.Now);
-                    await discord.UpdateStatusAsync(discordActivity, UserStatus.Idle, DateTimeOffset.Now);
-                    timer?.Dispose();
+                    Instance.timer.Stop();
+                    Instance.discord.DebugLogger.LogMessage(LogLevel.Info, ApplicationName, "Bot is Idle", DateTime.Now);
+                    await Instance.discord.UpdateStatusAsync(getDiscordActivity(), UserStatus.Idle, DateTimeOffset.Now);
+                    Instance.timer?.Dispose();
                 };
-                timer.Start();
+                Instance.timer.Start();
             }
             catch (Exception e)
             {
-                discord.DebugLogger.LogMessage(LogLevel.Error, ApplicationName, "Failed to set timer", DateTime.Now, e);
+                Instance.discord.DebugLogger.LogMessage(LogLevel.Error, ApplicationName, "Failed to set timer", DateTime.Now, e);
             }
         }
 

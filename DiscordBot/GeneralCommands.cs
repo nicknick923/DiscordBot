@@ -84,6 +84,14 @@ namespace DiscordBot
             throw new Exception("Hey, I borked");
         }
 
+        [Command(nameof(UpdateGame)), Hidden]
+        public async Task UpdateGame(CommandContext commandContext, [RemainingText] string name)
+        {
+            Bot.GameName = name;
+            await Bot.SetTimer();
+            await commandContext.RespondAsync($"Game set to {name}");
+        }
+
         [Command(nameof(Grade)), Description("Grades a program that is zipped up and attached"), Hidden]
         public async Task Grade(CommandContext commandContext, bool final = false)
         {

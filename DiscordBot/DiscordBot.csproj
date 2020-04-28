@@ -27,6 +27,132 @@
     <None Update="ffprobe.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="GraderData\Extra\Input001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input003.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input004.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input005.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input006.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input007.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input008.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input009.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input010.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input011.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input012.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input013.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input014.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input015.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input016.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input017.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input018.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input019.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input020.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Input021.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output003.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output004.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output005.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output006.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output007.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output008.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output009.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output010.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output011.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output012.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output013.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output014.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output015.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output016.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output017.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output018.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output019.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output020.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Extra\Output021.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="GraderData\Lab1\Input000.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2164,11 +2290,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00685" />
-    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00685" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00685" />
-    <PackageReference Include="DSharpPlus.Lavalink" Version="4.0.0-nightly-00685" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.0.0-nightly-00685" />
+    <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00687" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00687" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00687" />
+    <PackageReference Include="DSharpPlus.Lavalink" Version="4.0.0-nightly-00687" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.0.0-nightly-00687" />
   </ItemGroup>
 
 </Project>
