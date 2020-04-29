@@ -238,7 +238,11 @@ namespace DiscordBot
                 StartInfo = buildPSI
             };
             buildProcess.Start();
-            buildProcess.WaitForExit();
+            if (!buildProcess.WaitForExit(2500))
+            {
+                string s = buildProcess.StandardError.ReadToEnd();
+                throw new Exception(s);
+            }
             return buildProcess;
         }
 

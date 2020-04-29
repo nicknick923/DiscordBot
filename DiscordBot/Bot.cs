@@ -133,13 +133,12 @@ namespace DiscordBot
                 }
                 else
                 {
+                    discord.DebugLogger.LogMessage(LogLevel.Error, ApplicationName, e.Command.Name, DateTime.Now, e.Exception);
                     await e.Context.RespondAsync($"Something happened and I worked as programmed, but I don't think that's really what we wanted here. Did you pass in the wrong arguments? (shame on the creator of this bot if you did {creator.Mention})");
                     if (e.Command.Module.GetInstance(e.Context.Services) is SkiCommandModule skiCommandModule)
                     {
                         await skiCommandModule.DefaultHelpAsync(e.Context, e.Command.Name);
                     }
-
-                    discord.DebugLogger.LogMessage(LogLevel.Error, ApplicationName, e.Command.Name, DateTime.Now, e.Exception);
                 }
             }
         }

@@ -27,130 +27,382 @@
     <None Update="ffprobe.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input001.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input001.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input002.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input002.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input003.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input003.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input004.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input004.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input005.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input005.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input006.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input006.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input007.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input007.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input008.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input008.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input009.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input009.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input010.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input010.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input011.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input011.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input012.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input012.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input013.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input013.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input014.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input014.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input015.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input015.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input016.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input016.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input017.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input017.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input018.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input018.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input019.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input019.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input020.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input020.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Input021.txt">
+    <None Update="GraderData\ExtraBubbleSort\Input021.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output001.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output001.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output002.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output002.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output003.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output003.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output004.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output004.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output005.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output005.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output006.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output006.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output007.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output007.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output008.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output008.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output009.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output009.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output010.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output010.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output011.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output011.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output012.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output012.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output013.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output013.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output014.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output014.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output015.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output015.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output016.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output016.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output017.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output017.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output018.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output018.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output019.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output019.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output020.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output020.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Extra\Output021.txt">
+    <None Update="GraderData\ExtraBubbleSort\Output021.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input003.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input004.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input005.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input006.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input007.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input008.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input009.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input010.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input011.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input012.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input013.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input014.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input015.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input016.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input017.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input018.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input019.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input020.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Input021.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output003.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output004.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output005.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output006.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output007.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output008.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output009.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output010.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output011.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output012.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output013.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output014.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output015.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output016.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output017.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output018.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output019.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output020.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraInsertionSort\Output021.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input003.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input004.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input005.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input006.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input007.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input008.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input009.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input010.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input011.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input012.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input013.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input014.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input015.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input016.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input017.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input018.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input019.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input020.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Input021.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output003.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output004.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output005.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output006.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output007.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output008.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output009.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output010.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output011.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output012.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output013.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output014.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output015.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output016.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output017.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output018.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output019.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output020.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\ExtraSelectionSort\Output021.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab1\Input000.txt">
