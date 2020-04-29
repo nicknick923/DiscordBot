@@ -105,10 +105,20 @@ namespace DiscordBot
                         }
                         else
                         {
+                            var extractDir = new DirectoryInfo("extract");
+                            string failString = buildProcess.StandardError.ReadToEnd().Replace(extractDir.FullName, "");
                             DiscordEmbedBuilder discordEmbedBuilder = Config.Instance.GetDiscordEmbedBuilder()
-                                .WithTitle("Failed to build")
-                                .WithDescription(buildProcess.StandardError.ReadToEnd());
-                            await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
+                                .WithTitle("Failed to build");
+                            if (failString.Length > 1500)
+                            {
+                                File.WriteAllText("Fail.txt", failString);
+                                await commandContext.RespondWithFileAsync("Fail.txt", embed: discordEmbedBuilder.Build());
+                            }
+                            else
+                            {
+                                discordEmbedBuilder = discordEmbedBuilder.WithDescription(failString);
+                                await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
+                            }
                         }
 
                         Directory.Move(ExtractFolderName, Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-{DateTime.Now:MMddyyyy-HH-mm-ss}{(final ? "-final" : "")}"));
@@ -240,8 +250,7 @@ namespace DiscordBot
             buildProcess.Start();
             if (!buildProcess.WaitForExit(2500))
             {
-                string s = buildProcess.StandardError.ReadToEnd();
-                throw new Exception(s);
+                buildProcess.Kill();
             }
             return buildProcess;
         }
