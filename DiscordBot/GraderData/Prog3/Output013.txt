@@ -36,8 +36,8 @@ Round Robin Results
 Player    Matches     Games     Games
           Won         Won       Lost
 ------    -------     -----     -----
-  A        1           3         4
-  B        1           4         5
-  C        1           5         3
+          A           1         34
+          B           1         45
+          C           1         53
 
 Winner is player C.

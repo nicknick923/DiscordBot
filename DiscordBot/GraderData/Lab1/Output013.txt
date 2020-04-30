@@ -1,0 +1,3 @@
+Enter an integer temperature in Celsius: 
+A temperature in Celsius of 213 is 415 in Fahrenheit.
+90

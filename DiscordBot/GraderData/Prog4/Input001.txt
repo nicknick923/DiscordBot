@@ -1,1 +1,39 @@
-VPD TimeS NPS QPA Time 1 4.50A Time 2 4.50A Time 3 4.75PA People 1 4.39A Vogue 2 4.49A NationalGeographics 3 4.25A Seventeen 4 4.29A ConsumerReports 6 4.25A Newsweek 1 4.59PVS NPS QPS PPD PeoplePD ConsumerReports D TimePD TimeA Newsweek 2 4.99A GolfDigest 1 4.75D VoguePC .1PC .05P
+V
+P
+D Time
+S N
+P
+S Q
+P
+A Time 1 4.50
+A Time 2 4.50
+A Time 3 4.75
+P
+A People 1 4.39
+A Vogue 2 4.49
+A NationalGeographics 3 4.25
+A Seventeen 4 4.29
+A ConsumerReports 6 4.25
+A Newsweek 1 4.59
+P
+V
+S N
+P
+S Q
+P
+S P
+P
+D People
+P
+D ConsumerReports 
+D Time
+P
+D Time
+A Newsweek 2 4.99
+A GolfDigest 1 4.75
+D Vogue
+P
+C .1
+P
+C .05
+P

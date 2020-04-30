@@ -1,8 +1,8 @@
 Enter a length: 
 Enter a width: 
 Enter a height: 
-The ceilingSurfaceArea is 0 feet.
-The totalSurfaceArea is 0 feet.
-The volume of the room is 0 feet.
+The ceilingSurfaceArea is 20 feet.
+The totalSurfaceArea is 108 feet.
+The volume of the room is 120 feet.
 15.2643
 233

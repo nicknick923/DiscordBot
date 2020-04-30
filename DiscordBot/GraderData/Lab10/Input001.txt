@@ -1,0 +1,33 @@
+P
+D Gruhl
+A Gruhl GDC 3.87
+S
+A Nelson ACM 3.75
+A Garcia  AITP 3.62
+P
+A Thames ACM 2.52
+A Pinzer ACMW 3.65
+A Richardson AITP 2.94
+A Reddy ACMW 2.93
+A Bella ACM 3.27
+A Kelly GDC 3.06
+A Smith ACM 3.96
+P
+S
+P
+H
+P
+D Richardson
+D Thaaames
+S
+P
+D Thames
+P
+X
+P
+H
+P
+A Manjuk ACMW 3.68
+P
+X
+P

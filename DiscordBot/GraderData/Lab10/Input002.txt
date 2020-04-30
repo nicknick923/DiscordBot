@@ -1,0 +1,65 @@
+A BigNameOne CCO 1.0
+A BigNameTwo CCT 2.0
+A BigNameThree CCT 3.0
+A BigNameFour CCF 3.0
+A BigNameFive CCF 3.0
+A BigNameSix CC6 3.8955
+A BigNameSeven CC7 4.0
+A BigNameEight CCE 6.9
+P
+H
+P
+H
+P
+S
+P
+S
+P
+A BigNameOne CCO 1.0
+A BigNameTwo CCT 2.0
+A BigNameThree CCT 3.0
+A BigNameFour CCF 3.0
+A BigNameFive CCF 3.0
+A BigNameSix CC6 3.8955
+A BigNameSeven CC7 4.0
+A BigNameEight CCE 6.9
+D BigNameOne CCO 1.0
+H
+P
+S
+P
+D BigNameTwo CCT 2.0
+H
+P
+S
+P
+D BigNameThree CCT 3.0
+H
+P
+S
+P
+D BigNameFour CCF 3.0
+H
+P
+S
+P
+D BigNameFive CCF 3.0
+H
+P
+S
+P
+D BigNameSix CC6 3.8955
+H
+P
+S
+P
+D BigNameSeven CC7 4.0
+H
+P
+S
+P
+D BigNameEight CCE 6.9
+H
+P
+S
+P

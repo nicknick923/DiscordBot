@@ -405,6 +405,18 @@
     <None Update="GraderData\ExtraSelectionSort\Output021.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="GraderData\Lab10\Input001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Lab10\Input002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Lab10\Output001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Lab10\Output002.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="GraderData\Lab1\Input000.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -442,6 +454,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab1\Input012.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Lab1\Input013.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab1\Output000.txt">
@@ -483,6 +498,9 @@
     <None Update="GraderData\Lab1\Output012.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="GraderData\Lab1\Output013.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="GraderData\Lab2\Input000.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -507,6 +525,9 @@
     <None Update="GraderData\Lab2\Input007.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="GraderData\Lab2\Input008.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="GraderData\Lab2\Output000.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -529,6 +550,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab2\Output007.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GraderData\Lab2\Output008.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab3\Input001.txt">
@@ -711,46 +735,46 @@
     <None Update="GraderData\Lab3\Output030.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Input0.txt">
+    <None Update="GraderData\Lab4\Input001.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Input1.txt">
+    <None Update="GraderData\Lab4\Input002.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Input2.txt">
+    <None Update="GraderData\Lab4\Input003.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Input3.txt">
+    <None Update="GraderData\Lab4\Input004.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Input4.txt">
+    <None Update="GraderData\Lab4\Input005.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Input5.txt">
+    <None Update="GraderData\Lab4\Input006.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Input6.txt">
+    <None Update="GraderData\Lab4\Input007.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Output0.txt">
+    <None Update="GraderData\Lab4\Output001.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Output1.txt">
+    <None Update="GraderData\Lab4\Output002.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Output2.txt">
+    <None Update="GraderData\Lab4\Output003.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Output3.txt">
+    <None Update="GraderData\Lab4\Output004.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Output4.txt">
+    <None Update="GraderData\Lab4\Output005.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Output5.txt">
+    <None Update="GraderData\Lab4\Output006.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="GraderData\Lab4\Output6.txt">
+    <None Update="GraderData\Lab4\Output007.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="GraderData\Lab5\Input001.txt">
