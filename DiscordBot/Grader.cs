@@ -212,21 +212,25 @@ namespace DiscordBot
                 WorkingDirectory = sourcePath,
                 UseShellExecute = false,
                 RedirectStandardInput = true,
-                RedirectStandardOutput = true
+                RedirectStandardOutput = true,
+                RedirectStandardError = true
             };
 
             Process runProcess = new Process()
             {
                 StartInfo = runPSI
             };
-
             runProcess.Start();
             runProcess.StandardInput.Write(input);
             runProcess.StandardInput.Close();
             if (!runProcess.WaitForExit(1000))
             {
                 runProcess.Kill();
-                throw new Exception("Execution timed out");
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.AppendLine("Execution timed out:");
+                stringBuilder.AppendLine(runProcess.StandardOutput.ReadToEnd());
+                stringBuilder.AppendLine(runProcess.StandardError.ReadToEnd());
+                throw new Exception(stringBuilder.ToString());
             }
 
             string results = runProcess.StandardOutput.ReadToEnd();
