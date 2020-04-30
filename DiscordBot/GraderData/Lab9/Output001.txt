@@ -12,7 +12,7 @@ The list of clubs is:
    Amateur Radio Club  
    Cycling Club        
    Dance Team          
-   Game Development Clu
+   Game Development Club
    Low Brass Ensemble  
    Martial Arts Club   
 Dance Team was removed from the list.
@@ -21,7 +21,7 @@ List sorted by club.
 The list of clubs is:
    Amateur Radio Club  
    Cycling Club        
-   Game Development Clu
+   Game Development Club
    Low Brass Ensemble  
    Martial Arts Club   
 Martial Arts Club is already in the list.
@@ -31,7 +31,7 @@ List sorted by club.
 The list of clubs is:
    Amateur Radio Club  
    Cycling Club        
-   Game Development Clu
+   Game Development Club
    Low Brass Ensemble  
    Martial Arts Club   
 Normal Termination of Lab 9.

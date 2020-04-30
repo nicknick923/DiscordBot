@@ -1,57 +1,53 @@
 Item 6 was added to the list.
-Item 5 wasn't added. List is full.
-Item 4 wasn't added. List is full.
-Item 3 wasn't added. List is full.
-Item 2 wasn't added. List is full.
-Item 1 wasn't added. List is full.
-Item 1 wasn't added. List is full.
+Item 5 was added to the list.
+Item 4 was added to the list.
+Item 3 was added to the list.
+Item 2 was added to the list.
+Item 1 was added to the list.
+Item 1 is already in the list.
 Item 0 wasn't added. List is full.
 The list of clubs is:
-   Amateur Radio Club  
-   Cycling Club        
-   Game Development Clu
-   Low Brass Ensemble  
-   Martial Arts Club   
    Item 6              
+   Item 5              
+   Item 4              
+   Item 3              
+   Item 2              
+   Item 1              
 List sorted by club.
 The list of clubs is:
-   Amateur Radio Club  
-   Cycling Club        
-   Game Development Clu
+   Item 1              
+   Item 2              
+   Item 3              
+   Item 4              
+   Item 5              
    Item 6              
-   Low Brass Ensemble  
-   Martial Arts Club   
+Item 1 was removed from the list.
+The list of clubs is:
+   Item 6              
+   Item 2              
+   Item 3              
+   Item 4              
+   Item 5              
+List sorted by club.
+The list of clubs is:
+   Item 2              
+   Item 3              
+   Item 4              
+   Item 5              
+   Item 6              
 Item 1 was not removed because it is not in the list.
 The list of clubs is:
-   Amateur Radio Club  
-   Cycling Club        
-   Game Development Clu
+   Item 2              
+   Item 3              
+   Item 4              
+   Item 5              
    Item 6              
-   Low Brass Ensemble  
-   Martial Arts Club   
 List sorted by club.
 The list of clubs is:
-   Amateur Radio Club  
-   Cycling Club        
-   Game Development Clu
+   Item 2              
+   Item 3              
+   Item 4              
+   Item 5              
    Item 6              
-   Low Brass Ensemble  
-   Martial Arts Club   
-Item 1 was not removed because it is not in the list.
-The list of clubs is:
-   Amateur Radio Club  
-   Cycling Club        
-   Game Development Clu
-   Item 6              
-   Low Brass Ensemble  
-   Martial Arts Club   
-List sorted by club.
-The list of clubs is:
-   Amateur Radio Club  
-   Cycling Club        
-   Game Development Clu
-   Item 6              
-   Low Brass Ensemble  
-   Martial Arts Club   
 Bad Command!
 Normal Termination of Lab 9.

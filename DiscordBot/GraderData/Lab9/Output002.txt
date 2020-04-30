@@ -1,9 +1,4 @@
 The list of clubs is:
-   Amateur Radio Club  
-   Cycling Club        
-   Game Development Clu
-   Low Brass Ensemble  
-   Martial Arts Club   
 List sorted by club.
 Bad Command!
 Normal Termination of Lab 9.

@@ -46,8 +46,8 @@ Round Robin Results
 Player    Matches     Games     Games
           Won         Won       Lost
 ------    -------     -----     -----
-          A           1         45
-          B           1         55
-          C           1         54
+  A        1           4         5
+  B        1           5         5
+  C        1           5         4
 
 There is no clear winner.
