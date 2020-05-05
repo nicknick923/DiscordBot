@@ -17,7 +17,7 @@ namespace DiscordBot
     {
         public override string Module => nameof(MinecraftCommands);
 
-        [Command(nameof(MC)), Description("Manages Minecraft Servers")]
+        [Command]
         public async Task MC(CommandContext commandContext,
             [Description("Command (Start|Info)")] string command = DefaultStringValue,
             [RemainingText, Description("Minecraft Version to start")] string version = DefaultStringValue)

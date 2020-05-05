@@ -1,98 +1,85 @@
+Unit prices have been cut 40.00%
 Invalid Command!
-Invalid Command!
-Playboy added.
 Cannot dispense Fortune. It's out of stock.
-Money added.
+Cannot dispense Fortune. It's out of stock.
+Cannot dispense Money. It's out of stock.
+Unit prices have been cut 1.00%
+Magazines sorted by name.
+The magazine stand is empty!
+
+Newsweek added.
+Cannot dispense Vogue. It's out of stock.
+Cannot dispense Money. It's out of stock.
+Unit prices have been cut 7.00%
+Invalid Command!
+Magazines sorted by quantity.
 Magazines in the mini magazine stand:
 
-               Money    6 12.41
-             Playboy    6 15.01
+            Newsweek    3  9.67
 
-Total value of the magzines in the stand: $164.52
+Total value of the magazines in the stand: $29.02
 
-Fortune added.
-Average unit price for all magazines is $15.21
-Average unit price for all magazines is $15.21
-Magazines in the mini magazine stand:
-
-             Fortune    4 18.21
-               Money    6 12.41
-             Playboy    6 15.01
-
-Total value of the magzines in the stand: $237.36
-
-People added.
-Magazines sorted by price.
-Magazines in the mini magazine stand:
-
-               Money    6 12.41
-             Playboy    6 15.01
-              People   10 16.16
-             Fortune    4 18.21
-
-Total value of the magzines in the stand: $398.96
-
-0 Fortune added.
-Unit price updated to 6.91.
-Average unit price for all magazines is $12.62
-Vogue added.
-Dispensed one People
+Unit prices have been cut 69.00%
+Magazines sorted by name.
 Forbes added.
+Dispensed one Newsweek
+Cannot dispense People. It's out of stock.
+Life added.
+9 Life added.
+Unit price updated to 6.43.
+Dispensed one Life
+Cannot dispense People. It's out of stock.
+Playboy added.
+Average unit price for all magazines is $9.53
+Fortune added.
+Invalid Command!
+7 Fortune added.
+Unit price updated to 18.99.
+5 Forbes added.
+Unit price updated to 18.06.
+Average unit price for all magazines is $13.02
+Unit prices have been cut 76.00%
+Unit prices have been cut 90.00%
+Invalid Command!
+Money added.
+4 Fortune added.
+Unit price updated to 10.32.
+Dispensed one Fortune
+Cannot dispense Vogue. It's out of stock.
+Average unit price for all magazines is $2.91
+11 Fortune added.
+Unit price updated to 14.90.
+Invalid Command!
+Invalid Command!
+Invalid Command!
+People not added. The magazine stand is full.
+Magazines sorted by name.
+Average unit price for all magazines is $3.67
+Vogue not added. The magazine stand is full.
 Magazines in the mini magazine stand:
 
-              Forbes    3 12.69
-             Fortune    4  6.91
-               Money    6 12.41
-              People    9 16.16
-             Playboy    6 15.01
-               Vogue    6 18.17
+              Forbes    8  0.43
+             Fortune   28 14.90
+                Life   11  0.15
+               Money    3  6.04
+            Newsweek    2  0.07
+             Playboy    8  0.45
 
-Total value of the magzines in the stand: $484.69
+Total value of the magazines in the stand: $444.21
 
-Dispensed one Forbes
-Average unit price for all magazines is $13.56
-Life not added. The magazine stand is full.
-Magazines sorted by quantity.
-Newsweek not added. The magazine stand is full.
-Invalid Command!
-Life not added. The magazine stand is full.
-Dispensed one People
-Newsweek not added. The magazine stand is full.
-9 Fortune added.
-Unit price updated to 17.56.
-Newsweek not added. The magazine stand is full.
-Magazines sorted by price.
-Magazines sorted by name.
-4 People added.
-Unit price updated to 16.40.
-Unit prices have been cut 63.00%
-Dispensed one Vogue
-Invalid Command!
-Invalid Command!
-Dispensed one People
-Magazines sorted by quantity.
-Cannot dispense Newsweek. It's out of stock.
-Cannot dispense Newsweek. It's out of stock.
-Life not added. The magazine stand is full.
-Dispensed one Vogue
+Average unit price for all magazines is $3.67
+Vogue not added. The magazine stand is full.
 Magazines in the mini magazine stand:
 
-              Forbes    2  4.70
-             Fortune   13  6.50
-               Money    6  4.59
-              People   11  6.07
-             Playboy    6  5.55
-               Vogue    4  6.72
+              Forbes    8  0.43
+             Fortune   28 14.90
+                Life   11  0.15
+               Money    3  6.04
+            Newsweek    2  0.07
+             Playboy    8  0.45
 
-Total value of the magzines in the stand: $248.37
+Total value of the magazines in the stand: $444.21
 
-Invalid Command!
-Average unit price for all magazines is $5.69
-Magazines sorted by price.
-Magazines sorted by name.
-Unit prices have been cut 35.00%
-3 Playboy added.
-Unit price updated to 18.68.
-Total sales amount for the mini magazine stand is $64.52
+Total sales amount for the mini magazine stand is $19.75
 
 Normal Termination of Program 4.

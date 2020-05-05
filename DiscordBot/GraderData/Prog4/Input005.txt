@@ -1,50 +1,50 @@
-C 0.11
-G 9 17.01
-D Vogue
 P
-D Fortune
-V
+A Vogue 10 10.58
 D Playboy
-P
-S Q
+F 7 19.82
 V
-D Newsweek
-C 0.51
-D Vogue
-P
-A Life 8 11.65
-C 0.86
-A People 0 17.17
-A Forbes 10 8.08
-G 9 13.06
-A People 5 15.57
-C 0.94
 V
-A Newsweek 0 17.39
 S N
-C 0.00
-S Q
+S N
+A Forbes 5 12.83
+A Forbes 5 10.97
+S P
+V
+P
+A Forbes 4 14.70
+X 8 12.12
+V
 D People
-P
-V
-P
-V
-A Life 11 10.13
-P
-S P
+Z 10 18.80
+D Playboy
+D People
+A Money 2 10.62
 D Life
-Z 2 9.06
-A Newsweek 7 17.08
-S P
-A Fortune 10 10.54
-P
+K 1 13.11
+D People
+S N
 D Forbes
-A Newsweek 5 12.70
-A People 5 17.15
-D Life
-C 0.59
-A Money 11 14.45
-D People
-A Newsweek 8 12.77
-A Playboy 11 18.69
-A Life 7 8.77
+S P
+A Vogue 8 10.80
+A Money 10 10.03
+D Newsweek
+A Fortune 11 14.04
+A Fortune 9 5.80
+A People 9 9.90
+N 7 19.01
+D Newsweek
+A Vogue 6 17.84
+A Playboy 7 13.55
+R 3 15.72
+P
+A Vogue 5 6.52
+Q 10 12.00
+D Fortune
+D Vogue
+A Vogue 11 18.81
+A Playboy 3 5.36
+A Fortune 5 5.11
+D Vogue
+A Forbes 8 7.92
+A Playboy 5 6.69
+S Q

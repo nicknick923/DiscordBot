@@ -7,7 +7,6 @@ using static DiscordBot.Config;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
-using DSharpPlus.VoiceNext;
 
 namespace DiscordBot
 {
@@ -45,7 +44,7 @@ namespace DiscordBot
             }
         }
 
-        [Command(nameof(PlayAll)), Hidden]
+        [Command, Hidden]
         public async Task PlayAll(CommandContext commandContext)
         {
             DiscordChannel discordChannel = commandContext.Member.VoiceState.Channel;
@@ -61,7 +60,7 @@ namespace DiscordBot
             await guildAudioManager.PlayAsync();
         }
 
-        [Command(nameof(SoundBitesInfo)), Aliases("SBI", "SBInfo"), Description("Provides info on Sound Groups and Sound Bites")]
+        [Command]
         public async Task SoundBitesInfo(CommandContext commandContext)
         {
             StringBuilder stringBuilder = new StringBuilder();
@@ -78,14 +77,14 @@ namespace DiscordBot
             await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
         }
 
-        [Command(nameof(ResetAudio))]
+        [Command]
         public async Task ResetAudio(CommandContext commandContext)
         {
             AudioManager.Reset();
             await commandContext.RespondAsync("Audio Reset");
         }
 
-        [Command(nameof(Play)), Aliases("SB", "SoundBite"), Description("Plays a Sound Bite")]
+        [Command]
         public async Task Play(CommandContext commandContext,
             [Description("THe Sound Group to play audio from")] string group = DefaultStringValue,
             [Description("The Sound Bite to play")] string bite = DefaultStringValue)

@@ -14,7 +14,7 @@ namespace DiscordBot
     {
         public override string Module => nameof(GeneralCommands);
 
-        [Command(nameof(Info)), Description("Another way to access help")]
+        [Command]
         public async Task Info(CommandContext commandContext, string command = DefaultStringValue)
         {
             command = HandleDefaultStringValue(command);
@@ -29,19 +29,19 @@ namespace DiscordBot
             }
         }
 
-        [Command(nameof(Ping)), Description("What do you expect to happen?")]
+        [Command, Description("What do you expect to happen?")]
         public async Task Ping(CommandContext commandContext)
         {
             await commandContext.RespondAsync("pong");
         }
 
-        [Command(nameof(Hi)), Aliases("Hello", "Sup", "Hey"), Description("Just a generic hi")]
+        [Command, Aliases("Hello", "Sup", "Hey"), Description("Just a generic hi")]
         public async Task Hi(CommandContext commandContext)
         {
             await commandContext.RespondAsync(Instance.GetGreetingMessage(commandContext.User.Mention));
         }
-
-        [Command(nameof(Stop)), Description("This will stop the bot")]
+        
+        [Command, Description("This will stop the bot")]
         public async Task Stop(CommandContext commandContext)
         {
             ulong authorID = commandContext.User.Id;
@@ -62,14 +62,14 @@ namespace DiscordBot
             }
         }
 
-        [Command(nameof(Reload)), Description("Reloads string data from file")]
+        [Command, Description("Reloads string data from file")]
         public async Task Reload(CommandContext commandContext)
         {
             LoadConfig();
             await commandContext.RespondAsync("Content reloaded");
         }
 
-        [Command(nameof(IPAddress)), Aliases("IP"), Description("Gets the Minecraft Server's IP Address")]
+        [Command]
         public async Task IPAddress(CommandContext commandContext)
         {
             await commandContext.Message.CreateReactionAsync(DiscordEmoji.FromName(commandContext.Client, ":eyes:"));
@@ -77,14 +77,14 @@ namespace DiscordBot
             await commandContext.RespondAsync(ipAddress);
         }
 
-        [Command(nameof(ThrowException)), Description("Dis will trow an exception"), Aliases("throw"), Hidden]
+        [Command, Hidden]
         public async Task ThrowException(CommandContext commandContext)
         {
             await commandContext.RespondAsync("doing stuff");
             throw new Exception("Hey, I borked");
         }
 
-        [Command(nameof(UpdateGame)), Hidden]
+        [Command, Hidden]
         public async Task UpdateGame(CommandContext commandContext, [RemainingText] string name)
         {
             Bot.GameName = name;
@@ -92,7 +92,7 @@ namespace DiscordBot
             await commandContext.RespondAsync($"Game set to {name}");
         }
 
-        [Command(nameof(Grade)), Description("Grades a program that is zipped up and attached"), Hidden]
+        [Command, Hidden]
         public async Task Grade(CommandContext commandContext, bool final = false)
         {
             DiscordAttachment attachment = commandContext.Message.Attachments.FirstOrDefault();

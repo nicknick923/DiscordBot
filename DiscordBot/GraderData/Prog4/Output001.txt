@@ -1,18 +1,22 @@
 Average unit price for all magazines is $0.00
 The magazine stand is empty!
 
-Total value of the magzines in the stand: $0.00
+Total value of the magazines in the stand: $0.00
 
 Cannot dispense Time. It's out of stock.
 Magazines sorted by name.
 The magazine stand is empty!
 
-Total value of the magzines in the stand: $0.00
+The magazine stand is empty!
+
+Total value of the magazines in the stand: $0.00
 
 Magazines sorted by quantity.
 The magazine stand is empty!
 
-Total value of the magzines in the stand: $0.00
+The magazine stand is empty!
+
+Total value of the magazines in the stand: $0.00
 
 Time added.
 2 Time added.
@@ -22,7 +26,7 @@ Magazines in the mini magazine stand:
 
                 Time    6  4.75
 
-Total value of the magzines in the stand: $28.50
+Total value of the magazines in the stand: $28.50
 
 People added.
 Vogue added.
@@ -39,7 +43,7 @@ Magazines in the mini magazine stand:
                 Time    6  4.75
                Vogue    2  4.49
 
-Total value of the magzines in the stand: $97.28
+Total value of the magazines in the stand: $97.28
 
 Average unit price for all magazines is $4.40
 Magazines sorted by name.
@@ -52,7 +56,7 @@ Magazines in the mini magazine stand:
                 Time    6  4.75
                Vogue    2  4.49
 
-Total value of the magzines in the stand: $97.28
+Total value of the magazines in the stand: $97.28
 
 Magazines sorted by quantity.
 Magazines in the mini magazine stand:
@@ -64,7 +68,7 @@ Magazines in the mini magazine stand:
                 Time    6  4.75
      ConsumerReports    6  4.25
 
-Total value of the magzines in the stand: $97.28
+Total value of the magazines in the stand: $97.28
 
 Magazines sorted by price.
 Magazines in the mini magazine stand:
@@ -76,7 +80,7 @@ Magazines in the mini magazine stand:
                Vogue    2  4.49
                 Time    6  4.75
 
-Total value of the magzines in the stand: $97.28
+Total value of the magazines in the stand: $97.28
 
 Dispensed one People
 Magazines in the mini magazine stand:
@@ -87,7 +91,7 @@ Magazines in the mini magazine stand:
                Vogue    2  4.49
                 Time    6  4.75
 
-Total value of the magzines in the stand: $92.89
+Total value of the magazines in the stand: $92.89
 
 Dispensed one ConsumerReports
 Dispensed one Time
@@ -99,7 +103,7 @@ Magazines in the mini magazine stand:
                Vogue    2  4.49
                 Time    5  4.75
 
-Total value of the magzines in the stand: $83.89
+Total value of the magazines in the stand: $83.89
 
 Dispensed one Time
 Newsweek added.
@@ -114,19 +118,19 @@ Magazines in the mini magazine stand:
                 Time    4  4.75
                Vogue    1  4.49
 
-Total value of the magzines in the stand: $84.63
+Total value of the magazines in the stand: $84.63
 
 Unit prices have been cut 10.00%
 Magazines in the mini magazine stand:
 
-     ConsumerReports    5  3.82
- NationalGeographics    3  3.82
+     ConsumerReports    5  3.83
+ NationalGeographics    3  3.83
             Newsweek    2  4.49
            Seventeen    4  3.86
                 Time    4  4.28
                Vogue    1  4.04
 
-Total value of the magzines in the stand: $76.17
+Total value of the magazines in the stand: $76.17
 
 Unit prices have been cut 5.00%
 Magazines in the mini magazine stand:
@@ -138,7 +142,7 @@ Magazines in the mini magazine stand:
                 Time    4  4.06
                Vogue    1  3.84
 
-Total value of the magzines in the stand: $72.36
+Total value of the magazines in the stand: $72.36
 
 Total sales amount for the mini magazine stand is $22.63
 
