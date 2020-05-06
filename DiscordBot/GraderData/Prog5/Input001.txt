@@ -1,0 +1,28 @@
+Add Alice
+Add Bob
+Update Alice laptop   6000 2
+Output Alice
+Update Bob  deskTop  18000 4
+Update Bob  tabLet   4600 3
+Output Bob
+Add Charlie
+Add Charlie
+Add Michael
+Add Nick
+Add Sarah
+Add Emily
+Update Alice Desktop 37000 2
+Update Charlie Laptop 40000 4
+Update Bob  laptoP    9500 5
+Update Charlie Desktop 10600 2
+Update Tom laptop   6000 2
+Output Tom
+Add Tom
+Update Tom laptop   6000 2
+Output Tom
+Quit
+Do NOT COME HERE
+don't
+stop
+wait
+Ouch

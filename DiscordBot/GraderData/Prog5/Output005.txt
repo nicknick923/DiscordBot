@@ -1,0 +1,52 @@
+Cannot update statistics. Pritzl is not in the list.
+Cannot update statistics. Matt is not in the list.
+Cannot update statistics. John is not in the list.
+Dave is seller 1.
+Cannot output. Megan is not in the list.
+Spencer is seller 2.
+Cannot update statistics. Megan is not in the list.
+Cannot output. Matt is not in the list.
+Cannot output. John is not in the list.
+Dave is already in the list.
+Cannot update statistics. Jason is not in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Dave is already in the list.
+Ted is seller 3.
+Cannot output. Pritzl is not in the list.
+Cannot update statistics. Matt is not in the list.
+Ted is already in the list.
+Cannot update statistics. Jake is not in the list.
+Ski is seller 4.
+Cannot update statistics. Jason is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot update statistics. Megan is not in the list.
+Cannot update statistics. Jake is not in the list.
+Cannot output. Matt is not in the list.
+Cannot update statistics. Jake is not in the list.
+Ted sold 1 laptop computer for 1526 Dollars.
+Jake is seller 5.
+Jason not added. List is full.
+Cannot output. Megan is not in the list.
+Cannot update statistics. John is not in the list.
+Jake: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Ski is already in the list.
+Megan not added. List is full.
+Ted is already in the list.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. John is not in the list.
+Cannot output. Jason is not in the list.
+Cannot update statistics. Jason is not in the list.
+Jake is already in the list.
+Cannot output. Pritzl is not in the list.
+Ski sold 2 desktop computers for 9796 Dollars.
+Cannot update statistics. Pritzl is not in the list.
+Cannot output. Matt is not in the list.
+Spencer is already in the list.
+Megan not added. List is full.
+Dave is already in the list.
+Cannot update statistics. John is not in the list.
+Ted: $1526; sold 1 Laptop, 0 Desktops and 0 Tablets.
+Ski: $9796; sold 0 Laptops, 2 Desktops and 0 Tablets.
+Cannot output. Matt is not in the list.
+The contest is over. The winners are:
+There is no winner!

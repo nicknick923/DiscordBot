@@ -1,0 +1,52 @@
+Cannot output. Ted is not in the list.
+Cannot update statistics. Jake is not in the list.
+Cannot update statistics. Megan is not in the list.
+Cannot update statistics. John is not in the list.
+Megan is seller 1.
+Hans is seller 2.
+Hans sold 4 tablet computers for 6602 Dollars.
+Cannot update statistics. Matt is not in the list.
+Cannot update statistics. Ski is not in the list.
+Cannot output. Ted is not in the list.
+Cannot update statistics. Ski is not in the list.
+Megan sold 2 laptop computers for 2154 Dollars.
+Jake is seller 3.
+Cannot update statistics. Ted is not in the list.
+Cannot update statistics. Matt is not in the list.
+Megan sold 2 tablet computers for 5262 Dollars.
+Jake is already in the list.
+Dave is seller 4.
+Cannot update statistics. Pritzl is not in the list.
+Pritzl is seller 5.
+Cannot update statistics. Ted is not in the list.
+Cannot update statistics. Ski is not in the list.
+Cannot update statistics. Matt is not in the list.
+Matt not added. List is full.
+Cannot update statistics. Spencer is not in the list.
+Matt not added. List is full.
+Dave is already in the list.
+Cannot output. Jason is not in the list.
+Pritzl sold 3 desktop computers for 17106 Dollars.
+Hans is already in the list.
+Jake sold 1 laptop computer for 5939 Dollars.
+Cannot update statistics. Ted is not in the list.
+Dave is already in the list.
+Hans is already in the list.
+Cannot output. Ski is not in the list.
+Matt not added. List is full.
+Dave sold 4 desktop computers for 11787 Dollars.
+Dave: $11787; sold 0 Laptops, 4 Desktops and 0 Tablets.
+Jake is already in the list.
+Cannot update statistics. John is not in the list.
+Cannot output. Spencer is not in the list.
+Pritzl is already in the list.
+John not added. List is full.
+Cannot update statistics. Ted is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot update statistics. Spencer is not in the list.
+Ski not added. List is full.
+Pritzl sold 3 tablet computers for 16765 Dollars.
+Dave is already in the list.
+Ski not added. List is full.
+The contest is over. The winners are:
+There is no winner!

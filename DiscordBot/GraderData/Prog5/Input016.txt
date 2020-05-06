@@ -1,0 +1,52 @@
+Update Pritzl tableT 19990 2
+Add Ski
+Output John
+Add Megan
+Output Hans
+Output Ski
+Output Ski
+Add Jake
+Output Dave
+Output Dave
+Output Jake
+Add Matt
+Output Hans
+Update Megan DESktoP 1990 2
+Output Dave
+Update Ted DeSktOP 2752 3
+Add John
+Output Pritzl
+Output John
+Output Spencer
+Output Matt
+Output Hans
+Update Dave laPtOP 17085 2
+Output Jason
+Output Pritzl
+Output Megan
+Output Jake
+Output Dave
+Add Matt
+Add Jake
+Update Ski DEsKtOp 5865 2
+Add Pritzl
+Update Megan deskTOP 15426 3
+Output Dave
+Output Megan
+Update John LAptop 4282 3
+Output Jake
+Add Spencer
+Output Matt
+Output Ted
+Add Pritzl
+Update John dEskTop 1696 2
+Output John
+Add Ski
+Add Ted
+Add Ski
+Output Spencer
+Update John deSKtop 8554 1
+Output Spencer
+Add Hans
+Quit
+Get out

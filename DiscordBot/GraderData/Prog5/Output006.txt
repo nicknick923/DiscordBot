@@ -1,0 +1,52 @@
+Jake is seller 1.
+Cannot output. Dave is not in the list.
+Jake sold 3 desktop computers for 14493 Dollars.
+John is seller 2.
+Cannot update statistics. Hans is not in the list.
+Pritzl is seller 3.
+Jake is already in the list.
+Cannot update statistics. Ted is not in the list.
+John sold 4 tablet computers for 9664 Dollars.
+Cannot output. Ski is not in the list.
+Pritzl is already in the list.
+Spencer is seller 4.
+Cannot update statistics. Ted is not in the list.
+Dave is seller 5.
+Spencer is already in the list.
+Cannot output. Matt is not in the list.
+Ted not added. List is full.
+Pritzl sold 3 tablet computers for 19204 Dollars.
+Spencer: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Megan is not in the list.
+Cannot update statistics. Ted is not in the list.
+Cannot output. Megan is not in the list.
+Spencer sold 2 laptop computers for 360 Dollars.
+Ski not added. List is full.
+Jake is already in the list.
+Cannot output. Ted is not in the list.
+Spencer sold 3 tablet computers for 19330 Dollars.
+Pritzl sold 1 laptop computer for 3820 Dollars.
+Ski not added. List is full.
+Ted not added. List is full.
+Megan not added. List is full.
+Pritzl sold 3 tablet computers for 6758 Dollars.
+Pritzl sold 1 tablet computer for 3370 Dollars.
+Pritzl is already in the list.
+Cannot update statistics. Jason is not in the list.
+John: $9664; sold 0 Laptops, 0 Desktops and 4 Tablets.
+Pritzl is already in the list.
+Jake is already in the list.
+John sold 2 laptop computers for 2884 Dollars.
+Jake: $14493; sold 0 Laptops, 3 Desktops and 0 Tablets.
+Cannot output. Hans is not in the list.
+Dave sold 1 tablet computer for 11581 Dollars.
+Cannot output. Megan is not in the list.
+Cannot update statistics. Matt is not in the list.
+Pritzl is already in the list.
+Spencer is already in the list.
+Spencer sold 4 laptop computers for 14066 Dollars.
+Jake: $14493; sold 0 Laptops, 3 Desktops and 0 Tablets.
+Cannot update statistics. Jason is not in the list.
+The contest is over. The winners are:
+There is no winner!

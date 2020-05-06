@@ -1,0 +1,52 @@
+Cannot update statistics. Matt is not in the list.
+Cannot output. Hans is not in the list.
+Cannot update statistics. Matt is not in the list.
+Cannot output. Jake is not in the list.
+Cannot output. John is not in the list.
+Cannot output. Hans is not in the list.
+Ted is seller 1.
+Ski is seller 2.
+Jake is seller 3.
+Ted is already in the list.
+John is seller 4.
+Ski is already in the list.
+Cannot update statistics. Dave is not in the list.
+Matt is seller 5.
+Cannot output. Hans is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+Cannot update statistics. Jason is not in the list.
+Jake is already in the list.
+Cannot output. Pritzl is not in the list.
+Cannot output. Megan is not in the list.
+Hans not added. List is full.
+Dave not added. List is full.
+Matt is already in the list.
+Matt sold 2 desktop computers for 15096 Dollars.
+Cannot output. Dave is not in the list.
+Matt is already in the list.
+Cannot output. Megan is not in the list.
+Cannot output. Pritzl is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jake is already in the list.
+Hans not added. List is full.
+Cannot output. Pritzl is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot output. Hans is not in the list.
+Cannot output. Pritzl is not in the list.
+Cannot update statistics. Megan is not in the list.
+John is already in the list.
+Jake sold 2 desktop computers for 10473 Dollars.
+Jake is already in the list.
+Ted sold 4 laptop computers for 2303 Dollars.
+Cannot update statistics. Hans is not in the list.
+Spencer not added. List is full.
+John is already in the list.
+Matt: $15096; sold 0 Laptops, 2 Desktops and 0 Tablets.
+Megan not added. List is full.
+Cannot output. Dave is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+Hans not added. List is full.
+The contest is over. The winners are:
+There is no winner!

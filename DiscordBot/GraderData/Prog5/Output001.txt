@@ -1,0 +1,24 @@
+Alice is seller 1.
+Bob is seller 2.
+Alice sold 2 laptop computers for 6000 Dollars.
+Alice: $6000; sold 2 Laptops, 0 Desktops and 0 Tablets.
+Bob sold 4 desktop computers for 18000 Dollars.
+Bob sold 3 tablet computers for 4600 Dollars.
+Bob: $22600; sold 0 Laptops, 4 Desktops and 3 Tablets.
+Charlie is seller 3.
+Charlie is already in the list.
+Michael is seller 4.
+Nick is seller 5.
+Sarah not added. List is full.
+Emily not added. List is full.
+Alice sold 2 desktop computers for 37000 Dollars.
+Charlie sold 4 laptop computers for 40000 Dollars.
+Bob sold 5 laptop computers for 9500 Dollars.
+Charlie sold 2 desktop computers for 10600 Dollars.
+Cannot update statistics. Tom is not in the list.
+Cannot output. Tom is not in the list.
+Tom not added. List is full.
+Cannot update statistics. Tom is not in the list.
+Cannot output. Tom is not in the list.
+The contest is over. The winners are:
+Charlie: $50600; sold 4 Laptops, 2 Desktops and 0 Tablets.

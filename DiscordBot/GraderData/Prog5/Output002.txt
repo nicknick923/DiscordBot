@@ -1,0 +1,52 @@
+Cannot output. Dave is not in the list.
+Cannot update statistics. Matt is not in the list.
+Cannot output. Dave is not in the list.
+Cannot update statistics. Megan is not in the list.
+Spencer is seller 1.
+Cannot output. Ski is not in the list.
+Hans is seller 2.
+Cannot output. Jake is not in the list.
+Cannot output. Pritzl is not in the list.
+Cannot output. Pritzl is not in the list.
+John is seller 3.
+Cannot output. Jason is not in the list.
+Hans sold 4 desktop computers for 10112 Dollars.
+Cannot update statistics. Jake is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot output. Ski is not in the list.
+Cannot update statistics. Jake is not in the list.
+Cannot update statistics. Megan is not in the list.
+Spencer is already in the list.
+Cannot output. Jake is not in the list.
+Cannot update statistics. Ted is not in the list.
+Cannot output. Megan is not in the list.
+Spencer is already in the list.
+Cannot update statistics. Matt is not in the list.
+Cannot output. Ted is not in the list.
+Cannot output. Jake is not in the list.
+Hans sold 4 laptop computers for 8624 Dollars.
+Matt is seller 4.
+Cannot update statistics. Pritzl is not in the list.
+Megan is seller 5.
+Cannot output. Jason is not in the list.
+Ted not added. List is full.
+Hans sold 3 tablet computers for 4396 Dollars.
+Spencer sold 3 laptop computers for 4051 Dollars.
+Spencer: $4051; sold 3 Laptops, 0 Desktops and 0 Tablets.
+Ted not added. List is full.
+Cannot update statistics. Ski is not in the list.
+Spencer: $4051; sold 3 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Dave is not in the list.
+Spencer sold 3 tablet computers for 12458 Dollars.
+Jake not added. List is full.
+Megan sold 3 desktop computers for 6440 Dollars.
+Cannot update statistics. Pritzl is not in the list.
+Dave not added. List is full.
+Cannot update statistics. Pritzl is not in the list.
+Spencer is already in the list.
+Matt sold 4 laptop computers for 11173 Dollars.
+Spencer sold 4 tablet computers for 119 Dollars.
+Matt sold 2 laptop computers for 11858 Dollars.
+Cannot output. Ski is not in the list.
+The contest is over. The winners are:
+There is no winner!

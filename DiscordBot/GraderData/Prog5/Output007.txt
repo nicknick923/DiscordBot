@@ -1,0 +1,52 @@
+Cannot output. Jake is not in the list.
+Hans is seller 1.
+Cannot update statistics. John is not in the list.
+Spencer is seller 2.
+Cannot output. Dave is not in the list.
+Cannot output. Jason is not in the list.
+Spencer: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Megan is not in the list.
+Megan is seller 3.
+Megan sold 4 tablet computers for 18772 Dollars.
+Spencer is already in the list.
+Spencer is already in the list.
+Cannot output. Jason is not in the list.
+Megan is already in the list.
+Cannot output. Jake is not in the list.
+Hans sold 3 laptop computers for 5444 Dollars.
+Jason is seller 4.
+Hans: $5444; sold 3 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Jake is not in the list.
+Hans: $5444; sold 3 Laptops, 0 Desktops and 0 Tablets.
+Hans sold 3 desktop computers for 18388 Dollars.
+Dave is seller 5.
+Hans is already in the list.
+Cannot update statistics. Jake is not in the list.
+Cannot update statistics. Matt is not in the list.
+Megan: $18772; sold 0 Laptops, 0 Desktops and 4 Tablets.
+Spencer sold 2 desktop computers for 3306 Dollars.
+Cannot output. Matt is not in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jake not added. List is full.
+Matt not added. List is full.
+Spencer is already in the list.
+Megan is already in the list.
+Spencer: $3306; sold 0 Laptops, 2 Desktops and 0 Tablets.
+Cannot update statistics. Ski is not in the list.
+Cannot update statistics. Ted is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+Hans: $23832; sold 3 Laptops, 3 Desktops and 0 Tablets.
+Pritzl not added. List is full.
+Hans is already in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Megan is already in the list.
+Cannot output. John is not in the list.
+Cannot update statistics. Ted is not in the list.
+Hans sold 2 laptop computers for 11505 Dollars.
+Spencer is already in the list.
+Cannot output. Matt is not in the list.
+Cannot output. Pritzl is not in the list.
+Ski not added. List is full.
+John not added. List is full.
+The contest is over. The winners are:
+There is no winner!

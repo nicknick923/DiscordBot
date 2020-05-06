@@ -1,0 +1,52 @@
+John is seller 1.
+Cannot update statistics. Hans is not in the list.
+Cannot output. Megan is not in the list.
+Spencer is seller 2.
+Dave is seller 3.
+John is already in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Ski is not in the list.
+Cannot output. Jake is not in the list.
+Hans is seller 4.
+Cannot output. Ski is not in the list.
+John sold 3 laptop computers for 11404 Dollars.
+Cannot output. Megan is not in the list.
+Hans is already in the list.
+Cannot output. Megan is not in the list.
+Cannot update statistics. Ski is not in the list.
+Cannot update statistics. Megan is not in the list.
+Matt is seller 5.
+Cannot update statistics. Megan is not in the list.
+Cannot output. Jason is not in the list.
+Cannot output. Ted is not in the list.
+Cannot output. Jake is not in the list.
+Cannot output. Ted is not in the list.
+Jake not added. List is full.
+Cannot output. Pritzl is not in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Pritzl is not in the list.
+Jake not added. List is full.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Hans: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+John: $11404; sold 3 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Jason is not in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Dave is already in the list.
+Matt: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jake not added. List is full.
+Spencer sold 1 laptop computer for 11449 Dollars.
+Cannot update statistics. Pritzl is not in the list.
+Hans sold 4 tablet computers for 17601 Dollars.
+Matt: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Jake is not in the list.
+Hans sold 3 desktop computers for 9365 Dollars.
+Cannot output. Megan is not in the list.
+Cannot update statistics. Ski is not in the list.
+Cannot output. Ski is not in the list.
+Cannot update statistics. Ski is not in the list.
+Megan not added. List is full.
+Hans is already in the list.
+Cannot update statistics. Pritzl is not in the list.
+Hans: $26966; sold 0 Laptops, 3 Desktops and 4 Tablets.
+The contest is over. The winners are:
+There is no winner!

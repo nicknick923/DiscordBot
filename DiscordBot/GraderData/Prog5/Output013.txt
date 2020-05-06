@@ -1,0 +1,52 @@
+Cannot output. Pritzl is not in the list.
+Jason is seller 1.
+Ski is seller 2.
+Pritzl is seller 3.
+Spencer is seller 4.
+John is seller 5.
+Cannot update statistics. Hans is not in the list.
+Matt not added. List is full.
+Jason: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Megan is not in the list.
+Cannot update statistics. Ted is not in the list.
+Cannot update statistics. Jake is not in the list.
+Jake not added. List is full.
+Dave not added. List is full.
+Jason: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Matt is not in the list.
+Cannot output. Hans is not in the list.
+Dave not added. List is full.
+Ski sold 3 desktop computers for 15733 Dollars.
+Cannot update statistics. Megan is not in the list.
+Dave not added. List is full.
+Spencer is already in the list.
+Ski sold 2 laptop computers for 8892 Dollars.
+Hans not added. List is full.
+Jason is already in the list.
+John: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Ted not added. List is full.
+Jake not added. List is full.
+John is already in the list.
+Jake not added. List is full.
+Cannot output. Jake is not in the list.
+Cannot update statistics. Hans is not in the list.
+Cannot output. Dave is not in the list.
+Cannot update statistics. Jake is not in the list.
+Matt not added. List is full.
+Jake not added. List is full.
+Cannot update statistics. Megan is not in the list.
+Cannot update statistics. Jake is not in the list.
+Jason sold 2 desktop computers for 7736 Dollars.
+Spencer: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Hans is not in the list.
+Cannot update statistics. Dave is not in the list.
+Spencer sold 2 laptop computers for 12752 Dollars.
+Ski: $24625; sold 2 Laptops, 3 Desktops and 0 Tablets.
+Cannot update statistics. Matt is not in the list.
+Spencer sold 4 tablet computers for 18949 Dollars.
+Cannot update statistics. Megan is not in the list.
+Spencer: $31701; sold 2 Laptops, 0 Desktops and 4 Tablets.
+Cannot output. Jake is not in the list.
+Cannot update statistics. Jake is not in the list.
+The contest is over. The winners are:
+There is no winner!

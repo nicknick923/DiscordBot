@@ -1,0 +1,52 @@
+Cannot update statistics. Dave is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+John is seller 1.
+Spencer is seller 2.
+Cannot output. Matt is not in the list.
+Cannot update statistics. Dave is not in the list.
+John: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer sold 4 tablet computers for 8733 Dollars.
+Ski is seller 3.
+Cannot update statistics. Dave is not in the list.
+Pritzl is seller 4.
+Cannot update statistics. Jason is not in the list.
+Cannot output. Jake is not in the list.
+Dave is seller 5.
+Cannot update statistics. Matt is not in the list.
+Dave sold 1 tablet computer for 4123 Dollars.
+Hans not added. List is full.
+Spencer sold 3 desktop computers for 17889 Dollars.
+John: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer is already in the list.
+Cannot output. Ted is not in the list.
+John sold 4 tablet computers for 14270 Dollars.
+Jason not added. List is full.
+Cannot update statistics. Matt is not in the list.
+Ted not added. List is full.
+Dave sold 4 tablet computers for 10351 Dollars.
+Jake not added. List is full.
+Spencer: $26622; sold 0 Laptops, 3 Desktops and 4 Tablets.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer sold 3 laptop computers for 10130 Dollars.
+Spencer is already in the list.
+Pritzl: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Hans not added. List is full.
+Pritzl: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Pritzl: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer is already in the list.
+Pritzl: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Ted is not in the list.
+Spencer: $36752; sold 3 Laptops, 3 Desktops and 4 Tablets.
+Megan not added. List is full.
+Cannot output. Megan is not in the list.
+Dave sold 1 laptop computer for 5668 Dollars.
+Megan not added. List is full.
+Dave: $20142; sold 1 Laptop, 0 Desktops and 5 Tablets.
+Ted not added. List is full.
+Ted not added. List is full.
+John is already in the list.
+Pritzl: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer sold 2 tablet computers for 5061 Dollars.
+Matt not added. List is full.
+The contest is over. The winners are:
+There is no winner!

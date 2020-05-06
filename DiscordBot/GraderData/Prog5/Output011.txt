@@ -1,0 +1,52 @@
+Spencer is seller 1.
+Pritzl is seller 2.
+Ski is seller 3.
+John is seller 4.
+Jason is seller 5.
+Cannot output. Hans is not in the list.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Ski is already in the list.
+Cannot update statistics. Ted is not in the list.
+Jason sold 3 laptop computers for 18407 Dollars.
+Cannot update statistics. Megan is not in the list.
+Jason sold 2 laptop computers for 6411 Dollars.
+Matt not added. List is full.
+Cannot update statistics. Hans is not in the list.
+Spencer: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Ski is already in the list.
+John: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Hans is not in the list.
+Pritzl is already in the list.
+Matt not added. List is full.
+Cannot output. Megan is not in the list.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Pritzl: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Dave not added. List is full.
+Cannot update statistics. Megan is not in the list.
+Dave not added. List is full.
+Ski sold 1 laptop computer for 5029 Dollars.
+Spencer is already in the list.
+Spencer sold 3 desktop computers for 18557 Dollars.
+Jason is already in the list.
+Jake not added. List is full.
+Jason is already in the list.
+John sold 1 desktop computer for 19455 Dollars.
+Cannot output. Megan is not in the list.
+Cannot update statistics. Megan is not in the list.
+Cannot output. Matt is not in the list.
+Cannot update statistics. Dave is not in the list.
+Cannot update statistics. Matt is not in the list.
+Jason is already in the list.
+Jason: $24818; sold 5 Laptops, 0 Desktops and 0 Tablets.
+Spencer: $18557; sold 0 Laptops, 3 Desktops and 0 Tablets.
+John: $19455; sold 0 Laptops, 1 Desktop and 0 Tablets.
+Jason is already in the list.
+Cannot output. Ted is not in the list.
+Cannot update statistics. Megan is not in the list.
+Cannot output. Jake is not in the list.
+Jason: $24818; sold 5 Laptops, 0 Desktops and 0 Tablets.
+Ski: $5029; sold 1 Laptop, 0 Desktops and 0 Tablets.
+Ski: $5029; sold 1 Laptop, 0 Desktops and 0 Tablets.
+The contest is over. The winners are:
+There is no winner!

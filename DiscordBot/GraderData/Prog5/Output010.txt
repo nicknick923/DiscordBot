@@ -1,0 +1,52 @@
+Ted is seller 1.
+Cannot update statistics. Pritzl is not in the list.
+Cannot output. Matt is not in the list.
+Jason is seller 2.
+Megan is seller 3.
+Cannot update statistics. Pritzl is not in the list.
+Cannot update statistics. Matt is not in the list.
+Ted sold 2 laptop computers for 18857 Dollars.
+Megan: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Ski is not in the list.
+Jason sold 2 laptop computers for 6395 Dollars.
+Cannot output. Pritzl is not in the list.
+Ski is seller 4.
+Spencer is seller 5.
+Cannot update statistics. Pritzl is not in the list.
+Spencer is already in the list.
+Megan is already in the list.
+John not added. List is full.
+Cannot output. John is not in the list.
+Cannot output. Hans is not in the list.
+Cannot output. Pritzl is not in the list.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Matt is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+Cannot output. Matt is not in the list.
+Cannot output. John is not in the list.
+Cannot update statistics. Matt is not in the list.
+Spencer: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Jake is not in the list.
+Megan sold 4 desktop computers for 3390 Dollars.
+Cannot output. Jake is not in the list.
+Cannot output. Pritzl is not in the list.
+Megan sold 2 laptop computers for 4038 Dollars.
+Cannot update statistics. Hans is not in the list.
+Cannot output. Matt is not in the list.
+Megan: $7428; sold 2 Laptops, 4 Desktops and 0 Tablets.
+Megan: $7428; sold 2 Laptops, 4 Desktops and 0 Tablets.
+Cannot update statistics. Jake is not in the list.
+Spencer sold 4 desktop computers for 13570 Dollars.
+Megan sold 3 tablet computers for 16626 Dollars.
+Megan: $24054; sold 2 Laptops, 4 Desktops and 3 Tablets.
+Cannot update statistics. Matt is not in the list.
+Hans not added. List is full.
+Cannot output. John is not in the list.
+Megan is already in the list.
+Cannot output. Hans is not in the list.
+Ted sold 1 desktop computer for 19183 Dollars.
+Ted is already in the list.
+Ski sold 4 laptop computers for 14508 Dollars.
+Spencer: $13570; sold 0 Laptops, 4 Desktops and 0 Tablets.
+The contest is over. The winners are:
+There is no winner!

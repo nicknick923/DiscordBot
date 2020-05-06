@@ -1,0 +1,52 @@
+Cannot output. Jake is not in the list.
+Cannot update statistics. Spencer is not in the list.
+Cannot update statistics. Ski is not in the list.
+Cannot output. John is not in the list.
+Matt is seller 1.
+Cannot output. Jake is not in the list.
+Cannot update statistics. Hans is not in the list.
+Cannot output. Jason is not in the list.
+Pritzl is seller 2.
+Pritzl is already in the list.
+Jake is seller 3.
+Pritzl sold 2 laptop computers for 1281 Dollars.
+Ted is seller 4.
+Cannot update statistics. Megan is not in the list.
+Jake sold 3 laptop computers for 17087 Dollars.
+Matt is already in the list.
+Pritzl is already in the list.
+Matt sold 3 laptop computers for 18753 Dollars.
+Jake sold 3 desktop computers for 2146 Dollars.
+Cannot update statistics. Hans is not in the list.
+Cannot update statistics. Ski is not in the list.
+Dave is seller 5.
+Hans not added. List is full.
+Cannot output. Ski is not in the list.
+Cannot update statistics. Hans is not in the list.
+Jake sold 3 laptop computers for 14010 Dollars.
+Jake is already in the list.
+Dave sold 1 tablet computer for 8586 Dollars.
+Ted sold 2 desktop computers for 17005 Dollars.
+Dave is already in the list.
+Matt sold 1 tablet computer for 3067 Dollars.
+Cannot update statistics. Hans is not in the list.
+Jake sold 4 laptop computers for 13052 Dollars.
+Spencer not added. List is full.
+Matt sold 1 laptop computer for 15348 Dollars.
+Megan not added. List is full.
+Ted is already in the list.
+Pritzl: $1281; sold 2 Laptops, 0 Desktops and 0 Tablets.
+Ted: $17005; sold 0 Laptops, 2 Desktops and 0 Tablets.
+Matt is already in the list.
+John not added. List is full.
+Pritzl: $1281; sold 2 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Megan is not in the list.
+Jake is already in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot output. John is not in the list.
+Dave is already in the list.
+Hans not added. List is full.
+The contest is over. The winners are:
+Jake: $46295; sold 10 Laptops, 3 Desktops and 0 Tablets.

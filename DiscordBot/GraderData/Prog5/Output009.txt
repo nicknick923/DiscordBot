@@ -1,0 +1,52 @@
+Cannot update statistics. Pritzl is not in the list.
+Cannot update statistics. Dave is not in the list.
+Dave is seller 1.
+Cannot update statistics. Spencer is not in the list.
+Hans is seller 2.
+Ski is seller 3.
+Jason is seller 4.
+Jake is seller 5.
+Hans is already in the list.
+Hans sold 4 laptop computers for 2578 Dollars.
+Hans: $2578; sold 4 Laptops, 0 Desktops and 0 Tablets.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Matt is not in the list.
+Jake is already in the list.
+Ski sold 1 desktop computer for 2158 Dollars.
+Pritzl not added. List is full.
+Jake is already in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+John not added. List is full.
+Cannot update statistics. Pritzl is not in the list.
+Ted not added. List is full.
+Jake: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jason: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Megan is not in the list.
+Hans sold 2 laptop computers for 12049 Dollars.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Pritzl not added. List is full.
+Cannot update statistics. Pritzl is not in the list.
+Hans sold 2 laptop computers for 10344 Dollars.
+Dave is already in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Dave is already in the list.
+Cannot output. John is not in the list.
+Ski sold 2 laptop computers for 933 Dollars.
+Cannot output. John is not in the list.
+Hans: $24971; sold 8 Laptops, 0 Desktops and 0 Tablets.
+Ted not added. List is full.
+Cannot output. John is not in the list.
+Dave is already in the list.
+Jake is already in the list.
+Cannot output. John is not in the list.
+Cannot output. John is not in the list.
+Ted not added. List is full.
+Cannot update statistics. Pritzl is not in the list.
+Cannot update statistics. Matt is not in the list.
+John not added. List is full.
+Cannot update statistics. Spencer is not in the list.
+Ski sold 1 tablet computer for 6197 Dollars.
+Cannot update statistics. Megan is not in the list.
+Cannot output. Pritzl is not in the list.
+The contest is over. The winners are:
+There is no winner!

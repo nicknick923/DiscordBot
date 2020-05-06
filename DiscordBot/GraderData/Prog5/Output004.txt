@@ -1,0 +1,52 @@
+Cannot output. Jake is not in the list.
+Cannot update statistics. Hans is not in the list.
+Matt is seller 1.
+Cannot output. Ted is not in the list.
+Cannot output. Jake is not in the list.
+Cannot update statistics. John is not in the list.
+Ski is seller 2.
+Ski is already in the list.
+Ski is already in the list.
+Ted is seller 3.
+Cannot output. John is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+Cannot update statistics. Dave is not in the list.
+Matt: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer is seller 4.
+Dave is seller 5.
+Cannot output. Hans is not in the list.
+Spencer: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Dave is already in the list.
+Megan not added. List is full.
+Jason not added. List is full.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot update statistics. Jason is not in the list.
+Dave sold 1 tablet computer for 12042 Dollars.
+Spencer: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+John not added. List is full.
+Hans not added. List is full.
+Ted sold 1 laptop computer for 9664 Dollars.
+Ted sold 3 laptop computers for 11021 Dollars.
+Cannot output. Jason is not in the list.
+Cannot update statistics. John is not in the list.
+Pritzl not added. List is full.
+Ted is already in the list.
+Dave: $12042; sold 0 Laptops, 0 Desktops and 1 Tablet.
+Ski sold 2 tablet computers for 6697 Dollars.
+Jason not added. List is full.
+Cannot update statistics. Hans is not in the list.
+Cannot output. Jake is not in the list.
+Cannot output. Megan is not in the list.
+Cannot update statistics. Jason is not in the list.
+Dave is already in the list.
+Cannot update statistics. Hans is not in the list.
+Cannot update statistics. Pritzl is not in the list.
+Megan not added. List is full.
+Cannot update statistics. Hans is not in the list.
+Cannot update statistics. Hans is not in the list.
+Dave is already in the list.
+Ted is already in the list.
+Cannot update statistics. Hans is not in the list.
+Cannot output. Hans is not in the list.
+The contest is over. The winners are:
+There is no winner!

@@ -1,0 +1,51 @@
+Update Ted laPtOP 1922 3
+Output Spencer
+Add Pritzl
+Update Megan tablet 5695 1
+Add Ted
+Update Jason tablEt 11362 3
+Add Pritzl
+Update John DesktOP 14041 1
+Add Megan
+Add Pritzl
+Add Ski
+Add Pritzl
+Add Ski
+Update Ski taBlET 16924 3
+Update Megan deSkToP 7393 1
+Add Megan
+Output Spencer
+Output John
+Update Ted laptoP 7279 3
+Update Jason LaptoP 8460 4
+Add Hans
+Output Jason
+Update Jake dESKTOp 12543 4
+Update Dave tAbLet 11390 2
+Output Pritzl
+Add Hans
+Output Megan
+Output Ted
+Output Jason
+Update Spencer DEsKtOp 3905 4
+Output Ski
+Output Ted
+Update Hans lAptoP 4835 4
+Update John LAPTOP 11681 4
+Output Ted
+Update Ski LAPtOp 12077 3
+Update Ted dESkTOP 2752 3
+Update Jake dESKTOp 9157 4
+Output Jake
+Update Matt laPTOP 1322 1
+Add John
+Output Matt
+Add John
+Output John
+Output Ted
+Add Jason
+Update Megan dEsKtop 13932 1
+Update Jake deSKToP 14002 4
+Output Ted
+Update John deSKTop 346 1
+Quit

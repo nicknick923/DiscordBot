@@ -1,0 +1,52 @@
+Cannot update statistics. Megan is not in the list.
+Cannot update statistics. John is not in the list.
+Pritzl is seller 1.
+Cannot output. Megan is not in the list.
+Cannot update statistics. John is not in the list.
+Hans is seller 2.
+Ted is seller 3.
+Hans sold 2 desktop computers for 2194 Dollars.
+Cannot output. Ski is not in the list.
+Hans sold 2 tablet computers for 2590 Dollars.
+Cannot output. Jason is not in the list.
+Hans is already in the list.
+Ted sold 1 tablet computer for 14023 Dollars.
+Cannot update statistics. John is not in the list.
+Cannot update statistics. Matt is not in the list.
+Cannot update statistics. Megan is not in the list.
+Cannot output. Dave is not in the list.
+Dave is seller 4.
+Ted: $14023; sold 0 Laptops, 0 Desktops and 1 Tablet.
+Cannot update statistics. Matt is not in the list.
+Spencer is seller 5.
+Hans is already in the list.
+Megan not added. List is full.
+Spencer is already in the list.
+Pritzl sold 3 desktop computers for 13880 Dollars.
+Ski not added. List is full.
+Dave is already in the list.
+Cannot update statistics. Matt is not in the list.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jason not added. List is full.
+Cannot output. Jake is not in the list.
+Spencer sold 3 desktop computers for 13665 Dollars.
+John not added. List is full.
+Cannot update statistics. Matt is not in the list.
+Ted sold 3 tablet computers for 4388 Dollars.
+Cannot output. Jake is not in the list.
+Cannot output. Megan is not in the list.
+Cannot update statistics. Matt is not in the list.
+Ted: $18411; sold 0 Laptops, 0 Desktops and 4 Tablets.
+Pritzl sold 1 desktop computer for 8832 Dollars.
+Spencer sold 1 tablet computer for 5966 Dollars.
+Matt not added. List is full.
+Ted is already in the list.
+Cannot output. Ski is not in the list.
+Spencer is already in the list.
+Spencer: $19631; sold 0 Laptops, 3 Desktops and 1 Tablet.
+John not added. List is full.
+Dave: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. John is not in the list.
+Jake not added. List is full.
+The contest is over. The winners are:
+There is no winner!

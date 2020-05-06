@@ -1,0 +1,52 @@
+Cannot update statistics. Pritzl is not in the list.
+Ski is seller 1.
+Cannot output. John is not in the list.
+Megan is seller 2.
+Cannot output. Hans is not in the list.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jake is seller 3.
+Cannot output. Dave is not in the list.
+Cannot output. Dave is not in the list.
+Jake: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Matt is seller 4.
+Cannot output. Hans is not in the list.
+Megan sold 2 desktop computers for 1990 Dollars.
+Cannot output. Dave is not in the list.
+Cannot update statistics. Ted is not in the list.
+John is seller 5.
+Cannot output. Pritzl is not in the list.
+John: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Spencer is not in the list.
+Matt: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Hans is not in the list.
+Cannot update statistics. Dave is not in the list.
+Cannot output. Jason is not in the list.
+Cannot output. Pritzl is not in the list.
+Megan: $1990; sold 0 Laptops, 2 Desktops and 0 Tablets.
+Jake: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Dave is not in the list.
+Matt is already in the list.
+Jake is already in the list.
+Ski sold 2 desktop computers for 5865 Dollars.
+Pritzl not added. List is full.
+Megan sold 3 desktop computers for 15426 Dollars.
+Cannot output. Dave is not in the list.
+Megan: $17416; sold 0 Laptops, 5 Desktops and 0 Tablets.
+John sold 3 laptop computers for 4282 Dollars.
+Jake: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer not added. List is full.
+Matt: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Ted is not in the list.
+Pritzl not added. List is full.
+John sold 2 desktop computers for 1696 Dollars.
+John: $5978; sold 3 Laptops, 2 Desktops and 0 Tablets.
+Ski is already in the list.
+Ted not added. List is full.
+Ski is already in the list.
+Cannot output. Spencer is not in the list.
+John sold 1 desktop computer for 8554 Dollars.
+Cannot output. Spencer is not in the list.
+Hans not added. List is full.
+The contest is over. The winners are:
+There is no winner!

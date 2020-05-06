@@ -1,0 +1,52 @@
+Pritzl is seller 1.
+Megan is seller 2.
+Cannot update statistics. Jake is not in the list.
+Cannot output. Dave is not in the list.
+Cannot output. Jake is not in the list.
+Cannot update statistics. Matt is not in the list.
+Cannot output. Dave is not in the list.
+Cannot output. John is not in the list.
+Pritzl: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Megan: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jake is seller 3.
+Cannot output. Dave is not in the list.
+Pritzl sold 2 tablet computers for 16705 Dollars.
+Hans is seller 4.
+Pritzl sold 3 tablet computers for 18624 Dollars.
+Dave is seller 5.
+Pritzl is already in the list.
+Pritzl: $35329; sold 0 Laptops, 0 Desktops and 5 Tablets.
+Cannot output. Spencer is not in the list.
+Cannot output. John is not in the list.
+Spencer not added. List is full.
+Hans: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. John is not in the list.
+Jake sold 4 tablet computers for 17589 Dollars.
+Matt not added. List is full.
+Cannot output. Spencer is not in the list.
+Cannot update statistics. Spencer is not in the list.
+Pritzl is already in the list.
+Jason not added. List is full.
+Megan is already in the list.
+Cannot output. Matt is not in the list.
+Cannot update statistics. Jason is not in the list.
+Cannot update statistics. Jason is not in the list.
+Megan: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Ted not added. List is full.
+Pritzl sold 3 desktop computers for 5813 Dollars.
+Dave sold 3 laptop computers for 4737 Dollars.
+Hans is already in the list.
+Matt not added. List is full.
+Dave: $4737; sold 3 Laptops, 0 Desktops and 0 Tablets.
+Pritzl: $41142; sold 0 Laptops, 3 Desktops and 5 Tablets.
+Jake is already in the list.
+Dave is already in the list.
+Megan sold 3 laptop computers for 11916 Dollars.
+Pritzl sold 1 desktop computer for 15808 Dollars.
+Cannot update statistics. Ted is not in the list.
+Dave sold 3 desktop computers for 9410 Dollars.
+Megan: $11916; sold 3 Laptops, 0 Desktops and 0 Tablets.
+Spencer not added. List is full.
+Hans is already in the list.
+The contest is over. The winners are:
+Pritzl: $56950; sold 0 Laptops, 4 Desktops and 5 Tablets.

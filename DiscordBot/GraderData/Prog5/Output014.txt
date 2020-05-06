@@ -1,0 +1,52 @@
+Jake is seller 1.
+Ted is seller 2.
+Cannot output. Ski is not in the list.
+Spencer is seller 3.
+Spencer is already in the list.
+Cannot output. Hans is not in the list.
+Cannot output. Matt is not in the list.
+Spencer sold 2 laptop computers for 12693 Dollars.
+Cannot update statistics. Hans is not in the list.
+Ski is seller 4.
+Jason is seller 5.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. John is not in the list.
+Ted sold 3 desktop computers for 14538 Dollars.
+Jason: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Hans not added. List is full.
+Ted is already in the list.
+Ski: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Dave not added. List is full.
+Cannot output. Hans is not in the list.
+Jason: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Cannot output. Pritzl is not in the list.
+Jason is already in the list.
+Cannot update statistics. Matt is not in the list.
+Cannot output. John is not in the list.
+Spencer: $12693; sold 2 Laptops, 0 Desktops and 0 Tablets.
+Ski sold 3 tablet computers for 1983 Dollars.
+Cannot output. Megan is not in the list.
+Spencer is already in the list.
+John not added. List is full.
+Cannot output. Pritzl is not in the list.
+Dave not added. List is full.
+Ski is already in the list.
+Cannot update statistics. Dave is not in the list.
+Jake is already in the list.
+Cannot output. Hans is not in the list.
+Cannot output. Pritzl is not in the list.
+Jake: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Jake: $0; sold 0 Laptops, 0 Desktops and 0 Tablets.
+Spencer is already in the list.
+Cannot output. Matt is not in the list.
+Cannot update statistics. Matt is not in the list.
+Matt not added. List is full.
+Cannot update statistics. Hans is not in the list.
+Cannot output. John is not in the list.
+Ted: $14538; sold 0 Laptops, 3 Desktops and 0 Tablets.
+Cannot output. Megan is not in the list.
+Cannot output. Dave is not in the list.
+Cannot output. Hans is not in the list.
+Spencer sold 4 desktop computers for 12680 Dollars.
+The contest is over. The winners are:
+There is no winner!
