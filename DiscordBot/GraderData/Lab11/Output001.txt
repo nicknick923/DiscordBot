@@ -1,0 +1,4 @@
+NAME                   FLOAT         INTEGER          ANSWER      SCI ANSWER 
+Roger Rabb         34.560001            1122        38776.32   3.877632e+04
+Penelope P          1.489674              12           17.88   1.787609e+01
+Dudley DuW          0.932432        12456783     11615107.00   1.161511e+07
