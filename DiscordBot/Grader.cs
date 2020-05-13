@@ -6,6 +6,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.Entities;
@@ -15,10 +16,113 @@ namespace DiscordBot
     public class Grader
     {
         private const string ExtractFolderName = "extract";
-
-        public static async Task Grade(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade, bool final)
+        public static async Task GradeCSharp(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade, bool final)
         {
-            bool finalExists = Directory.EnumerateDirectories(Config.Instance.GraderDump, $"{commandContext.User.Id}-{programToGrade}-*-final").Any();
+            string runPath = Path.Combine(Config.Instance.GraderDump, $"CS2430/{commandContext.User.Id}/{programToGrade}");
+
+            bool finalExists = Directory.EnumerateDirectories(runPath, "*-final").Any();
+            if (finalExists)
+            {
+                await commandContext.RespondAsync("Unable to grade, you've already submitted your final submission");
+            }
+            else
+            {
+                string graderDataFolder = Path.Join(currentDirectory, "GraderData", "CS2430", programToGrade);
+                if (Directory.Exists(graderDataFolder))
+                {
+                    await DownloadAndExtractFiles(attachment);
+                    string sourcePath = Path.Join(currentDirectory, ExtractFolderName);
+
+                    File.WriteAllText(Path.Combine(ExtractFolderName, "Build.csproj"), "<Project Sdk=\"Microsoft.NET.Sdk\"><PropertyGroup><OutputType>Exe</OutputType><TargetFramework>netcoreapp3.1</TargetFramework></PropertyGroup></Project>");
+                    ProcessStartInfo buildStartInfo = new ProcessStartInfo("dotnet", "build") { WorkingDirectory = ExtractFolderName };
+                    (string buildStandard, string buildError, bool buildTimeout) = RunProcess(buildStartInfo, 5000);
+                    string exeFile = Path.Combine(ExtractFolderName, "bin\\debug\\netcoreapp3.1\\Build.exe");
+
+                    if (!buildTimeout && File.Exists(exeFile))
+                    {
+                        StringBuilder runsStringBuilder = new StringBuilder();
+                        string fileGradeResults = GradeCSFiles(Directory.EnumerateFiles(sourcePath, "*.cs"));
+
+                        if (!string.IsNullOrWhiteSpace(fileGradeResults))
+                        {
+                            runsStringBuilder.AppendLine("File Grade Results:");
+                            runsStringBuilder.AppendLine(fileGradeResults);
+                        }
+
+                        await commandContext.RespondAsync("Build succeeded: Starting to test!");
+                        List<string> filesToZip = new List<string>();
+                        string runsFolder = Path.Join(ExtractFolderName, "Runs");
+                        if (Directory.Exists(runsFolder))
+                        {
+                            Directory.Delete(runsFolder, true);
+                        }
+                        bool anyFailed = false;
+                        Directory.CreateDirectory($"{ExtractFolderName}/Runs");
+                        foreach (string inputFilePath in Directory.EnumerateFiles(graderDataFolder, "Input*").OrderBy(a => a))
+                        {
+                            FileInfo fileInfo = new FileInfo(inputFilePath);
+                            string runNumber = fileInfo.Name.Replace("Input", "").Replace(".txt", "");
+                            string input = File.ReadAllText(inputFilePath);
+                            string expectedOutput = File.ReadAllText(Path.Join(graderDataFolder, $"Output{runNumber}.txt"));
+                            string results = RunProgram(sourcePath, exeFile, input);
+                            anyFailed |= !GradeOutput(runsStringBuilder, runNumber, expectedOutput, results);
+                            string expFileName = Path.Join(runsFolder, $"{programToGrade}Expected{runNumber}.txt");
+                            string actFileName = Path.Join(runsFolder, $"{programToGrade}Actual{runNumber}.txt");
+                            File.WriteAllText(expFileName, expectedOutput);
+                            File.WriteAllText(actFileName, results);
+                            filesToZip.AddRange(new[] { expFileName, actFileName });
+                        }
+
+                        string filePrefix = $"{programToGrade}_{DateTime.Now:MMddyyyy-HH-mm-ss}";
+                        string shortZipFileName = $"{filePrefix}.zip";
+                        string zipFileName = Path.Combine(ExtractFolderName, shortZipFileName);
+                        ZipFile.CreateFromDirectory(runsFolder, zipFileName);
+                        Directory.Delete(runsFolder, true);
+
+                        string finalResult = runsStringBuilder.ToString();
+                        string shortFileName = $"{filePrefix}_GraderResult.txt";
+                        string fileName = Path.Combine(ExtractFolderName, shortFileName);
+                        File.WriteAllText(fileName, finalResult);
+
+                        using (FileStream fileStream = new FileStream(fileName, FileMode.Open))
+                        using (FileStream zipFileStream = new FileStream(zipFileName, FileMode.Open))
+                        {
+                            await commandContext.RespondWithFilesAsync(new Dictionary<string, Stream>() { { shortFileName, fileStream }, { shortZipFileName, zipFileStream } },
+                                anyFailed ? "You're gonna wanna check the files" : "Nice work");
+                        }
+                    }
+                    else
+                    {
+                        var extractDir = new DirectoryInfo("extract");
+                        string failString = buildStandard.Replace(extractDir.FullName, "");
+                        DiscordEmbedBuilder discordEmbedBuilder = Config.Instance.GetDiscordEmbedBuilder()
+                            .WithTitle("Failed to build");
+                        if (failString.Length > 1500)
+                        {
+                            File.WriteAllText("Fail.txt", failString);
+                            await commandContext.RespondWithFileAsync("Fail.txt", embed: discordEmbedBuilder.Build());
+                        }
+                        else
+                        {
+                            discordEmbedBuilder = discordEmbedBuilder.WithDescription(failString);
+                            await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
+                        }
+                    }
+                    Directory.CreateDirectory(runPath);
+                    Directory.Move(ExtractFolderName, Path.Combine(runPath, $"{DateTime.Now:MMddyyyy-HH-mm-ss}{(final ? "-final" : "")}"));
+                }
+                else
+                {
+                    await commandContext.RespondAsync($"I am not yet ready to grade {programToGrade}!");
+                }
+            }
+        }
+
+        public static async Task GradeCPP(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade, bool final)
+        {
+            string runPath = Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}/CS1430/{programToGrade}");
+
+            bool finalExists = Directory.Exists(runPath) && Directory.EnumerateDirectories(runPath, "*-final").Any();
             if (finalExists)
             {
                 await commandContext.RespondAsync("Unable to grade, you've already submitted your final submission");
@@ -40,11 +144,12 @@ namespace DiscordBot
                     string argumentString = $"{sources} -o {exeFile} -static-libgcc -static-libstdc++";
                     try
                     {
-                        Process buildProcess = BuildProgram(argumentString);
+                        ProcessStartInfo buildPSI = new ProcessStartInfo(@"C:\MinGW\bin\g++.exe", argumentString) { WorkingDirectory = @"C:\MinGW\bin\" };
+                        var (buildStandard, buildError, buildTimeout) = RunProcess(buildPSI, 5000);
                         if (File.Exists(exeFile))
                         {
                             StringBuilder runsStringBuilder = new StringBuilder();
-                            string fileGradeResults = GradeFiles(sourceFiles);
+                            string fileGradeResults = GradeCPPFiles(sourceFiles);
 
                             if (!string.IsNullOrWhiteSpace(fileGradeResults))
                             {
@@ -106,7 +211,7 @@ namespace DiscordBot
                         else
                         {
                             var extractDir = new DirectoryInfo("extract");
-                            string failString = buildProcess.StandardError.ReadToEnd().Replace(extractDir.FullName, "");
+                            string failString = buildError.Replace(extractDir.FullName, "");
                             DiscordEmbedBuilder discordEmbedBuilder = Config.Instance.GetDiscordEmbedBuilder()
                                 .WithTitle("Failed to build");
                             if (failString.Length > 1500)
@@ -120,7 +225,6 @@ namespace DiscordBot
                                 await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
                             }
                         }
-                        string runPath= Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}/{programToGrade}");
                         Directory.CreateDirectory(runPath);
                         Directory.Move(ExtractFolderName, Path.Combine(runPath, $"{DateTime.Now:MMddyyyy-HH-mm-ss}{(final ? "-final" : "")}"));
                     }
@@ -157,7 +261,54 @@ namespace DiscordBot
             return results == expectedOutput;
         }
 
-        private static string GradeFiles(List<string> sourceFiles)
+        private static string GradeCPPFiles(IEnumerable<string> sourceFiles)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            foreach (string filePath in sourceFiles)
+            {
+                FileInfo fileInfo = new FileInfo(filePath);
+                List<int> linesThatAreTooLong = new List<int>();
+                List<int> linesThatAreIncorrectlyIndented = new List<int>();
+                List<int> linesThatHaveTabs = new List<int>();
+                string[] lines = File.ReadAllLines(filePath);
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    string line = lines[i];
+                    int lineNumber = i + 1;
+                    if (line.Length > 73)
+                    {
+                        linesThatAreTooLong.Add(lineNumber);
+                    }
+                    if (!string.IsNullOrWhiteSpace(line) && (line.Length - line.TrimStart(' ').Length) % 3 != 0)
+                    {
+                        linesThatAreIncorrectlyIndented.Add(lineNumber);
+                    }
+                    if (line.Contains('\t'))
+                    {
+                        linesThatHaveTabs.Add(lineNumber);
+                    }
+                }
+                if (linesThatAreTooLong.Count > 0 || linesThatAreIncorrectlyIndented.Count > 0 || linesThatHaveTabs.Count > 0)
+                {
+                    stringBuilder.AppendLine(fileInfo.Name);
+                    if (linesThatAreTooLong.Count > 0)
+                    {
+                        stringBuilder.AppendLine($"Too long: {string.Join(", ", linesThatAreTooLong)}");
+                    }
+                    if (linesThatAreIncorrectlyIndented.Count > 0)
+                    {
+                        stringBuilder.AppendLine($"Incorrect indentation: {string.Join(", ", linesThatAreIncorrectlyIndented)}");
+                    }
+                    if (linesThatHaveTabs.Count > 0)
+                    {
+                        stringBuilder.AppendLine($"Has tabs: {string.Join(", ", linesThatHaveTabs)}");
+                    }
+                }
+            }
+            return stringBuilder.ToString();
+        }
+
+        private static string GradeCSFiles(IEnumerable<string> sourceFiles)
         {
             StringBuilder stringBuilder = new StringBuilder();
             foreach (string filePath in sourceFiles)
@@ -206,58 +357,24 @@ namespace DiscordBot
 
         private const int MessageLengthLimit = 2048;
 
-        private static string RunProgram(string sourcePath, string exeFile, string input)
+        private static string RunProgram(string workingDir, string exeFile, string input)
         {
-            ProcessStartInfo runPSI = new ProcessStartInfo(exeFile)
-            {
-                WorkingDirectory = sourcePath,
-                UseShellExecute = false,
-                RedirectStandardInput = true,
-                RedirectStandardOutput = true,
-                RedirectStandardError = true
-            };
+            ProcessStartInfo runPSI = new ProcessStartInfo(exeFile) { WorkingDirectory = workingDir };
 
-            Process runProcess = new Process()
+            var (standard, error, timeout) = RunProcess(runPSI, 1000, input);
+            if (timeout)
             {
-                StartInfo = runPSI
-            };
-            runProcess.Start();
-            runProcess.StandardInput.Write(input);
-            runProcess.StandardInput.Close();
-            if (!runProcess.WaitForExit(1000))
-            {
-                runProcess.Kill();
                 StringBuilder stringBuilder = new StringBuilder();
                 stringBuilder.AppendLine("Execution timed out:");
-                stringBuilder.AppendLine(runProcess.StandardOutput.ReadToEnd());
-                stringBuilder.AppendLine(runProcess.StandardError.ReadToEnd());
+                stringBuilder.AppendLine(standard);
+                stringBuilder.AppendLine(error);
                 throw new Exception(stringBuilder.ToString());
             }
-
-            string results = runProcess.StandardOutput.ReadToEnd();
-            return results;
-        }
-
-        private static Process BuildProgram(string argumentString)
-        {
-            ProcessStartInfo buildPSI = new ProcessStartInfo(@"C:\MinGW\bin\g++.exe", argumentString)
+            else
             {
-                WorkingDirectory = @"C:\MinGW\bin\",
-                UseShellExecute = false,
-                RedirectStandardError = true,
-                CreateNoWindow = true
-            };
-
-            Process buildProcess = new Process()
-            {
-                StartInfo = buildPSI
-            };
-            buildProcess.Start();
-            if (!buildProcess.WaitForExit(2500))
-            {
-                buildProcess.Kill();
+                return standard;
             }
-            return buildProcess;
+
         }
 
         private static async Task DownloadAndExtractFiles(DiscordAttachment attachment)
@@ -289,6 +406,38 @@ namespace DiscordBot
             }
 
             File.Delete(fileName);
+        }
+
+        private static (string standard, string error, bool timeout) RunProcess(ProcessStartInfo startInfo, int timeout, string input = "")
+        {
+            startInfo.RedirectStandardOutput = true;
+            startInfo.RedirectStandardError = true;
+            startInfo.RedirectStandardInput = true;
+            startInfo.UseShellExecute = false;
+            using AutoResetEvent standardReset = new AutoResetEvent(false);
+            using AutoResetEvent errorReset = new AutoResetEvent(false);
+            using Process process = new Process() { StartInfo = startInfo };
+            StringBuilder standard = new StringBuilder();
+            StringBuilder error = new StringBuilder();
+            process.OutputDataReceived += (sender, e) => { if (e.Data == null) { standardReset.Set(); } else { standard.AppendLine(e.Data); } };
+            process.ErrorDataReceived += (sender, e) => { if (e.Data == null) { errorReset.Set(); } else { error.AppendLine(e.Data); } };
+            process.Start();
+
+            process.BeginOutputReadLine();
+            process.BeginErrorReadLine();
+            process.StandardInput.Write(input);
+            process.StandardInput.Flush();
+            process.StandardInput.Close();
+
+            if (process.WaitForExit(timeout) && errorReset.WaitOne(timeout) && standardReset.WaitOne(timeout))
+            {
+                return (standard.ToString(), error.ToString(), false);
+            }
+            else
+            {
+                process.Kill(true);
+                return (standard.ToString(), error.ToString(), true);
+            }
         }
     }
 }

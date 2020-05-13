@@ -1,0 +1,187 @@
+BigNameOne was added to the list!
+BigNameTwo was added to the list!
+BigNameThree was added to the list!
+BigNameFour was added to the list!
+BigNameFive was added to the list!
+BigNameSix was added to the list!
+BigNameSeven was added to the list!
+List is full! Player BigNameEight was not added!
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameOne       CCO     1.000     
+BigNameTwo       CCT     2.000     
+BigNameThree     CCT     3.000     
+BigNameFour      CCF     3.000     
+BigNameFive      CCF     3.000     
+BigNameSix       CC6     3.895     
+BigNameSeven     CC7     4.000     
+
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameThree     CCT     3.000     
+BigNameFour      CCF     3.000     
+BigNameFive      CCF     3.000     
+BigNameTwo       CCT     2.000     
+BigNameOne       CCO     1.000     
+
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameThree     CCT     3.000     
+BigNameFour      CCF     3.000     
+BigNameFive      CCF     3.000     
+BigNameTwo       CCT     2.000     
+BigNameOne       CCO     1.000     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+BigNameOne       CCO     1.000     
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameThree     CCT     3.000     
+BigNameTwo       CCT     2.000     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+BigNameOne       CCO     1.000     
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameThree     CCT     3.000     
+BigNameTwo       CCT     2.000     
+
+BigNameOne gpa updated to 1.000
+BigNameTwo gpa updated to 2.000
+BigNameThree gpa updated to 3.000
+BigNameFour gpa updated to 3.000
+BigNameFive gpa updated to 3.000
+BigNameSix gpa updated to 3.895
+BigNameSeven gpa updated to 4.000
+List is full! Player BigNameEight was not added!
+BigNameOne was removed!
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+BigNameThree     CCT     3.000     
+BigNameTwo       CCO     2.000     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameThree     CCT     3.000     
+BigNameTwo       CCO     2.000     
+
+BigNameTwo was removed!
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+BigNameThree     CCT     3.000     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameThree     CCT     3.000     
+
+BigNameThree was removed!
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameFive      CCF     3.000     
+BigNameFour      CCF     3.000     
+BigNameSeven     CC7     4.000     
+BigNameSix       CC6     3.895     
+
+BigNameFour was removed!
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CCF     3.895     
+BigNameFive      CCF     3.000     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameFive      CCF     3.000     
+BigNameSeven     CC7     4.000     
+BigNameSix       CCF     3.895     
+
+BigNameFive was removed!
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CCF     3.895     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+BigNameSix       CCF     3.895     
+
+BigNameSix was removed!
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+BigNameSeven     CC7     4.000     
+
+BigNameSeven was removed!
+List is empty!
+
+List sorted by member.
+List is empty!
+
+BigNameEight is not in the list!
+List is empty!
+
+List sorted by member.
+List is empty!
+

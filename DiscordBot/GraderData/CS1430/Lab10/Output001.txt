@@ -1,0 +1,90 @@
+List is empty!
+
+Gruhl is not in the list!
+Gruhl was added to the list!
+List sorted by member.
+Nelson was added to the list!
+Garcia was added to the list!
+
+Player Name      Team    AVG
+----------------------------------------
+Gruhl            GDC     3.870     
+Nelson           ACM     3.750     
+Garcia           AITP    3.620     
+
+Thames was added to the list!
+Pinzer was added to the list!
+Richardson was added to the list!
+Reddy was added to the list!
+List is full! Player Bella was not added!
+List is full! Player Kelly was not added!
+List is full! Player Smith was not added!
+
+Player Name      Team    AVG
+----------------------------------------
+Gruhl            GDC     3.870     
+Nelson           ACM     3.750     
+Garcia           AITP    3.620     
+Thames           ACM     2.520     
+Pinzer           ACMW    3.650     
+Richardson       AITP    2.940     
+Reddy            ACMW    2.930     
+
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+Garcia           AITP    3.620     
+Gruhl            GDC     3.870     
+Nelson           ACM     3.750     
+Pinzer           ACMW    3.650     
+Reddy            ACMW    2.930     
+Richardson       AITP    2.940     
+Thames           ACM     2.520     
+
+
+Player Name      Team    AVG
+----------------------------------------
+Gruhl            GDC     3.870     
+Nelson           ACM     3.750     
+Pinzer           ACMW    3.650     
+Garcia           AITP    3.620     
+Richardson       AITP    2.940     
+Reddy            ACMW    2.930     
+Thames           ACM     2.520     
+
+Richardson was removed!
+Thaaames is not in the list!
+List sorted by member.
+
+Player Name      Team    AVG
+----------------------------------------
+Garcia           AITP    3.620     
+Gruhl            GDC     3.870     
+Nelson           ACM     3.750     
+Pinzer           ACMW    3.650     
+Reddy            ACMW    2.930     
+Thames           AITP    2.520     
+
+Thames was removed!
+
+Player Name      Team    AVG
+----------------------------------------
+Garcia           AITP    3.620     
+Gruhl            GDC     3.870     
+Nelson           ACM     3.750     
+Pinzer           ACMW    3.650     
+Reddy            ACMW    2.930     
+
+List is empty!
+
+List is empty!
+
+Manjuk was added to the list!
+
+Player Name      Team    AVG
+----------------------------------------
+Manjuk           ACMW    3.680     
+
+List is empty!
+

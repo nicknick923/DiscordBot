@@ -40,7 +40,7 @@ namespace DiscordBot
         {
             await commandContext.RespondAsync(Instance.GetGreetingMessage(commandContext.User.Mention));
         }
-        
+
         [Command, Description("This will stop the bot")]
         public async Task Stop(CommandContext commandContext)
         {
@@ -92,23 +92,62 @@ namespace DiscordBot
             await commandContext.RespondAsync($"Game set to {name}");
         }
 
+        private enum GradeTypes
+        {
+            CSharp,
+            CPlusPlus
+        }
+
         [Command, Hidden]
-        public async Task Grade(CommandContext commandContext, bool final = false)
+        public async Task Grade(CommandContext commandContext, string className = "CS1430", bool final = false)
         {
             DiscordAttachment attachment = commandContext.Message.Attachments.FirstOrDefault();
-            if (attachment == null || !(attachment.FileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase) || attachment.FileName.EndsWith(".cpp", StringComparison.OrdinalIgnoreCase)))
+
+            GradeTypes gradeType;
+            switch (className.ToLower())
             {
-                await commandContext.RespondAsync(attachment == null ? "You forgot attach the program to grade" : "I can only grade zips or a single cpp");
-                await DefaultHelpAsync(commandContext, nameof(Grade));
-                return;
+                case "cs1430":
+                case "cs143":
+                case "1430":
+                case "143":
+                    if (attachment == null || !(attachment.FileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase) || attachment.FileName.EndsWith(".cpp", StringComparison.OrdinalIgnoreCase)))
+                    {
+                        await commandContext.RespondAsync(attachment == null ? "You forgot attach the program to grade" : "I can only grade zips or a single cpp");
+                        await DefaultHelpAsync(commandContext, nameof(Grade));
+                        return;
+                    }
+                    gradeType = GradeTypes.CPlusPlus;
+                    break;
+                case "cs2430":
+                case "cs243":
+                case "2430":
+                case "243":
+                    if (attachment == null || !(attachment.FileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase) || attachment.FileName.EndsWith(".cs", StringComparison.OrdinalIgnoreCase)))
+                    {
+                        await commandContext.RespondAsync(attachment == null ? "You forgot attach the program to grade" : "I can only grade zips or a single cs");
+                        await DefaultHelpAsync(commandContext, nameof(Grade));
+                        return;
+                    }
+                    gradeType = GradeTypes.CSharp;
+                    break;
+                default:
+                    await commandContext.RespondAsync("I need to know what class to grade for! (Valid options: CS1430, CS143, 1430, 143, CS2430, CS243, 2430, 243)");
+                    await DefaultHelpAsync(commandContext, nameof(Grade));
+                    return;
             }
+
             string currentDirectory = Directory.GetCurrentDirectory();
             await commandContext.RespondAsync("Getting files and building");
 
-            string programToGrade = attachment.FileName.Substring(0, attachment.FileName.Length - 4);
-            LogMessage(commandContext, $"Grading {programToGrade} for {commandContext.User.Username}({commandContext.User.Id})");
+            string programToGrade = attachment.FileName.Split('.')[0];
+            LogMessage(commandContext, $"Grading {gradeType} {programToGrade} for {commandContext.User.Username}({commandContext.User.Id})");
 
-            await Grader.Grade(commandContext, attachment, currentDirectory, programToGrade, final);
+            switch (gradeType)
+            {
+                case GradeTypes.CSharp: await Grader.GradeCSharp(commandContext, attachment, currentDirectory, programToGrade, final); break;
+                case GradeTypes.CPlusPlus: await Grader.GradeCPP(commandContext, attachment, currentDirectory, programToGrade, final); break;
+            }
+
         }
     }
 }
