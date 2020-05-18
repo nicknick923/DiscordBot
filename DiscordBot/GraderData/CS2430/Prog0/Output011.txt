@@ -1,0 +1,13 @@
+Integer -47 has been added to the list
+Integer -261 has been added to the list
+Integer 692 has been added to the list
+Integer 265 has been added to the list
+Integer 1068 has been added to the list
+Integer 815 has been added to the list
+Integer 257 has been added to the list
+Integer -1150 has been added to the list
+The list is full!
+The list is full!
+The list is full!
+List of integers: -47 -261 692 265 1068 815 257 -1150  
+Average of all integers in the list: 204.875

@@ -18,9 +18,9 @@ namespace DiscordBot
         private const string ExtractFolderName = "extract";
         public static async Task GradeCSharp(CommandContext commandContext, DiscordAttachment attachment, string currentDirectory, string programToGrade, bool final)
         {
-            string runPath = Path.Combine(Config.Instance.GraderDump, $"CS2430/{commandContext.User.Id}/{programToGrade}");
+            string runPath = Path.Combine(Config.Instance.GraderDump, $"{commandContext.User.Id}/CS2430/{programToGrade}");
 
-            bool finalExists = Directory.EnumerateDirectories(runPath, "*-final").Any();
+            bool finalExists = Directory.Exists(runPath) && Directory.EnumerateDirectories(runPath, "*-final").Any();
             if (finalExists)
             {
                 await commandContext.RespondAsync("Unable to grade, you've already submitted your final submission");
@@ -108,6 +108,8 @@ namespace DiscordBot
                             await commandContext.RespondAsync(embed: discordEmbedBuilder.Build());
                         }
                     }
+                    ProcessStartInfo cleanStartInfo = new ProcessStartInfo("dotnet", "clean") { WorkingDirectory = ExtractFolderName };
+                    RunProcess(cleanStartInfo, 5000);
                     Directory.CreateDirectory(runPath);
                     Directory.Move(ExtractFolderName, Path.Combine(runPath, $"{DateTime.Now:MMddyyyy-HH-mm-ss}{(final ? "-final" : "")}"));
                 }
@@ -368,7 +370,7 @@ namespace DiscordBot
                 stringBuilder.AppendLine("Execution timed out:");
                 stringBuilder.AppendLine(standard);
                 stringBuilder.AppendLine(error);
-                throw new Exception(stringBuilder.ToString());
+                return stringBuilder.ToString();
             }
             else
             {

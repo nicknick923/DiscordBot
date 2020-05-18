@@ -1,0 +1,300 @@
+a
+
+
+
+
+Corn  
+1.88
+A
+
+
+
+ Apples 
+2.23  
+ p
+
+    
+
+ a
+
+  
+ 
+
+Spices
+2.45
+a
+ 
+ meat
+
+  
+ 
+1.23   R 
+Spices 
+
+ 2.45 
+C
+
+
+
+
+
+ p
+r  
+Spices 
+ 
+
+2.45
+P
+  
+
+
+
+
+ r
+
+    
+Corn
+
+
+   
+  1.88 
+  
+
+A
+  
+
+ Spices   
+ 
+12.84
+
+
+ 
+P 
+a
+Spices
+
+
+12.84
+  
+
+
+ 
+R
+ 
+
+ 
+ 
+Meat   
+ 
+
+
+1.23
+ 
+ 
+
+
+
+r
+   Salt
+  
+ 2.45 
+
+
+ 
+
+R meat
+  
+  1.23  
+
+ 
+
+a
+
+Spices
+
+
+ 12.84 
+ P
+ 
+
+ 
+a
+   
+
+
+Apples 
+
+   
+ 2.45
+ p
+ P
+
+
+
+A
+
+ 
+Salt
+ 
+
+2.45
+
+ 
+
+
+P
+ R
+
+
+
+
+ 
+Corn 
+1.88
+
+   P 
+
+
+   A
+  
+
+
+  Meat     
+   1.23 
+ R  
+Apples
+
+   
+ 2.45 
+
+
+
+   A
+
+   Apples
+
+
+  
+2.45
+ 
+ 
+
+
+
+ c
+
+
+P
+
+ a
+
+
+
+ 
+Spices
+  
+ 12.84
+R
+
+Corn 
+
+2.45
+
+
+  
+
+p
+
+  p
+  
+p
+
+
+
+
+C 
+
+
+
+ 
+
+
+p
+
+
+ 
+
+
+A
+   Apples  
+
+2.23 r   
+ 
+ 
+Spices
+
+
+
+
+
+
+2.45
+
+ 
+
+P
+
+
+
+ a 
+
+  
+ 
+Corn
+2.45
+
+
+
+ p 
+ 
+a 
+
+
+
+
+Salt 
+
+  
+2.45
+  
+
+
+r
+Meat   
+
+1.23
+
+
+P
+  
+
+
+
+
+P
+p
+
+ 
+
+A  
+
+ 
+
+
+Spices 
+ 2.45
+ 
+P 
+ 
+
+Q

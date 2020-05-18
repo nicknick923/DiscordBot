@@ -1,0 +1,10 @@
+Integer 68 has been added to the list
+Integer 1458 has been added to the list
+Integer -294 has been added to the list
+Integer 335 has been added to the list
+Integer -1120 has been added to the list
+Integer -531 has been added to the list
+Integer 442 has been added to the list
+Integer -1087 has been added to the list
+List of integers: 68 1458 -294 335 -1120 -531 442 -1087  
+Average of all integers in the list: -91.125

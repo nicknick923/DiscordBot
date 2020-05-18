@@ -1,0 +1,7 @@
+Integer -1417 has been added to the list
+Integer 5 has been added to the list
+Integer -190 has been added to the list
+Integer 963 has been added to the list
+Integer -386 has been added to the list
+List of integers: -1417 5 -190 963 -386  
+Average of all integers in the list: -205

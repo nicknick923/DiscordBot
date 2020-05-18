@@ -1,0 +1,30 @@
+r meat 2.99
+P
+C
+a meat 5.99
+A candy 0.99
+A chocolate 2.99
+blah blah blah
+A shampoo 3.59
+r candy 1.99
+R candy 0.99
+P
+A chips 2.59
+A DVD 14.59
+A onion 1.59
+A cheese 2.79
+A eggs 3.59
+A milk 2.69
+P
+R DVD 14.00
+r DVD 14.59
+P
+a milk 2.69
+P
+R onion 1.59
+p
+R meat 5.99
+P
+C
+P
+Q

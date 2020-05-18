@@ -1,0 +1,2 @@
+List of integers:  
+Average of all integers in the list: 0

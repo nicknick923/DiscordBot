@@ -1,0 +1,6 @@
+Integer 1469 has been added to the list
+Integer 1399 has been added to the list
+Integer 330 has been added to the list
+Integer -73 has been added to the list
+List of integers: 1469 1399 330 -73  
+Average of all integers in the list: 781.25

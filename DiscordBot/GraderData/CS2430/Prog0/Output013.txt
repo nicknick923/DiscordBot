@@ -1,0 +1,11 @@
+Integer 1363 has been added to the list
+Integer -1132 has been added to the list
+Integer -258 has been added to the list
+Integer -1166 has been added to the list
+Integer -1497 has been added to the list
+Integer -1009 has been added to the list
+Integer -689 has been added to the list
+Integer -1240 has been added to the list
+The list is full!
+List of integers: 1363 -1132 -258 -1166 -1497 -1009 -689 -1240  
+Average of all integers in the list: -703.5

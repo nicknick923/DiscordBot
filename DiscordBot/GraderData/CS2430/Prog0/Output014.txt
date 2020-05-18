@@ -1,0 +1,9 @@
+Integer 1443 has been added to the list
+Integer -1213 has been added to the list
+Integer 928 has been added to the list
+Integer 1201 has been added to the list
+Integer -231 has been added to the list
+Integer -733 has been added to the list
+Integer -102 has been added to the list
+List of integers: 1443 -1213 928 1201 -231 -733 -102  
+Average of all integers in the list: 184.71428

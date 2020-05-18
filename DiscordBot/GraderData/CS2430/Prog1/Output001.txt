@@ -1,0 +1,77 @@
+Let's start shopping!
+Unable to remove, this item is not in the bag.
+Unable to print, the shopping bag is empty.
+Unable to checkout, the shopping bag is empty.
+meat added to the bag.
+candy added to the bag.
+chocolate added to the bag.
+Invlaid command!
+shampoo added to the bag.
+Unable to remove, this item is not in the bag.
+Item removed successfully.
+You have the following items in the bag:
+meat::5.99
+shampoo::3.59
+chocolate::2.99
+chips added to the bag.
+DVD added to the bag.
+onion added to the bag.
+cheese added to the bag.
+eggs added to the bag.
+Unable to add, the bag is full!
+You have the following items in the bag:
+meat::5.99
+shampoo::3.59
+chocolate::2.99
+chips::2.59
+DVD::14.59
+onion::1.59
+cheese::2.79
+eggs::3.59
+Unable to remove, this item is not in the bag.
+Item removed successfully.
+You have the following items in the bag:
+meat::5.99
+shampoo::3.59
+chocolate::2.99
+chips::2.59
+eggs::3.59
+onion::1.59
+cheese::2.79
+milk added to the bag.
+You have the following items in the bag:
+meat::5.99
+shampoo::3.59
+chocolate::2.99
+chips::2.59
+eggs::3.59
+onion::1.59
+cheese::2.79
+milk::2.69
+Item removed successfully.
+You have the following items in the bag:
+meat::5.99
+shampoo::3.59
+chocolate::2.99
+chips::2.59
+eggs::3.59
+milk::2.69
+cheese::2.79
+Item removed successfully.
+You have the following items in the bag:
+cheese::2.79
+shampoo::3.59
+chocolate::2.99
+chips::2.59
+eggs::3.59
+milk::2.69
+Checking out the following items:
+cheese::2.79
+shampoo::3.59
+chocolate::2.99
+chips::2.59
+eggs::3.59
+milk::2.69
+Amount paid: 18 dollars.
+Unable to print, the shopping bag is empty.
+Thanks for shopping with us!

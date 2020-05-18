@@ -1,0 +1,11 @@
+Integer 839 has been added to the list
+Integer 761 has been added to the list
+Integer -703 has been added to the list
+Integer 1270 has been added to the list
+Integer -1465 has been added to the list
+Integer 383 has been added to the list
+Integer 482 has been added to the list
+Integer -890 has been added to the list
+The list is full!
+List of integers: 839 761 -703 1270 -1465 383 482 -890  
+Average of all integers in the list: 84.625

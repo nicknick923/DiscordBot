@@ -1,0 +1,11 @@
+Integer 418 has been added to the list
+Integer 489 has been added to the list
+Integer 1324 has been added to the list
+Integer -1119 has been added to the list
+Integer 908 has been added to the list
+Integer 1014 has been added to the list
+Integer 168 has been added to the list
+Integer 543 has been added to the list
+The list is full!
+List of integers: 418 489 1324 -1119 908 1014 168 543  
+Average of all integers in the list: 468.125

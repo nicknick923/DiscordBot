@@ -1,0 +1,115 @@
+Let's start shopping!
+Meat added to the bag.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Corn added to the bag.
+Unable to remove, this item is not in the bag.
+meat added to the bag.
+Item removed successfully.
+You have the following items in the bag:
+Meat::1.23
+meat::1.23
+Apples added to the bag.
+Spices added to the bag.
+You have the following items in the bag:
+Meat::1.23
+meat::1.23
+Apples::2.23
+Spices::2.45
+Corn added to the bag.
+Corn added to the bag.
+meat added to the bag.
+You have the following items in the bag:
+Meat::1.23
+meat::1.23
+Apples::2.23
+Spices::2.45
+Corn::2.45
+Corn::2.45
+meat::1.23
+You have the following items in the bag:
+Meat::1.23
+meat::1.23
+Apples::2.23
+Spices::2.45
+Corn::2.45
+Corn::2.45
+meat::1.23
+You have the following items in the bag:
+Meat::1.23
+meat::1.23
+Apples::2.23
+Spices::2.45
+Corn::2.45
+Corn::2.45
+meat::1.23
+meat added to the bag.
+Unable to remove, this item is not in the bag.
+Checking out the following items:
+Meat::1.23
+meat::1.23
+Apples::2.23
+Spices::2.45
+Corn::2.45
+Corn::2.45
+meat::1.23
+meat::1.23
+Amount paid: 14 dollars.
+meat added to the bag.
+Unable to remove, this item is not in the bag.
+Item removed successfully.
+Spices added to the bag.
+Corn added to the bag.
+Unable to remove, this item is not in the bag.
+Corn added to the bag.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Spices::12.84
+Corn::2.45
+Corn::1.88
+Spices added to the bag.
+You have the following items in the bag:
+Spices::12.84
+Corn::2.45
+Corn::1.88
+Spices::12.84
+Spices added to the bag.
+You have the following items in the bag:
+Spices::12.84
+Corn::2.45
+Corn::1.88
+Spices::12.84
+Spices::2.45
+Salt added to the bag.
+You have the following items in the bag:
+Spices::12.84
+Corn::2.45
+Corn::1.88
+Spices::12.84
+Spices::2.45
+Salt::2.45
+Item removed successfully.
+Checking out the following items:
+Spices::12.84
+Corn::2.45
+Corn::1.88
+Spices::12.84
+Salt::2.45
+Amount paid: 32 dollars.
+Salt added to the bag.
+You have the following items in the bag:
+Salt::2.45
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Salt::2.45
+You have the following items in the bag:
+Salt::2.45
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Apples added to the bag.
+Unable to remove, this item is not in the bag.
+Item removed successfully.
+Thanks for shopping with us!

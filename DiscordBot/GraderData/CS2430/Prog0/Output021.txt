@@ -1,0 +1,12 @@
+Integer 654 has been added to the list
+Integer 61 has been added to the list
+Integer 988 has been added to the list
+Integer 1383 has been added to the list
+Integer -769 has been added to the list
+Integer 62 has been added to the list
+Integer 459 has been added to the list
+Integer 1190 has been added to the list
+The list is full!
+The list is full!
+List of integers: 654 61 988 1383 -769 62 459 1190  
+Average of all integers in the list: 503.5

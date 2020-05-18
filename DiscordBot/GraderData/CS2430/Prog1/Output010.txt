@@ -1,0 +1,185 @@
+Let's start shopping!
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Corn added to the bag.
+You have the following items in the bag:
+Corn::1.88
+Unable to remove, this item is not in the bag.
+Spices added to the bag.
+Apples added to the bag.
+meat added to the bag.
+You have the following items in the bag:
+Corn::1.88
+Spices::2.45
+Apples::2.45
+meat::1.23
+Corn added to the bag.
+Item removed successfully.
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat added to the bag.
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat added to the bag.
+Corn added to the bag.
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat::1.23
+Corn::2.45
+Salt added to the bag.
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat::1.23
+Corn::2.45
+Salt::2.45
+Unable to add, the bag is full!
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat::1.23
+Corn::2.45
+Salt::2.45
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat::1.23
+Corn::2.45
+Salt::2.45
+Unable to add, the bag is full!
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat::1.23
+Corn::2.45
+Salt::2.45
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat::1.23
+Corn::2.45
+Salt::2.45
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+meat::1.23
+meat::1.23
+Meat::1.23
+Corn::2.45
+Salt::2.45
+Unable to remove, this item is not in the bag.
+Item removed successfully.
+Apples added to the bag.
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+Salt::2.45
+meat::1.23
+Meat::1.23
+Corn::2.45
+Apples::2.45
+Unable to add, the bag is full!
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+Salt::2.45
+meat::1.23
+Meat::1.23
+Corn::2.45
+Apples::2.45
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+Salt::2.45
+meat::1.23
+Meat::1.23
+Corn::2.45
+Apples::2.45
+Unable to add, the bag is full!
+Unable to add, the bag is full!
+Unable to add, the bag is full!
+Unable to remove, this item is not in the bag.
+Unable to add, the bag is full!
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+Salt::2.45
+meat::1.23
+Meat::1.23
+Corn::2.45
+Apples::2.45
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+Salt::2.45
+meat::1.23
+Meat::1.23
+Corn::2.45
+Apples::2.45
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+Salt::2.45
+meat::1.23
+Meat::1.23
+Corn::2.45
+Apples::2.45
+Unable to add, the bag is full!
+Unable to add, the bag is full!
+You have the following items in the bag:
+Corn::1.88
+Corn::2.45
+Apples::2.45
+Salt::2.45
+meat::1.23
+Meat::1.23
+Corn::2.45
+Apples::2.45
+Unable to add, the bag is full!
+Item removed successfully.
+Unable to remove, this item is not in the bag.
+Thanks for shopping with us!

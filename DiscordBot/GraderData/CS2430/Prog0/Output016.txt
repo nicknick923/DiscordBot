@@ -1,0 +1,6 @@
+Integer -596 has been added to the list
+Integer 845 has been added to the list
+Integer 626 has been added to the list
+Integer -1239 has been added to the list
+List of integers: -596 845 626 -1239  
+Average of all integers in the list: -91

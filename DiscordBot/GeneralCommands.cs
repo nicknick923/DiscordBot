@@ -99,7 +99,7 @@ namespace DiscordBot
         }
 
         [Command, Hidden]
-        public async Task Grade(CommandContext commandContext, string className = "CS1430", bool final = false)
+        public async Task Grade(CommandContext commandContext, [Description("What class to grade for. Valid options: CS1430, CS143, 1430, 143, CS2430, CS243, 2430, 243. Defaults to CS2430")] string className = "CS2430", [Description("Indicates if this is the final submission or not. Defaults to false")] bool final = false)
         {
             DiscordAttachment attachment = commandContext.Message.Attachments.FirstOrDefault();
 

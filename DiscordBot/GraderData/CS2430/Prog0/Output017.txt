@@ -1,0 +1,12 @@
+Integer 780 has been added to the list
+Integer -468 has been added to the list
+Integer 1242 has been added to the list
+Integer 842 has been added to the list
+Integer -1340 has been added to the list
+Integer -906 has been added to the list
+Integer -153 has been added to the list
+Integer 472 has been added to the list
+The list is full!
+The list is full!
+List of integers: 780 -468 1242 842 -1340 -906 -153 472  
+Average of all integers in the list: 58.625

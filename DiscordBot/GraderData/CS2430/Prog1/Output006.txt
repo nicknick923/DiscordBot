@@ -1,0 +1,100 @@
+Let's start shopping!
+Unable to print, the shopping bag is empty.
+Apples added to the bag.
+You have the following items in the bag:
+Apples::2.45
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Apples::2.45
+Checking out the following items:
+Apples::2.45
+Amount paid: 2 dollars.
+Unable to remove, this item is not in the bag.
+meat added to the bag.
+Item removed successfully.
+Unable to checkout, the shopping bag is empty.
+Unable to print, the shopping bag is empty.
+Unable to remove, this item is not in the bag.
+Apples added to the bag.
+Item removed successfully.
+Spices added to the bag.
+Apples added to the bag.
+Corn added to the bag.
+You have the following items in the bag:
+Spices::12.84
+Apples::2.23
+Corn::1.88
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Spices::12.84
+Apples::2.23
+Corn::1.88
+Spices added to the bag.
+Unable to remove, this item is not in the bag.
+Meat added to the bag.
+Meat added to the bag.
+Meat added to the bag.
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Spices::12.84
+Apples::2.23
+Corn::1.88
+Spices::2.45
+Meat::1.23
+Meat::1.23
+Meat::1.23
+Spices added to the bag.
+You have the following items in the bag:
+Spices::12.84
+Apples::2.23
+Corn::1.88
+Spices::2.45
+Meat::1.23
+Meat::1.23
+Meat::1.23
+Spices::2.45
+You have the following items in the bag:
+Spices::12.84
+Apples::2.23
+Corn::1.88
+Spices::2.45
+Meat::1.23
+Meat::1.23
+Meat::1.23
+Spices::2.45
+Unable to add, the bag is full!
+Unable to remove, this item is not in the bag.
+Unable to add, the bag is full!
+Unable to add, the bag is full!
+Unable to add, the bag is full!
+Checking out the following items:
+Spices::12.84
+Apples::2.23
+Corn::1.88
+Spices::2.45
+Meat::1.23
+Meat::1.23
+Meat::1.23
+Spices::2.45
+Amount paid: 26 dollars.
+Unable to remove, this item is not in the bag.
+Meat added to the bag.
+Corn added to the bag.
+Corn added to the bag.
+meat added to the bag.
+Unable to remove, this item is not in the bag.
+Spices added to the bag.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Checking out the following items:
+Meat::1.23
+Corn::2.45
+Corn::2.45
+meat::1.23
+Spices::12.84
+Amount paid: 20 dollars.
+Unable to print, the shopping bag is empty.
+Corn added to the bag.
+Unable to remove, this item is not in the bag.
+Item removed successfully.
+Thanks for shopping with us!

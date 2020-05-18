@@ -1,0 +1,83 @@
+Let's start shopping!
+Spices added to the bag.
+You have the following items in the bag:
+Spices::2.45
+Apples added to the bag.
+You have the following items in the bag:
+Spices::2.45
+Apples::2.23
+Salt added to the bag.
+Meat added to the bag.
+Meat added to the bag.
+Spices added to the bag.
+Checking out the following items:
+Spices::2.45
+Apples::2.23
+Salt::2.45
+Meat::1.23
+Meat::1.23
+Spices::2.45
+Amount paid: 12 dollars.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Salt added to the bag.
+You have the following items in the bag:
+Salt::2.45
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Apples added to the bag.
+You have the following items in the bag:
+Salt::2.45
+Apples::2.23
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Salt::2.45
+Apples::2.23
+Checking out the following items:
+Salt::2.45
+Apples::2.23
+Amount paid: 5 dollars.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Unable to print, the shopping bag is empty.
+Unable to print, the shopping bag is empty.
+Meat added to the bag.
+You have the following items in the bag:
+Meat::1.23
+You have the following items in the bag:
+Meat::1.23
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+Meat::1.23
+Meat added to the bag.
+Apples added to the bag.
+Apples added to the bag.
+Apples added to the bag.
+Checking out the following items:
+Meat::1.23
+Meat::1.23
+Apples::2.45
+Apples::2.23
+Apples::2.23
+Amount paid: 9 dollars.
+Unable to print, the shopping bag is empty.
+Unable to print, the shopping bag is empty.
+Unable to remove, this item is not in the bag.
+Unable to print, the shopping bag is empty.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Unable to print, the shopping bag is empty.
+Unable to remove, this item is not in the bag.
+Unable to print, the shopping bag is empty.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Spices added to the bag.
+You have the following items in the bag:
+Spices::2.45
+You have the following items in the bag:
+Spices::2.45
+Corn added to the bag.
+You have the following items in the bag:
+Spices::2.45
+Corn::2.45
+Thanks for shopping with us!

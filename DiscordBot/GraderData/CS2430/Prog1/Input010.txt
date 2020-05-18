@@ -1,0 +1,51 @@
+r Apples 2.45
+r Spices 2.45
+a Corn 1.88
+P
+r Apples 2.23
+A Spices 2.45
+a Apples 2.45
+A meat 1.23
+p
+A Corn 2.45
+r Spices 2.45
+p
+P
+p
+A meat 1.23
+P
+a Meat 1.23
+A Corn 2.45
+p
+a Salt 2.45
+p
+A Apples 2.23
+p
+P
+A meat 1.23
+P
+P
+R Spices 2.45
+P
+r Spices 12.84
+r meat 1.23
+A Apples 2.45
+p
+a Apples 2.45
+p
+P
+a Apples 2.23
+a Salt 2.45
+A Spices 2.45
+R Spices 12.84
+a Apples 2.23
+p
+p
+p
+a Corn 1.88
+a Spices 12.84
+p
+A Salt 2.45
+r meat 1.23
+R Spices 12.84
+Q

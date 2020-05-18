@@ -1,0 +1,133 @@
+Let's start shopping!
+Unable to print, the shopping bag is empty.
+Spices added to the bag.
+Apples added to the bag.
+Item removed successfully.
+Item removed successfully.
+Unable to print, the shopping bag is empty.
+Unable to remove, this item is not in the bag.
+Unable to print, the shopping bag is empty.
+Unable to print, the shopping bag is empty.
+Salt added to the bag.
+Item removed successfully.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Unable to print, the shopping bag is empty.
+meat added to the bag.
+Unable to remove, this item is not in the bag.
+meat added to the bag.
+Unable to remove, this item is not in the bag.
+Unable to remove, this item is not in the bag.
+Item removed successfully.
+Unable to remove, this item is not in the bag.
+Corn added to the bag.
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn added to the bag.
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn added to the bag.
+Corn added to the bag.
+Spices added to the bag.
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Apples added to the bag.
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Apples::2.23
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Apples::2.23
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Apples::2.23
+Unable to remove, this item is not in the bag.
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Apples::2.23
+You have the following items in the bag:
+meat::1.23
+Corn::1.88
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Apples::2.23
+Item removed successfully.
+You have the following items in the bag:
+meat::1.23
+Apples::2.23
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+You have the following items in the bag:
+meat::1.23
+Apples::2.23
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+You have the following items in the bag:
+meat::1.23
+Apples::2.23
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Meat added to the bag.
+Checking out the following items:
+meat::1.23
+Apples::2.23
+Corn::2.45
+Corn::1.88
+Corn::2.45
+Spices::12.84
+Meat::1.23
+Amount paid: 24 dollars.
+Unable to checkout, the shopping bag is empty.
+Unable to print, the shopping bag is empty.
+Unable to remove, this item is not in the bag.
+Salt added to the bag.
+Thanks for shopping with us!

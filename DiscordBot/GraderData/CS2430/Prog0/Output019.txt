@@ -1,0 +1,3 @@
+Integer -1367 has been added to the list
+List of integers: -1367  
+Average of all integers in the list: -1367
