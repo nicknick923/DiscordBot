@@ -1,0 +1,85 @@
+Let's start a new team!
+13/26/1979 is not a valid date!
+Megan 9/22/1964 is not a team member.
+13/26/1979 is not a valid date!
+Dave 3/20/1912 is not a team member.
+Spencer 12/13/2453 is not a team member.
+Megan 9/22/1964 is not a team member.
+We have 0 team members!
+Jake 1/12/1968 has joined the team.
+Megan 9/22/1964 is not a team member.
+Megan 9/22/1964 is not a team member.
+Megan 7/22/1935 has joined the team.
+Megan 9/22/1964 has joined the team.
+Megan 9/22/1964 is already in the team.
+13/26/1979 is not a valid date!
+13/16/1970 is not a valid date!
+Megan 9/22/1964 is already in the team.
+13/16/1970 is not a valid date!
+Megan 9/22/1964 is already in the team.
+13/26/1979 is not a valid date!
+Spencer 12/13/2453 is not a team member.
+13/26/1979 is not a valid date!
+13/16/1970 is not a valid date!
+Megan 6/6/2190 is not a team member.
+We have the following team members:
+Jake 1/12/1968
+Megan 7/22/1935
+Megan 9/22/1964
+-- end of the list --
+Spencer 12/13/2453 has joined the team.
+Megan 9/22/1964 has left the team.
+Spencer 12/13/2453 has left the team.
+We have the following team members:
+Jake 1/12/1968
+Megan 7/22/1935
+-- end of the list --
+Jason 4/22/1888 has joined the team.
+13/26/1979 is not a valid date!
+13/16/1970 is not a valid date!
+We have the following team members:
+Jake 1/12/1968
+Megan 7/22/1935
+Jason 4/22/1888
+-- end of the list --
+Megan 9/22/1964 is not a team member.
+We have the following team members:
+Jake 1/12/1968
+Megan 7/22/1935
+Jason 4/22/1888
+-- end of the list --
+Megan 7/22/1935 has left the team.
+Megan 9/22/1964 is not a team member.
+13/16/1970 is not a valid date!
+Megan 9/22/1964 has joined the team.
+Megan 7/22/1935 is not a team member.
+Spencer 12/13/2453 has joined the team.
+13/16/1970 is not a valid date!
+Megan 7/22/1935 has joined the team.
+We have the following team members:
+Jake 1/12/1968
+Jason 4/22/1888
+Megan 9/22/1964
+Spencer 12/13/2453
+Megan 7/22/1935
+-- end of the list --
+13/16/1970 is not a valid date!
+13/16/1970 is not a valid date!
+We have the following team members:
+Jake 1/12/1968
+Jason 4/22/1888
+Megan 9/22/1964
+Spencer 12/13/2453
+Megan 7/22/1935
+-- end of the list --
+Megan 7/22/1935 is already in the team.
+Megan 9/22/1964 is already in the team.
+13/16/1970 is not a valid date!
+Megan 7/22/1935 has left the team.
+We have the following team members:
+Jake 1/12/1968
+Jason 4/22/1888
+Megan 9/22/1964
+Spencer 12/13/2453
+-- end of the list --
+The team is ready to go!

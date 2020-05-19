@@ -1,0 +1,51 @@
+R Pritzl 5/16/2326
+A Spencer 3/7/2068
+A Spencer 3/7/2068
+P
+A Hans 11/31/1873
+A Ted 8/4/2311
+A Pritzl 5/4/2256
+R Pritzl 1/5/2304
+R Ted 5/7/1982
+A Hans 11/31/1873
+R Hans 11/31/1873
+P
+A Ted 5/7/1982
+A Spencer 3/7/2068
+R Ted 5/7/1982
+A Pritzl 2/29/2186
+A Hans 11/31/1873
+A Pritzl 5/4/2256
+A Hans 11/31/1873
+R Hans 10/13/2130
+R Ted 5/7/1982
+A Ted 8/4/2311
+P
+A Hans 11/31/1873
+R Ted 8/4/2311
+P
+R Ted 5/7/1982
+R Hans 11/31/1873
+A Ted 5/7/1982
+P
+P
+P
+A Pritzl 5/4/2256
+R Dave 2/30/1803
+R Hans 11/31/1873
+P
+A Ted 5/7/1982
+A Spencer 3/7/2068
+R Spencer 3/7/2068
+R Pritzl 4/19/1983
+R Ted 5/7/1982
+P
+A John 6/11/1942
+A Ted 8/4/2311
+R Spencer 3/7/2068
+P
+A Ted 8/4/2311
+R Ted 8/4/2311
+R Ted 8/4/2311
+R Hans 11/31/1873
+Q

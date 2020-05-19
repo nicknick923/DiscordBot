@@ -1,0 +1,113 @@
+Let's start a new team!
+Ted 10/22/1995 has joined the team.
+Jake 11/23/2464 has joined the team.
+Jason 4/1/2491 is not a team member.
+Ted 10/22/1995 is already in the team.
+Jake 11/23/2464 has left the team.
+Matt 1/9/1865 is not a team member.
+We have the following team members:
+Ted 10/22/1995
+-- end of the list --
+Jake 11/23/2464 is not a team member.
+Pritzl 1/5/2238 has joined the team.
+Jake 11/23/2464 is not a team member.
+Matt 5/26/2330 has joined the team.
+Jake 11/23/2464 has joined the team.
+Jason 6/20/2206 has joined the team.
+Ted 10/22/1995 has left the team.
+Matt 5/26/2330 has left the team.
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Jake 11/23/2464
+-- end of the list --
+Ted 10/22/1995 has joined the team.
+Jake 11/23/2464 is already in the team.
+Megan 7/22/2372 is not a team member.
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Jake 11/23/2464
+Ted 10/22/1995
+-- end of the list --
+Ted 10/22/1995 is already in the team.
+0/26/2073 is not a valid date!
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Jake 11/23/2464
+Ted 10/22/1995
+-- end of the list --
+Megan 7/22/2372 has joined the team.
+Matt 5/26/2330 is not a team member.
+Jake 11/23/2464 is already in the team.
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Jake 11/23/2464
+Ted 10/22/1995
+Megan 7/22/2372
+-- end of the list --
+Jason 4/1/2491 is not a team member.
+Megan 7/22/2372 is already in the team.
+Megan 7/22/2372 has left the team.
+Ted 1/18/2487 has joined the team.
+Jason 4/1/2491 has joined the team.
+Jake 11/23/2464 is already in the team.
+Ski 6/23/2203 has joined the team.
+Jake 11/23/2464 has left the team.
+Matt 5/26/2330 has joined the team.
+Jason 4/1/2491 is already in the team.
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Ski 6/23/2203
+Ted 10/22/1995
+Ted 1/18/2487
+Jason 4/1/2491
+Matt 5/26/2330
+-- end of the list --
+Ted 10/22/1995 is already in the team.
+Pritzl 9/5/2251 is not a team member.
+Megan 7/22/2372 is not a team member.
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Ski 6/23/2203
+Ted 10/22/1995
+Ted 1/18/2487
+Jason 4/1/2491
+Matt 5/26/2330
+-- end of the list --
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Ski 6/23/2203
+Ted 10/22/1995
+Ted 1/18/2487
+Jason 4/1/2491
+Matt 5/26/2330
+-- end of the list --
+Jason 4/1/2491 has left the team.
+Jake 11/23/2464 is not a team member.
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Ski 6/23/2203
+Ted 10/22/1995
+Ted 1/18/2487
+Matt 5/26/2330
+-- end of the list --
+Jake 11/23/2464 is not a team member.
+Ted 10/22/1995 has left the team.
+Ted 10/22/1995 is not a team member.
+Ted 10/22/1995 has joined the team.
+We have the following team members:
+Jason 6/20/2206
+Pritzl 1/5/2238
+Ski 6/23/2203
+Matt 5/26/2330
+Ted 1/18/2487
+Ted 10/22/1995
+-- end of the list --
+The team is ready to go!

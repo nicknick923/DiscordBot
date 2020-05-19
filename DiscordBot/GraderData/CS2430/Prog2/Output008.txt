@@ -1,0 +1,110 @@
+Let's start a new team!
+We have 0 team members!
+Matt 5/19/2209 has joined the team.
+Pritzl 4/19/2207 has joined the team.
+Ski 6/19/2190 is not a team member.
+Jason 7/5/2294 has joined the team.
+0/7/2055 is not a valid date!
+Ski 6/19/2190 has joined the team.
+Ski 6/19/2190 has left the team.
+Matt 11/9/1919 is not a team member.
+Ski 6/19/2190 has joined the team.
+Spencer 1/31/2253 has joined the team.
+Jason 7/5/2294 is already in the team.
+Matt 11/9/1919 is not a team member.
+Ski 6/19/2190 is already in the team.
+Pritzl 4/19/2207 is already in the team.
+Pritzl 4/19/2207 has left the team.
+0/7/2055 is not a valid date!
+Matt 11/9/1919 has joined the team.
+0/7/2055 is not a valid date!
+Jason 7/5/2294 is already in the team.
+Jason 7/5/2294 is already in the team.
+0/7/2055 is not a valid date!
+Ski 6/19/2190 is already in the team.
+Ski 8/27/2280 is not a team member.
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+Matt 11/9/1919
+-- end of the list --
+0/7/2055 is not a valid date!
+Pritzl 4/19/2207 is not a team member.
+Matt 11/9/1919 has left the team.
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+-- end of the list --
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+-- end of the list --
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+-- end of the list --
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+-- end of the list --
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+-- end of the list --
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+-- end of the list --
+Matt 11/9/1919 is not a team member.
+Ski 6/19/2190 is already in the team.
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Ski 6/19/2190
+-- end of the list --
+Ski 6/19/2190 has left the team.
+0/7/2055 is not a valid date!
+0/7/2055 is not a valid date!
+0/7/2055 is not a valid date!
+Ski 6/19/2190 is not a team member.
+Matt 11/9/1919 is not a team member.
+Matt 11/9/1919 is not a team member.
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+-- end of the list --
+Pritzl 4/19/2207 has joined the team.
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Pritzl 4/19/2207
+-- end of the list --
+Matt 11/9/1919 has joined the team.
+Matt 11/9/1919 is already in the team.
+Pritzl 1/11/2282 has joined the team.
+We have the following team members:
+Matt 5/19/2209
+Spencer 1/31/2253
+Jason 7/5/2294
+Pritzl 4/19/2207
+Matt 11/9/1919
+Pritzl 1/11/2282
+-- end of the list --
+The team is ready to go!

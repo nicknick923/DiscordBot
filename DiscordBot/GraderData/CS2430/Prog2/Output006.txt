@@ -1,0 +1,91 @@
+Let's start a new team!
+Pritzl 5/16/2326 is not a team member.
+Spencer 3/7/2068 has joined the team.
+Spencer 3/7/2068 is already in the team.
+We have the following team members:
+Spencer 3/7/2068
+-- end of the list --
+11/31/1873 is not a valid date!
+Ted 8/4/2311 has joined the team.
+Pritzl 5/4/2256 has joined the team.
+Pritzl 1/5/2304 is not a team member.
+Ted 5/7/1982 is not a team member.
+11/31/1873 is not a valid date!
+11/31/1873 is not a valid date!
+We have the following team members:
+Spencer 3/7/2068
+Ted 8/4/2311
+Pritzl 5/4/2256
+-- end of the list --
+Ted 5/7/1982 has joined the team.
+Spencer 3/7/2068 is already in the team.
+Ted 5/7/1982 has left the team.
+2/29/2186 is not a valid date!
+11/31/1873 is not a valid date!
+Pritzl 5/4/2256 is already in the team.
+11/31/1873 is not a valid date!
+Hans 10/13/2130 is not a team member.
+Ted 5/7/1982 is not a team member.
+Ted 8/4/2311 is already in the team.
+We have the following team members:
+Spencer 3/7/2068
+Ted 8/4/2311
+Pritzl 5/4/2256
+-- end of the list --
+11/31/1873 is not a valid date!
+Ted 8/4/2311 has left the team.
+We have the following team members:
+Spencer 3/7/2068
+Pritzl 5/4/2256
+-- end of the list --
+Ted 5/7/1982 is not a team member.
+11/31/1873 is not a valid date!
+Ted 5/7/1982 has joined the team.
+We have the following team members:
+Spencer 3/7/2068
+Pritzl 5/4/2256
+Ted 5/7/1982
+-- end of the list --
+We have the following team members:
+Spencer 3/7/2068
+Pritzl 5/4/2256
+Ted 5/7/1982
+-- end of the list --
+We have the following team members:
+Spencer 3/7/2068
+Pritzl 5/4/2256
+Ted 5/7/1982
+-- end of the list --
+Pritzl 5/4/2256 is already in the team.
+2/30/1803 is not a valid date!
+11/31/1873 is not a valid date!
+We have the following team members:
+Spencer 3/7/2068
+Pritzl 5/4/2256
+Ted 5/7/1982
+-- end of the list --
+Ted 5/7/1982 is already in the team.
+Spencer 3/7/2068 is already in the team.
+Spencer 3/7/2068 has left the team.
+Pritzl 4/19/1983 is not a team member.
+Ted 5/7/1982 has left the team.
+We have the following team members:
+Pritzl 5/4/2256
+-- end of the list --
+John 6/11/1942 has joined the team.
+Ted 8/4/2311 has joined the team.
+Spencer 3/7/2068 is not a team member.
+We have the following team members:
+Pritzl 5/4/2256
+John 6/11/1942
+Ted 8/4/2311
+-- end of the list --
+Ted 8/4/2311 is already in the team.
+Ted 8/4/2311 has left the team.
+Ted 8/4/2311 is not a team member.
+11/31/1873 is not a valid date!
+We have the following team members:
+Pritzl 5/4/2256
+John 6/11/1942
+-- end of the list --
+The team is ready to go!

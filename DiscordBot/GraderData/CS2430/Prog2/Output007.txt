@@ -1,0 +1,96 @@
+Let's start a new team!
+Pritzl 7/30/2029 has joined the team.
+Pritzl 7/30/2029 is already in the team.
+We have the following team members:
+Pritzl 7/30/2029
+-- end of the list --
+We have the following team members:
+Pritzl 7/30/2029
+-- end of the list --
+2/29/2173 is not a valid date!
+Megan 8/6/2282 has joined the team.
+Spencer 7/9/2310 has joined the team.
+Jake 11/3/2167 has joined the team.
+Spencer 7/9/2310 has left the team.
+Jake 11/3/2167 is already in the team.
+Spencer 7/9/2310 has joined the team.
+4/31/2335 is not a valid date!
+Megan 8/6/2282 is already in the team.
+Jake 11/3/2167 has left the team.
+Pritzl 7/30/2029 has left the team.
+Jason 2/10/2356 has joined the team.
+We have the following team members:
+Spencer 7/9/2310
+Megan 8/6/2282
+Jason 2/10/2356
+-- end of the list --
+We have the following team members:
+Spencer 7/9/2310
+Megan 8/6/2282
+Jason 2/10/2356
+-- end of the list --
+Megan 8/6/2282 is already in the team.
+Jake 11/3/2167 has joined the team.
+Spencer 7/9/2310 is already in the team.
+Jake 11/3/2167 has left the team.
+Pritzl 7/30/2029 is not a team member.
+John 7/26/2093 is not a team member.
+Jason 2/10/2356 is already in the team.
+Megan 8/6/2282 is already in the team.
+Jason 2/10/2356 is already in the team.
+We have the following team members:
+Spencer 7/9/2310
+Megan 8/6/2282
+Jason 2/10/2356
+-- end of the list --
+Spencer 7/9/2310 has left the team.
+Pritzl 7/30/2029 has joined the team.
+Spencer 7/9/2310 has joined the team.
+Jake 11/3/2167 has joined the team.
+Megan 8/6/2282 is already in the team.
+We have the following team members:
+Jason 2/10/2356
+Megan 8/6/2282
+Pritzl 7/30/2029
+Spencer 7/9/2310
+Jake 11/3/2167
+-- end of the list --
+Spencer 7/9/2310 is already in the team.
+Jason 2/10/2356 is already in the team.
+We have the following team members:
+Jason 2/10/2356
+Megan 8/6/2282
+Pritzl 7/30/2029
+Spencer 7/9/2310
+Jake 11/3/2167
+-- end of the list --
+Jake 11/3/2167 has left the team.
+Dave 3/14/2106 has joined the team.
+Jason 2/10/2356 is already in the team.
+Jason 2/10/2356 is already in the team.
+We have the following team members:
+Jason 2/10/2356
+Megan 8/6/2282
+Pritzl 7/30/2029
+Spencer 7/9/2310
+Dave 3/14/2106
+-- end of the list --
+Megan 8/6/2282 has left the team.
+Jake 11/3/2167 is not a team member.
+Jason 2/10/2356 has left the team.
+We have the following team members:
+Spencer 7/9/2310
+Dave 3/14/2106
+Pritzl 7/30/2029
+-- end of the list --
+Megan 8/6/2282 has joined the team.
+Jake 11/3/2167 is not a team member.
+Spencer 7/9/2310 is already in the team.
+Jake 11/3/2167 is not a team member.
+We have the following team members:
+Spencer 7/9/2310
+Dave 3/14/2106
+Pritzl 7/30/2029
+Megan 8/6/2282
+-- end of the list --
+The team is ready to go!

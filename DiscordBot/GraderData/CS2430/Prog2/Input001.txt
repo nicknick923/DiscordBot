@@ -1,0 +1,43 @@
+R Lily 11/27/2011
+r Lily 11/27/2011
+p
+P
+A Lily 2/29/2011
+A Lily 4/31/2011
+A Lily 6/31/2011
+A Lily 9/31/2011
+A Lily 11/31/2011
+A Lily 2/28/2011
+A Chang 4/30/2008
+A Scanlan 2/29/2000
+A Clifton 6/32/1995
+A Clifton 6/0/1995
+A Clifton 6/1/1995
+P
+A Langraf 1/31/1997
+A Langraf 1/31/1997
+A Shi 3/31/2011
+R Shi 3/30/2011
+P
+R Shi 3/31/2000
+R Shi 3/31/2011
+P
+A Yang 13/1/2016
+A Yang 0/1/2016
+A Yang 12/30/2012
+A Gavin 9/30/1999
+A Tian 10/31/2013
+A Shi 2/29/2012
+R Langraf 1/31/1997
+P
+A Chang 5/1/2012
+A Chang 7/31/2012
+a Chang 7/31/2012
+R Tian 11/30/2012
+P
+R Lily 2/28/2011
+R Chang 4/30/2008
+R Shi 2/29/2012
+R Scanlan 2/29/2000
+q
+Q

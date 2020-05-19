@@ -1,0 +1,78 @@
+Let's start a new team!
+13/14/1929 is not a valid date!
+5/0/2053 is not a valid date!
+Hans 1/1/2248 is not a team member.
+5/0/2053 is not a valid date!
+Hans 1/1/2248 is not a team member.
+Jake 12/1/2412 is not a team member.
+Matt 10/21/1890 has joined the team.
+13/14/1929 is not a valid date!
+5/0/2053 is not a valid date!
+Matt 10/21/1890 has left the team.
+Jake 12/1/2412 has joined the team.
+13/14/1929 is not a valid date!
+We have the following team members:
+Jake 12/1/2412
+-- end of the list --
+Jake 12/1/2412 has left the team.
+We have 0 team members!
+Matt 10/21/1890 is not a team member.
+Matt 10/21/1890 has joined the team.
+John 4/24/2080 is not a team member.
+5/0/2053 is not a valid date!
+Hans 1/1/2248 is not a team member.
+We have the following team members:
+Matt 10/21/1890
+-- end of the list --
+We have the following team members:
+Matt 10/21/1890
+-- end of the list --
+13/14/1929 is not a valid date!
+5/0/2053 is not a valid date!
+Hans 1/1/2248 has joined the team.
+Jake 12/1/2412 is not a team member.
+Matt 10/21/1890 is already in the team.
+Hans 1/1/2248 is already in the team.
+Jake 12/1/2412 has joined the team.
+13/14/1929 is not a valid date!
+5/0/2053 is not a valid date!
+Jake 12/1/2412 has left the team.
+13/14/1929 is not a valid date!
+We have the following team members:
+Matt 10/21/1890
+Hans 1/1/2248
+-- end of the list --
+13/14/1929 is not a valid date!
+Matt 10/21/1890 has left the team.
+5/0/2053 is not a valid date!
+We have the following team members:
+Hans 1/1/2248
+-- end of the list --
+13/14/1929 is not a valid date!
+Matt 10/21/1890 is not a team member.
+John 9/25/2382 is not a team member.
+Matt 10/21/1890 has joined the team.
+5/0/2053 is not a valid date!
+We have the following team members:
+Hans 1/1/2248
+Matt 10/21/1890
+-- end of the list --
+13/14/1929 is not a valid date!
+Jason 4/12/2192 is not a team member.
+We have the following team members:
+Hans 1/1/2248
+Matt 10/21/1890
+-- end of the list --
+Jake 12/1/2412 is not a team member.
+Megan 4/1/2240 has joined the team.
+We have the following team members:
+Hans 1/1/2248
+Matt 10/21/1890
+Megan 4/1/2240
+-- end of the list --
+We have the following team members:
+Hans 1/1/2248
+Matt 10/21/1890
+Megan 4/1/2240
+-- end of the list --
+The team is ready to go!

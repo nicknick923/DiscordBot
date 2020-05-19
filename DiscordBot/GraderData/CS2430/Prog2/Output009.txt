@@ -1,0 +1,138 @@
+Let's start a new team!
+Ted 1/2/2030 has joined the team.
+We have the following team members:
+Ted 1/2/2030
+-- end of the list --
+We have the following team members:
+Ted 1/2/2030
+-- end of the list --
+We have the following team members:
+Ted 1/2/2030
+-- end of the list --
+John 10/19/1912 is not a team member.
+Matt 10/21/1846 has joined the team.
+We have the following team members:
+Ted 1/2/2030
+Matt 10/21/1846
+-- end of the list --
+Jake 11/16/2379 has joined the team.
+John 6/16/2137 has joined the team.
+13/24/2084 is not a valid date!
+Dave 4/21/1830 is not a team member.
+Matt 10/21/1846 has left the team.
+13/24/2084 is not a valid date!
+We have the following team members:
+Ted 1/2/2030
+John 6/16/2137
+Jake 11/16/2379
+-- end of the list --
+Matt 9/30/2153 has joined the team.
+Matt 9/30/2153 has left the team.
+2/29/2390 is not a valid date!
+Matt 10/21/1846 has joined the team.
+13/24/2084 is not a valid date!
+We have the following team members:
+Ted 1/2/2030
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/21/1846
+-- end of the list --
+Matt 9/30/2153 has joined the team.
+Matt 10/7/2246 has joined the team.
+13/24/2084 is not a valid date!
+We have the following team members:
+Ted 1/2/2030
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/21/1846
+Matt 9/30/2153
+Matt 10/7/2246
+-- end of the list --
+Matt 10/21/1846 has left the team.
+Ted 1/2/2030 has left the team.
+Matt 10/21/1846 has joined the team.
+Matt 10/21/1846 is already in the team.
+13/24/2084 is not a valid date!
+Matt 10/21/1846 has left the team.
+13/24/2084 is not a valid date!
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+-- end of the list --
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+-- end of the list --
+Ted 1/2/2030 is not a team member.
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+-- end of the list --
+John 10/19/1912 has joined the team.
+John 6/18/1999 has joined the team.
+Matt 9/30/2153 is already in the team.
+Matt 10/21/1846 has joined the team.
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+John 10/19/1912
+John 6/18/1999
+Matt 10/21/1846
+-- end of the list --
+Matt 4/2/2398 has joined the team.
+Matt 10/21/1846 is already in the team.
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+John 10/19/1912
+John 6/18/1999
+Matt 10/21/1846
+Matt 4/2/2398
+-- end of the list --
+13/24/2084 is not a valid date!
+Matt 10/21/1846 is already in the team.
+13/24/2084 is not a valid date!
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+John 10/19/1912
+John 6/18/1999
+Matt 10/21/1846
+Matt 4/2/2398
+-- end of the list --
+Ski 11/21/1870 is not a team member.
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+John 10/19/1912
+John 6/18/1999
+Matt 10/21/1846
+Matt 4/2/2398
+-- end of the list --
+Ted 1/2/2030 has joined the team.
+We have the following team members:
+Matt 9/30/2153
+John 6/16/2137
+Jake 11/16/2379
+Matt 10/7/2246
+John 10/19/1912
+John 6/18/1999
+Matt 10/21/1846
+Matt 4/2/2398
+Ted 1/2/2030
+-- end of the list --
+The team is ready to go!

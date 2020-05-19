@@ -1,0 +1,68 @@
+Let's start a new team!
+Ski 5/13/1867 has joined the team.
+2/29/2246 is not a valid date!
+We have the following team members:
+Ski 5/13/1867
+-- end of the list --
+Ski 5/13/1867 has left the team.
+John 4/11/2192 is not a team member.
+We have 0 team members!
+Megan 12/20/2077 is not a team member.
+Megan 12/20/2077 has joined the team.
+John 4/11/2192 is not a team member.
+John 4/11/2192 has joined the team.
+2/29/2246 is not a valid date!
+Ski 4/18/1854 has joined the team.
+John 4/11/2192 has left the team.
+John 4/11/2192 is not a team member.
+Megan 12/20/2077 has left the team.
+Ski 4/18/1854 has left the team.
+Ski 5/13/1867 is not a team member.
+We have 0 team members!
+Ski 5/13/1867 is not a team member.
+John 4/11/2192 has joined the team.
+We have the following team members:
+John 4/11/2192
+-- end of the list --
+Megan 12/20/2077 has joined the team.
+We have the following team members:
+John 4/11/2192
+Megan 12/20/2077
+-- end of the list --
+2/29/2246 is not a valid date!
+We have the following team members:
+John 4/11/2192
+Megan 12/20/2077
+-- end of the list --
+2/29/2246 is not a valid date!
+2/29/2246 is not a valid date!
+Megan 12/20/2077 is already in the team.
+John 4/11/2192 has left the team.
+We have the following team members:
+Megan 12/20/2077
+-- end of the list --
+Megan 5/21/2380 is not a team member.
+Hans 4/9/1833 has joined the team.
+Ski 4/18/1854 has joined the team.
+Ski 4/18/1854 is already in the team.
+Ski 4/10/2140 has joined the team.
+Megan 12/20/2077 has left the team.
+Ski 4/18/1854 has left the team.
+Ski 5/13/1867 is not a team member.
+2/29/2246 is not a valid date!
+Ski 4/18/1854 has joined the team.
+John 4/11/2192 is not a team member.
+Megan 12/20/2077 is not a team member.
+Ski 4/18/1854 has left the team.
+John 4/11/2192 is not a team member.
+2/29/2246 is not a valid date!
+John 4/11/2192 is not a team member.
+Ski 4/18/1854 is not a team member.
+2/29/2246 is not a valid date!
+Jason 3/15/2262 is not a team member.
+2/29/2246 is not a valid date!
+We have the following team members:
+Ski 4/10/2140
+Hans 4/9/1833
+-- end of the list --
+The team is ready to go!

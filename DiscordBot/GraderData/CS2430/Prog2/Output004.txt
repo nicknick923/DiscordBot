@@ -1,0 +1,97 @@
+Let's start a new team!
+Jason 11/7/1931 has joined the team.
+We have the following team members:
+Jason 11/7/1931
+-- end of the list --
+Jason 11/7/1931 has left the team.
+Ted 7/29/2257 is not a team member.
+Ted 4/8/2443 has joined the team.
+Jason 11/7/1931 is not a team member.
+We have the following team members:
+Ted 4/8/2443
+-- end of the list --
+Ski 1/5/2198 has joined the team.
+Matt 1/9/1861 is not a team member.
+2/29/1818 is not a valid date!
+Jason 11/7/1931 is not a team member.
+2/29/1818 is not a valid date!
+Ski 4/5/2251 has joined the team.
+Matt 1/9/1861 has joined the team.
+Ski 4/5/2251 is already in the team.
+Matt 1/9/1861 has left the team.
+Ski 4/5/2251 is already in the team.
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Ski 4/5/2251
+-- end of the list --
+2/29/1818 is not a valid date!
+Jason 11/7/1931 has joined the team.
+Jason 11/7/1931 is already in the team.
+Ski 4/5/2251 has left the team.
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Jason 11/7/1931
+-- end of the list --
+0/27/2226 is not a valid date!
+Ski 4/5/2251 has joined the team.
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Jason 11/7/1931
+Ski 4/5/2251
+-- end of the list --
+13/19/2082 is not a valid date!
+2/29/1818 is not a valid date!
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Jason 11/7/1931
+Ski 4/5/2251
+-- end of the list --
+13/19/2082 is not a valid date!
+Spencer 3/9/2244 has joined the team.
+Jason 11/7/1931 is already in the team.
+2/29/1818 is not a valid date!
+Jason 11/7/1931 is already in the team.
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Jason 11/7/1931
+Ski 4/5/2251
+Spencer 3/9/2244
+-- end of the list --
+13/19/2082 is not a valid date!
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Jason 11/7/1931
+Ski 4/5/2251
+Spencer 3/9/2244
+-- end of the list --
+Matt 1/9/1861 has joined the team.
+Jason 11/7/1931 is already in the team.
+Matt 1/9/1861 is already in the team.
+2/29/1818 is not a valid date!
+Jason 11/7/1931 has left the team.
+Ski 4/5/2251 has left the team.
+2/29/1818 is not a valid date!
+2/29/1818 is not a valid date!
+0/0/2346 is not a valid date!
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Matt 1/9/1861
+Spencer 3/9/2244
+-- end of the list --
+Matt 1/9/1861 has left the team.
+13/19/2082 is not a valid date!
+Jason 11/7/1931 has joined the team.
+We have the following team members:
+Ted 4/8/2443
+Ski 1/5/2198
+Spencer 3/9/2244
+Jason 11/7/1931
+-- end of the list --
+The team is ready to go!

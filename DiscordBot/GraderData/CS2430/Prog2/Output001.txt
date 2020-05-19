@@ -1,0 +1,90 @@
+Let's start a new team!
+Lily 11/27/2011 is not a team member.
+Command 'r' is not supported!
+Command 'p' is not supported!
+We have 0 team members!
+2/29/2011 is not a valid date!
+4/31/2011 is not a valid date!
+6/31/2011 is not a valid date!
+9/31/2011 is not a valid date!
+11/31/2011 is not a valid date!
+Lily 2/28/2011 has joined the team.
+Chang 4/30/2008 has joined the team.
+Scanlan 2/29/2000 has joined the team.
+6/32/1995 is not a valid date!
+6/0/1995 is not a valid date!
+Clifton 6/1/1995 has joined the team.
+We have the following team members:
+Lily 2/28/2011
+Chang 4/30/2008
+Scanlan 2/29/2000
+Clifton 6/1/1995
+-- end of the list --
+Langraf 1/31/1997 has joined the team.
+Langraf 1/31/1997 is already in the team.
+Shi 3/31/2011 has joined the team.
+Shi 3/30/2011 is not a team member.
+We have the following team members:
+Lily 2/28/2011
+Chang 4/30/2008
+Scanlan 2/29/2000
+Clifton 6/1/1995
+Langraf 1/31/1997
+Shi 3/31/2011
+-- end of the list --
+Shi 3/31/2000 is not a team member.
+Shi 3/31/2011 has left the team.
+We have the following team members:
+Lily 2/28/2011
+Chang 4/30/2008
+Scanlan 2/29/2000
+Clifton 6/1/1995
+Langraf 1/31/1997
+-- end of the list --
+13/1/2016 is not a valid date!
+0/1/2016 is not a valid date!
+Yang 12/30/2012 has joined the team.
+Gavin 9/30/1999 has joined the team.
+Tian 10/31/2013 has joined the team.
+Shi 2/29/2012 has joined the team.
+Langraf 1/31/1997 has left the team.
+We have the following team members:
+Lily 2/28/2011
+Chang 4/30/2008
+Scanlan 2/29/2000
+Clifton 6/1/1995
+Shi 2/29/2012
+Yang 12/30/2012
+Gavin 9/30/1999
+Tian 10/31/2013
+-- end of the list --
+Chang 5/1/2012 has joined the team.
+Chang 7/31/2012 has joined the team.
+Command 'a' is not supported!
+Tian 11/30/2012 is not a team member.
+We have the following team members:
+Lily 2/28/2011
+Chang 4/30/2008
+Scanlan 2/29/2000
+Clifton 6/1/1995
+Shi 2/29/2012
+Yang 12/30/2012
+Gavin 9/30/1999
+Tian 10/31/2013
+Chang 5/1/2012
+Chang 7/31/2012
+-- end of the list --
+Lily 2/28/2011 has left the team.
+Chang 4/30/2008 has left the team.
+Shi 2/29/2012 has left the team.
+Scanlan 2/29/2000 has left the team.
+Command 'q' is not supported!
+We have the following team members:
+Chang 7/31/2012
+Chang 5/1/2012
+Gavin 9/30/1999
+Clifton 6/1/1995
+Tian 10/31/2013
+Yang 12/30/2012
+-- end of the list --
+The team is ready to go!

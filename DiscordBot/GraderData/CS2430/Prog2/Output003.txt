@@ -1,0 +1,98 @@
+Let's start a new team!
+We have 0 team members!
+Ski 8/6/1837 is not a team member.
+Ski 8/6/1837 is not a team member.
+Jason 1/26/2273 has joined the team.
+Dave 3/8/2113 is not a team member.
+13/10/1802 is not a valid date!
+Matt 11/8/2407 has joined the team.
+Dave 3/8/2113 is not a team member.
+13/10/1802 is not a valid date!
+13/10/1802 is not a valid date!
+Matt 8/31/1901 has joined the team.
+13/10/1802 is not a valid date!
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Matt 8/31/1901
+-- end of the list --
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Matt 8/31/1901
+-- end of the list --
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Matt 8/31/1901
+-- end of the list --
+Megan 6/9/2270 has joined the team.
+0/18/2117 is not a valid date!
+13/16/1918 is not a valid date!
+Matt 8/31/1901 has left the team.
+13/16/1918 is not a valid date!
+13/10/1802 is not a valid date!
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Megan 6/9/2270
+-- end of the list --
+Ted 10/27/1943 has joined the team.
+13/16/1918 is not a valid date!
+Dave 3/8/2113 has joined the team.
+Dave 3/8/2113 has left the team.
+13/16/1918 is not a valid date!
+13/10/1802 is not a valid date!
+Matt 8/31/1901 is not a team member.
+13/10/1802 is not a valid date!
+13/16/1918 is not a valid date!
+John 12/27/1862 has joined the team.
+13/16/1918 is not a valid date!
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Megan 6/9/2270
+Ted 10/27/1943
+John 12/27/1862
+-- end of the list --
+13/10/1802 is not a valid date!
+Dave 3/8/2113 has joined the team.
+13/16/1918 is not a valid date!
+Matt 8/31/1901 has joined the team.
+Matt 8/31/1901 has left the team.
+Ski 8/6/1837 is not a team member.
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Megan 6/9/2270
+Ted 10/27/1943
+John 12/27/1862
+Dave 3/8/2113
+-- end of the list --
+Ski 8/6/1837 has joined the team.
+13/10/1802 is not a valid date!
+13/10/1802 is not a valid date!
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Megan 6/9/2270
+Ted 10/27/1943
+John 12/27/1862
+Dave 3/8/2113
+Ski 8/6/1837
+-- end of the list --
+13/10/1802 is not a valid date!
+Ski 8/6/1837 is already in the team.
+Dave 3/8/2113 is already in the team.
+Matt 8/31/1901 is not a team member.
+John 11/17/1974 is not a team member.
+We have the following team members:
+Jason 1/26/2273
+Matt 11/8/2407
+Megan 6/9/2270
+Ted 10/27/1943
+John 12/27/1862
+Dave 3/8/2113
+Ski 8/6/1837
+-- end of the list --
+The team is ready to go!
