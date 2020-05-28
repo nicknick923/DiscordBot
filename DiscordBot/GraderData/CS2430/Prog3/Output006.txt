@@ -1,0 +1,64 @@
+Expression 1: 2 ~ ~ 6 + i - 8 + ~ 1 + 6 * 3 - ~ 9 +
+value: 108-6i
+Expression 2: 14 i - i * ~ 0 * ~ ~ 0 + 8 * 8 + 8 * 10 - 14 * 6 + ~ ~ 13 + 6 + 2 + i + ~ 5 + i + i + i * 5 - ~ 12 - ~ i + i + i * 4 + i + 11 + 8 *
+value: -6200-136i
+Expression 3: 7 ~ ~ 11 + 7 * ~ 14 + 13 + 4 + 10 * 14 * 0 + 3 - 5 - 11 - 6 * 2 + ~ ~ 6 - ~ ~ 12 + i * ~ ~ ~ i + 8 -
+value: -8-131773i
+Expression 4: i 13 - ~ 11 + 7 + 11 - 9 + 13 * 3 +
+value: 42-13i
+Expression 5: i 11 + 10 + 2 + 8 * 11 * 14 * 2 + ~ 0 * 14 * ~ 0 - 9 + 1 * ~ i + 6 *
+value: 54+6i
+Expression 6: 0 ~ 3 + ~ 13 * 10 - 4 - 6 * ~ ~ ~ 5 * 7 * 13 + 13 - i * ~ 3 - 4 + i - 12 - i + ~ ~ 9 - i * 8 * 7 * 8 - 6 - 12 * ~ 0 + ~ 3 + 14 - ~ 6 + i -
+value: 3527827+13439i
+Expression 7: i 4 * ~ i - 0 * 13 * 14 + i + 14 - 1 * 7 + 2 + 0 * 10 + 5 - ~ ~ i + ~ i - ~
+value: 5+2i
+Expression 8: i 10 + ~ 14 * 1 * ~ 7 * ~ 13 + 4 * 7 + 5 * 5 - i - 7 * ~ 4 + 2 * ~ 9 * 7 * i + ~ 6 - 3 * 13 + i + i - ~ 0 * ~ 8 * 1 * 13 + 1 - 8 *
+value: 96
+Expression 9: 9 8 * 12 - ~ 13 - 8 * i * 8 - 4 - 4 - 11 - 13 + ~
+value: -14-376i
+Expression 10: 4 0 + 5 - i * 9 * ~ ~ ~ 14 - -
+Invalid Expression!
+Expression 11: 5 ~ ~ ~ ~ 1 * i * i * 2 - 3 * 6 + ~ 2 - 2 + 14 - 5 - 8 * 4 - ~ 0 - ~ 8 + 1 + 8 +
+value: -259
+Expression 12: 13 7 - 14 + 2 + ~ ~ 8 - i * 1 - 4 - i * 1 - 3 - 14 - 8 * 7 - i + ~ 1 - 8 * 12 - 6 - 3 * i + ~ 8 - 14 * 14 + 6 + ~ 1 - ~ 9 +
+value: -89544-13118i
+Expression 13: 8 10 * 0 + 11 - 4 * 5 + ~ 8 + ~ 3 - ~ 13 * 14 - ~ 0 + ~ 11 - 3 * 11 - 8 * 5 + 0 + ~ i - 10 + ~
+value: 88559+i
+Expression 14: 9 6 * 0 * i + ~ 4 - 6 + ~ ~ ~ 2 + i + 5 + ~ ~ 12 - 13 * 13 + 10 * ~ 5 * 6 - 3 * ~ ~ 9 - 7 - i * 0 + i - 11 - ~ 11 - 7 + 12 + i * 10 * ~ 5 - ~ ~
+value: -39355-38970i
+Expression 15: 5 6 - 9 * ~ ~ ~ 9 * 14 - ~ 6 * 13 + ~ 2 + i + i +
+value: -555+2i
+Expression 16: 3 i - i + 12 - 3 * ~ 11 * ~ ~ i + 13 + 0 + ~ 7 + i * 6 - i * 3 - i + 9 - 1 - i - 6 +
+value: 270-5i
+Expression 17: 2 ~ 7 * 4 + ~ 9 * ~ ~ 3 + 6 * ~ ~ ~ i - ~ 0 - 4 + 4 - ~ 10 - ~ ~ i - 14 - 3 * 8 * ~ i *
+value: -48+23184i
+Expression 18: 8 i + 4 + 14 - 12 - 1 * 6 + ~ 6 + ~ ~ 10 - 12 + 5 - i + i - 5 * ~ 13 + 10 - i * 2 * 6 - 11 - i * ~ 1 + 6 * i + 10 + i * 5 +
+value: -158+280i
+Expression 19: i ~ 1 - 8 + 3 - 10 + 12 + i * 14 + 12 - ~ i + 2 * ~ ~ 2 * 11 + i * ~ 7 - i * ~ 13 - 14 + ~ 5 * 6 * 12 * 6 - ~ ~
+value: 8634+33480i
+Expression 20: 2 i + 12 + 14 + 0 + 6 + 2 + 12 * 6 - 6 - 7 * 3 * 12 * ~
+value: 105840-3024i
+Expression 21: 14 1 + ~ ~ ~ ~ 4 - 6 + 10 * ~ i - 12 + 8 - 13 + i + 5 - i - ~ 6 * 4 * 6 - 6 - i * 7 * 13 + ~ ~ ~ 12 -
+value: -167-30492i
+The list of good answers is:
+108-6i is complex
+-6200-136i is complex
+-8-131773i is complex
+42-13i is complex
+54+6i is complex
+3527827+13439i is complex
+5+2i is complex
+96 is real
+-14-376i is complex
+-259 is real
+-89544-13118i is complex
+88559+i is complex
+-39355-38970i is complex
+-555+2i is complex
+270-5i is complex
+-48+23184i is complex
+-158+280i is complex
+8634+33480i is complex
+105840-3024i is complex
+-167-30492i is complex
+Normal Termination of Program 3.

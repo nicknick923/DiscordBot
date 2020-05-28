@@ -95,6 +95,10 @@ namespace DiscordBot
         static DiscordActivity getDiscordActivity() => new DiscordActivity(GameName, ActivityType.Playing);
         private Task CommandExecuted(CommandExecutionEventArgs commandExecutionEventArgs)
         {
+            if (commandExecutionEventArgs.Command.Module.GetInstance(commandExecutionEventArgs.Context.Services) is SkiCommandModule skiCommandModule)
+            {
+                skiCommandModule.LogMessage(commandExecutionEventArgs.Context, $"{commandExecutionEventArgs.Command.Name} executed");
+            }
             return SetTimer();
         }
 

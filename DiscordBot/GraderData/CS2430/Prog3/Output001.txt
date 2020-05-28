@@ -1,0 +1,138 @@
+Expression 1: 0
+value: 0
+Expression 2: 0 ~
+value: 0
+Expression 3: 5 ~
+value: 5
+Expression 4: i ~
+value: -i
+Expression 5: 2 3 *
+value: 6
+Expression 6: 3 2 *
+value: 6
+Expression 7: 5 7 +
+value: 12
+Expression 8: 7 5 +
+value: 12
+Expression 9: 17 20 -
+value: -3
+Expression 10: 20 17 -
+value: 3
+Expression 11: i
+value: i
+Expression 12: i 2 +
+value: 2+i
+Expression 13: 2 i +
+value: 2+i
+Expression 14: i 2 *
+value: 2i
+Expression 15: 2 i *
+value: 2i
+Expression 16: i 10 -
+value: -10+i
+Expression 17: i 0 -
+value: i
+Expression 18: 0 i -
+value: -i
+Expression 19: 12 34 i * +
+value: 12+34i
+Expression 20: 12 i 34 * +
+value: 12+34i
+Expression 21: 37 64 i * -
+value: 37-64i
+Expression 22: 13 i 1 * -
+value: 13-i
+Expression 23: 13 i 1 * +
+value: 13+i
+Expression 24: 0 100 3 i * + -
+value: -100-3i
+Expression 25: 0 99 i 7 * - -
+value: -99+7i
+Expression 26: 31 2 3 i * + +
+value: 33+3i
+Expression 27: 63 5 i 7 * + -
+value: 58-7i
+Expression 28: 2 13 17 i * + *
+value: 26+34i
+Expression 29: 2 3 i * + 31 +
+value: 33+3i
+Expression 30: 5 i 7 * + 63 -
+value: -58+7i
+Expression 31: 13 17 i * + 2 *
+value: 26+34i
+Expression 32: 1 2 i * + 2 i 3 * - +
+value: 3-i
+Expression 33: 1 2 i * + 2 i 3 * + *
+value: -4+7i
+Expression 34: 13 27 i * + 12 i 13 * + -
+value: 1+14i
+Expression 35: 43 17 i * + ~ 15 i 7 * - +
+value: 58-24i
+Expression 36: 2 3 i * + 2 3 i * + ~ -
+value: 6i
+Expression 37: 5 i 7 * + 14 7 i * + -
+value: -9
+Expression 38: 14 7 i * + 5 i 7 * + -
+value: 9
+Expression 39: 8 9 i * + ~ ~
+value: 8+9i
+Expression 40: i 1 + 2 3 4 5 6 7 8 9 10 i * - + + + + + + * +
+value: 85-19i
+Expression 41: 1 2 i * /
+Invalid Expression!
+Expression 42: +
+Invalid Expression!
+Expression 43: ~
+Invalid Expression!
+Expression 44: 197 24 i * + 211 133 i * - ~
+Invalid Expression!
+Expression 45: %
+Invalid Expression!
+Expression 46: 1 2 i * + 3 i 4 * - * *
+Invalid Expression!
+Expression 47: 
+Invalid Expression!
+Expression 48: i 1 2 3
+Invalid Expression!
+The list of good answers is:
+0 is real
+0 is real
+5 is real
+-i is imaginary
+6 is real
+6 is real
+12 is real
+12 is real
+-3 is real
+3 is real
+i is imaginary
+2+i is complex
+2+i is complex
+2i is imaginary
+2i is imaginary
+-10+i is complex
+i is imaginary
+-i is imaginary
+12+34i is complex
+12+34i is complex
+37-64i is complex
+13-i is complex
+13+i is complex
+-100-3i is complex
+-99+7i is complex
+33+3i is complex
+58-7i is complex
+26+34i is complex
+33+3i is complex
+-58+7i is complex
+26+34i is complex
+3-i is complex
+-4+7i is complex
+1+14i is complex
+58-24i is complex
+6i is imaginary
+-9 is real
+9 is real
+8+9i is complex
+85-19i is complex
+Normal Termination of Program 3.
