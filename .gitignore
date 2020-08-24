@@ -341,3 +341,5 @@ healthchecksdb
 /DiscordBot/config.json
 /DiscordBot/Log.txt
 /DiscordBot/GraderDump
+/DiscordBot/SLJ
+/DiscordBot/TrumpBites
