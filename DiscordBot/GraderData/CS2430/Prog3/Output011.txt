@@ -111,7 +111,7 @@ The list of good answers is:
 28971637+829403i is complex
 -515212+5570320i is complex
 1177+77i is complex
-357i is imaginary
+357i is complex
 0 is real
 -20-40i is complex
 17-72i is complex
@@ -132,10 +132,10 @@ The list of good answers is:
 -65648884+369600i is complex
 -4624-24i is complex
 56690201-3439940i is complex
-480i is imaginary
+480i is complex
 21-i is complex
 -3998+358i is complex
-i is imaginary
+i is complex
 25-20032i is complex
 311292+16764i is complex
 0 is real

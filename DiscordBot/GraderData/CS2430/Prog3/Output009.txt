@@ -75,8 +75,8 @@ value: -6701+54i
 The list of good answers is:
 -73+8130i is complex
 -63-9i is complex
--8i is imaginary
--i is imaginary
+-8i is complex
+-i is complex
 3299562 is real
 -212 is real
 1428424586-7793140i is complex
@@ -97,7 +97,7 @@ The list of good answers is:
 -10+3978i is complex
 -12 is real
 11-9i is complex
--34i is imaginary
+-34i is complex
 1-13i is complex
 321+48i is complex
 96224+6912i is complex

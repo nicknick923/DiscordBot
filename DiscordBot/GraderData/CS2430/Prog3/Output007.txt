@@ -64,7 +64,7 @@ The list of good answers is:
 7651+13i is complex
 -2500 is real
 -178353890+4684060i is complex
-14i is imaginary
+14i is complex
 -24-100i is complex
 342254004-9147600i is complex
 58+12289i is complex

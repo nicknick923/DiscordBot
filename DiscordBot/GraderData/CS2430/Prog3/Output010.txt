@@ -106,7 +106,7 @@ The list of good answers is:
 -168+12i is complex
 -10010+13676i is complex
 -10+i is complex
-591i is imaginary
+591i is complex
 -3804792-27528800i is complex
 4127-2640i is complex
 -174024 is real

@@ -113,7 +113,7 @@ The list of good answers is:
 495 is real
 -4031+11i is complex
 -194964-2917i is complex
-i is imaginary
+i is complex
 -132+12i is complex
 29 is real
 364-156i is complex
